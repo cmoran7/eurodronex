@@ -1,0 +1,245 @@
+// Case study data — DEMO CONTENT for interface evaluation.
+// No real clients, projects, certifications or results are implied.
+// When real cases exist, this structure maps 1:1 to a future entity.
+
+const IMAGES = {
+	fachada:
+		'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/3f61e955d_generated_image.png',
+	cubierta:
+		'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/4406aa8ef_generated_image.png',
+	fotogrametria:
+		'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/cee16d715_generated_image.png',
+	termograma:
+		'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/1133ccd70_generated_image.png',
+	fisura:
+		'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/e3ab1975f_generated_image.png',
+	humedad:
+		'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/35d53277b_generated_image.png',
+}
+
+export const cases = [
+	{
+		slug: 'fisuras-en-fachada-residencial',
+		code: 'CAS-01',
+		title: 'Documentación de fisuras en fachada de edificio residencial',
+		excerpt:
+			'Expediente de demostración: documentación completa de lesiones en fachada de altura media sin medios auxiliares, con localización planimétrica de cada punto y base para su interpretación técnica.',
+		topic: 'Fachadas',
+		buildingType: 'Residencial — 6 plantas sobre rasante',
+		serviceSlug: 'diagnostico-fachadas',
+		pathologySlugs: ['fisuras-y-grietas-en-fachadas'],
+		coverImage: IMAGES.fachada,
+		coverPoints: [
+			{ x: 30, y: 42, label: 'P-01 · Fisura' },
+			{ x: 62, y: 58, label: 'P-02 · Desconchado' },
+		],
+		problem:
+			'Presencia de lesiones visibles en el paramento — fisuras de trazado escalonado y desconchados del revestimiento — sin posibilidad de examen próximo desde el suelo ni desde los viales adyacentes.',
+		need: 'Obtener documentación objetiva de cada lesión — trazado, extensión y localización exacta — para que el técnico pudiera valorar su gravedad y planificar la intervención sin instalar medios auxiliares.',
+		access:
+			'Fachada sin retranqueos accesibles, con obstáculos en viales y zonas comunes ocupadas. El examen a pie de paramento exigiría andamio o plataforma para toda la altura.',
+		methodology:
+			'Inspección visual con captura aérea de alta resolución. Vuelo perimetral sistemático por paramentos con acercamiento a cada lesión detectada, pilotado por técnico que decide en vuelo qué encuentros requieren detalle adicional.',
+		technology: [
+			'Dron multirotor con cámara de alta resolución',
+			'Georreferenciación de puntos de inspección',
+			'Vídeo documental 4K de paramentos',
+		],
+		capture:
+			'Fotografía de alta resolución de cada punto con contexto general y detalle próximo, serie completa del paramento y vídeo perimetral que permite recorrer virtualmente toda la fachada.',
+		analysis:
+			'Catálogo de lesiones con localización planimétrica y clasificación aparente. La interpretación de causas — retracción, asentamiento u otra — corresponde al técnico responsable, que cuenta con documentación suficiente para ello.',
+		findingsIntro:
+			'Documentación de las lesiones localizadas durante el vuelo (extracto de demostración):',
+		findings: [
+			{
+				title: 'Fisuración escalonada en encuentro con forjado',
+				text: 'Lesión lineal de trazado escalonado en el encuentro del paramento con el forjado, documentada en detalle y con su extensión completa delimitada.',
+			},
+			{
+				title: 'Desconchados del revestimiento',
+				text: 'Zonas con pérdida de revestimiento y exposición del soporte, fotografiadas a máxima resolución para valorar su extensión real.',
+			},
+			{
+				title: 'Junta de dilatación degradada',
+				text: 'Discontinuidad constructiva con material de sellado envejecido, registrada para su comparativa temporal en campañas futuras.',
+			},
+		],
+		deliverablesIntro:
+			'Documentación entregada en este expediente (demostración):',
+		deliverables: [
+			'Informe técnico con catálogo de lesiones',
+			'Fotografía de alta resolución de cada punto inspeccionado',
+			'Localización planimétrica de todas las lesiones',
+			'Vídeo perimetral 4K del paramento',
+		],
+		images: [
+			{
+				src: IMAGES.fisura,
+				alt: 'Detalle de fisuración en fachada — contenido de demostración',
+				type: 'FOTO · DETALLE',
+				caption: 'P-01 — acercamiento a máxima resolución',
+			},
+			{
+				src: IMAGES.fachada,
+				alt: 'Vista general del paramento con lesiones — contenido de demostración',
+				type: 'FOTO · GENERAL',
+				caption: 'Paramento norte — contexto de las lesiones',
+			},
+		],
+		stats: [
+			{ value: '100%', label: 'Paramento documentado' },
+			{ value: '1', label: 'Jornada de vuelo' },
+			{ value: '4K', label: 'Vídeo perimetral' },
+			{ value: '0', label: 'Medios auxiliares' },
+		],
+		videos: ['VID-07', 'VID-01'],
+		articles: ['arquitecto-drones-vs-piloto'],
+	},
+	{
+		slug: 'humedades-en-cubierta-plana',
+		code: 'CAS-02',
+		title: 'Localización de humedades en cubierta plana mediante termografía',
+		excerpt:
+			'Expediente de demostración: campaña de termografía aérea sobre cubierta plana para localizar acumulaciones de agua y anomalías de impermeabilización no visibles con cámara convencional.',
+		topic: 'Cubiertas',
+		buildingType: 'Terciario — cubierta plana transitable',
+		serviceSlug: 'termografia-con-dron',
+		pathologySlugs: ['humedades-y-filtraciones-en-cubiertas'],
+		coverImage: IMAGES.cubierta,
+		coverPoints: [{ x: 46, y: 40, label: 'P-01 · Encharcamiento' }],
+		problem:
+			'Humeades reiteradas en la última planta con origen indeterminado. La cubierta presenta zonas de encharcamiento junto a sumideros que no permiten descartar fallos de estanqueidad ocultos bajo la impermeabilización.',
+		need: 'Delimitar la extensión real de las acumulaciones de agua y detectar anomalías de estanqueidad no visibles, sin sondeos ni intervención destructiva previa.',
+		access:
+			'Cubierta transitable pero con grandes superficies y puntos singulares de difícil comprobación desde el nivel de la propia cubierta.',
+		methodology:
+			'Doble captura RGB + térmica en condiciones de diferencial térmico, en las primeras horas de la mañana para maximizar el contraste entre zonas húmedas y secas.',
+		technology: [
+			'Dron con cámara termográfica de alta sensibilidad',
+			'Cámara RGB sincronizada con los termogramas',
+			'Vuelo a cotas bajas sobre los puntos singulares',
+		],
+		capture:
+			'Termogramas y fotografía RGB sincronizada de toda la superficie de cubierta, con acercamiento a sumideros, encuentros con petos y puntos donde el termograma muestra anomalías.',
+		analysis:
+			'Las acumulaciones de agua presentan una firma térmica distinta al resto de la superficie. La interpretación de cada anomalía corresponde al técnico, que recibe los termogramas georreferenciados para su valoración.',
+		findingsIntro:
+			'Anomalías térmicas localizadas durante la campaña (extracto de demostración):',
+		findings: [
+			{
+				title: 'Encharcamiento junto a sumidero',
+				text: 'Zona de acumulación con gradiente térmico característico, delimitada en superficie y fotografiada con cámara convencional.',
+			},
+			{
+				title: 'Mancha de humedad en impermeabilización',
+				text: 'Área extensa con comportamiento térmico heterogéneo respecto al resto de la lámina, delimitada para su verificación.',
+			},
+			{
+				title: 'Encuentro con peto sin anomalía significativa',
+				text: 'Los subidos y remates de peto no muestran contrastes térmicos relevantes, descartando a priori esa vía de entrada.',
+			},
+		],
+		deliverablesIntro:
+			'Documentación entregada en este expediente (demostración):',
+		deliverables: [
+			'Termogramas georreferenciados de toda la cubierta',
+			'Serie fotográfica RGB sincronizada',
+			'Mapa de anomalías térmicas localizadas',
+			'Informe técnico para interpretación del técnico responsable',
+		],
+		images: [
+			{
+				src: IMAGES.termograma,
+				alt: 'Termograma de fachada y cubierta — contenido de demostración',
+				type: 'TÉRMICA',
+				caption: 'Termograma — contraste de temperaturas superficiales',
+			},
+			{
+				src: IMAGES.humedad,
+				alt: 'Mancha de humedad en paramento — contenido de demostración',
+				type: 'FOTO · DETALLE',
+				caption: 'Humedad manifestada en paramento interior',
+			},
+		],
+		stats: [
+			{ value: '2', label: 'Sensores (RGB + IR)' },
+			{ value: '60', label: 'Imágenes / minuto' },
+			{ value: '1', label: 'Vuelo' },
+			{ value: '0', label: 'Ensayos destructivos' },
+		],
+		videos: ['VID-09', 'VID-08'],
+		articles: ['inspeccionar-cubiertas-sin-riesgo'],
+	},
+	{
+		slug: 'fotogrametria-de-edificio-patrimonial',
+		code: 'CAS-03',
+		title: 'Levantamiento fotogramétrico de edificio patrimonial',
+		excerpt:
+			'Expediente de demostración: modelo 3D métrico de un edificio singular mediante fotogrametría aérea, como base de documentación previa a proyecto de restauración.',
+		topic: 'Fotogrametría',
+		buildingType: 'Patrimonial — edificio singular',
+		serviceSlug: 'fotogrametria-3d-edificios',
+		pathologySlugs: [],
+		coverImage: IMAGES.fotogrametria,
+		coverPoints: [],
+		problem:
+			'Ausencia de documentación gráfica y geométrica rigurosa del edificio, con geometría compleja que dificulta el levantamiento con medios topográficos convencionales.',
+		need: 'Disponer de una réplica digital exacta del edificio — nube de puntos, malla 3D texturizada y ortofotografías — sobre la que medir, proyectar y comparar el estado previo y posterior a la intervención.',
+		access:
+			'Elementos singulares en altura — cornisas, pináculos y fachadas retranqueadas — inaccesibles sin medios auxiliares de gran envergadura.',
+		methodology:
+			'Misión fotogramétrica automatizada con solapamiento controlado de imagen y puntos de control para garantizar la precisión métrica del modelo.',
+		technology: [
+			'Vuelo automatizado con solapamiento fotográfico',
+			'Procesado fotogramétrico (nube de puntos y malla)',
+			'Ortofotografía y modelos compatibles con BIM',
+		],
+		capture:
+			'Cientos de imágenes aéreas con solapamiento sistemático de todos los paramentos, además de documentación visual convencional de los puntos singulares.',
+		analysis:
+			'El modelo resultante permite mediciones de distancias, áreas y volúmenes, secciones en cualquier plano y comparativas temporales entre campañas.',
+		findingsIntro:
+			'Productos derivados del procesado (extracto de demostración):',
+		findings: [
+			{
+				title: 'Nube de puntos densa',
+				text: 'Representación tridimensional completa del edificio con precisión métrica en condiciones controladas.',
+			},
+			{
+				title: 'Malla 3D texturizada',
+				text: 'Réplica virtual con fotorrealismo para su explotación visual y documental.',
+			},
+			{
+				title: 'Ortofotografías de paramentos',
+				text: 'Imágenes corregidas geométricamente con escala uniforme para mediciones sin error de perspectiva.',
+			},
+		],
+		deliverablesIntro:
+			'Documentación entregada en este expediente (demostración):',
+		deliverables: [
+			'Nube de puntos en formatos LAZ y E57',
+			'Malla 3D texturizada (OBJ, FBX)',
+			'Ortofotografías métricas (GeoTIFF)',
+			'Modelo compatible con flujos BIM (RVT, IFC)',
+		],
+		images: [
+			{
+				src: IMAGES.fotogrametria,
+				alt: 'Modelo 3D fotogramétrico de edificio patrimonial — contenido de demostración',
+				type: 'MODELO 3D',
+				caption: 'Malla fotogramétrica — visualización de demostración',
+			},
+		],
+		stats: [
+			{ value: '1-2cm', label: 'Precisión' },
+			{ value: '3-5', label: 'Días de procesado' },
+			{ value: 'BIM', label: 'Integración' },
+			{ value: 'LAZ · E57 · OBJ', label: 'Formatos' },
+		],
+		videos: ['VID-11', 'VID-12'],
+		articles: ['inspeccionar-edificio-sin-andamios-2026'],
+	},
+]
+
+export const getCase = (slug) => cases.find((c) => c.slug === slug)

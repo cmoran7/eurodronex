@@ -1,0 +1,64 @@
+{
+	"name": "BlogPost",
+	"title": "BlogPost",
+	"type": "object",
+	"properties": {
+		"title": {
+			"type": "string",
+			"title": "T\u00edtulo",
+		},
+		"slug": {
+			"type": "string",
+			"title": "Slug (URL)",
+		},
+		"category": {
+			"type": "string",
+			"title": "Categor\u00eda",
+		},
+		"excerpt": {
+			"type": "string",
+			"title": "Entradilla",
+		},
+		"image": {
+			"type": "string",
+			"title": "Imagen de portada (URL)",
+		},
+		"date": {
+			"type": "string",
+			"format": "date",
+			"title": "Fecha de publicaci\u00f3n",
+		},
+		"readTime": {
+			"type": "string",
+			"title": "Tiempo de lectura",
+		},
+		"featured": {
+			"type": "boolean",
+			"default": false,
+			"title": "Destacada",
+		},
+		"published": {
+			"type": "boolean",
+			"default": true,
+			"title": "Publicada",
+		},
+		"sections": {
+			"type": "array",
+			"title": "Secciones del art\u00edculo",
+			"items": {
+				"type": "object",
+				"properties": {
+					"h": {
+						"type": "string",
+						"title": "Encabezado",
+					},
+					"p": {
+						"type": "string",
+						"title": "P\u00e1rrafo",
+					},
+				},
+			},
+		},
+	},
+	"required": ["title", "slug"],
+}

@@ -1,0 +1,281 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Archivo:wght@500;600;700;800&display=swap');
+
+@layer base {
+	:root {
+		/* Architectural Precision — Drafting Board Aesthetic */
+		--background: 220 25% 98%; /* #F9FAFB Drafting Paper */
+		--foreground: 215 28% 17%; /* #1E293B Structural Slate */
+		--card: 0 0% 100%;
+		--card-foreground: 215 28% 17%;
+		--popover: 0 0% 100%;
+		--popover-foreground: 215 28% 17%;
+		--primary: 24 87% 52%; /* #EA580C Cadmium Orange — The Marker */
+		--primary-foreground: 0 0% 100%;
+		--secondary: 215 20% 95%;
+		--secondary-foreground: 215 28% 17%;
+		--muted: 215 20% 94%;
+		--muted-foreground: 215 16% 47%; /* #94A3B8 Cement Gray */
+		--accent: 215 20% 94%;
+		--accent-foreground: 215 28% 17%;
+		--destructive: 0 72% 51%;
+		--destructive-foreground: 0 0% 98%;
+		--border: 215 18% 88%;
+		--input: 215 18% 88%;
+		--ring: 24 87% 52%;
+		--chart-1: 24 87% 52%;
+		--chart-2: 215 28% 17%;
+		--chart-3: 200 70% 45%;
+		--chart-4: 43 74% 66%;
+		--chart-5: 27 87% 67%;
+		--radius: 0.25rem;
+		--font-heading: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+		--font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+		--font-display: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+		--font-mono:
+			'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+		--sidebar-background: 220 25% 98%;
+		--sidebar-foreground: 215 28% 17%;
+		--sidebar-primary: 215 28% 17%;
+		--sidebar-primary-foreground: 0 0% 98%;
+		--sidebar-accent: 215 20% 94%;
+		--sidebar-accent-foreground: 215 28% 17%;
+		--sidebar-border: 215 18% 88%;
+		--sidebar-ring: 24 87% 52%;
+	}
+
+	.dark {
+		--background: 215 28% 11%;
+		--foreground: 220 20% 96%;
+		--card: 215 28% 14%;
+		--card-foreground: 220 20% 96%;
+		--popover: 215 28% 14%;
+		--popover-foreground: 220 20% 96%;
+		--primary: 24 87% 55%;
+		--primary-foreground: 0 0% 100%;
+		--secondary: 215 24% 18%;
+		--secondary-foreground: 220 20% 96%;
+		--muted: 215 24% 18%;
+		--muted-foreground: 215 16% 62%;
+		--accent: 215 24% 18%;
+		--accent-foreground: 220 20% 96%;
+		--destructive: 0 62% 40%;
+		--destructive-foreground: 0 0% 98%;
+		--border: 215 24% 22%;
+		--input: 215 24% 22%;
+		--ring: 24 87% 55%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border outline-ring/50;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply bg-background text-foreground font-body antialiased;
+		font-feature-settings: 'ss01', 'cv01';
+	}
+
+	/* Focus states — Cadmium Orange outline */
+	a:focus-visible,
+	button:focus-visible,
+	input:focus-visible,
+	select:focus-visible,
+	textarea:focus-visible {
+		@apply outline-none;
+		box-shadow: 0 0 0 2px hsl(var(--primary));
+	}
+}
+
+@layer components {
+	/* CAD ruler grid background */
+	.cad-grid {
+		background-image:
+			linear-gradient(to right, hsl(var(--border) / 0.4) 1px, transparent 1px),
+			linear-gradient(to bottom, hsl(var(--border) / 0.4) 1px, transparent 1px);
+		background-size: 64px 64px;
+	}
+
+	.cad-grid-fine {
+		background-image:
+			linear-gradient(to right, hsl(var(--border) / 0.35) 1px, transparent 1px),
+			linear-gradient(to bottom, hsl(var(--border) / 0.35) 1px, transparent 1px);
+		background-size: 24px 24px;
+	}
+
+	.mono-label {
+		@apply font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground;
+	}
+
+	.mono-label-accent {
+		@apply font-mono text-[11px] uppercase tracking-[0.18em] text-primary;
+	}
+
+	.heading-display {
+		@apply font-heading font-bold tracking-tight text-foreground;
+	}
+
+	.section-pad {
+		@apply px-6 md:px-10 lg:px-16;
+	}
+
+	/* Callout leader line */
+	.leader-line {
+		position: relative;
+	}
+	.leader-line::before {
+		content: '';
+		position: absolute;
+		left: -1.5rem;
+		top: 50%;
+		width: 1.25rem;
+		height: 1px;
+		background: hsl(var(--primary));
+	}
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+	.text-pretty {
+		text-wrap: pretty;
+	}
+
+	/* FAQ accordion — smooth height open/close.
+     Base (collapsed) state lives outside the media query so reduced-motion
+     users still get an instant, functional toggle. */
+	.faq-panel {
+		display: grid;
+		grid-template-rows: 0fr;
+	}
+	.faq-panel.is-open {
+		grid-template-rows: 1fr;
+	}
+	.faq-panel > div {
+		overflow: hidden;
+		min-height: 0;
+	}
+	@media (prefers-reduced-motion: no-preference) {
+		.faq-panel {
+			transition: grid-template-rows 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+		}
+	}
+
+	/* Scroll reveal — only when the user allows motion. Sections above the
+     fold never get this class, so initial paint / LCP is untouched. */
+	@media (prefers-reduced-motion: no-preference) {
+		section.reveal-item {
+			opacity: 0;
+			transform: translateY(20px);
+			transition:
+				opacity 0.55s ease-out,
+				transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+			will-change: opacity, transform;
+		}
+		section.reveal-item.is-visible {
+			opacity: 1;
+			transform: none;
+			will-change: auto;
+		}
+
+		/* --- Micro-animations: precision feel. Transform/opacity only
+       (GPU-composited, no layout thrash), fired on viewport entry,
+       all inside this media query so reduced-motion users get none. --- */
+
+		/* Technical line draws in */
+		main section.is-visible .draw-line {
+			transform: scaleX(0);
+			transform-origin: left center;
+			animation: draw-line 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.1s forwards;
+		}
+		@keyframes draw-line {
+			to {
+				transform: scaleX(1);
+			}
+		}
+
+		/* Crosshair corner marks draw out from their corner */
+		main section.is-visible .corner-mark {
+			opacity: 0;
+			animation: mark-in 0.3s ease-out 0.15s forwards;
+		}
+		main section.is-visible .corner-tl {
+			transform-origin: top left;
+		}
+		main section.is-visible .corner-tr {
+			transform-origin: top right;
+		}
+		main section.is-visible .corner-bl {
+			transform-origin: bottom left;
+		}
+		main section.is-visible .corner-br {
+			transform-origin: bottom right;
+		}
+		@keyframes mark-in {
+			from {
+				opacity: 0;
+				transform: scale(0.2);
+			}
+			to {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+
+		/* Inspection point callouts appear with a slight delay */
+		main section.reveal-item .point-in,
+		main section.is-visible .point-in {
+			opacity: 0;
+			animation: point-in 0.4s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
+		}
+		main section.reveal-item .point-in-late,
+		main section.is-visible .point-in-late {
+			animation-delay: 0.45s;
+		}
+		@keyframes point-in {
+			from {
+				opacity: 0;
+				transform: translateY(4px);
+			}
+			to {
+				opacity: 1;
+				transform: none;
+			}
+		}
+
+		/* Staggered rise for data cells (stats, phases, cards) */
+		main section.reveal-item .rise-in,
+		main section.is-visible .rise-in {
+			opacity: 0;
+			transform: translateY(10px);
+			animation: micro-rise 0.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+		}
+		@keyframes micro-rise {
+			to {
+				opacity: 1;
+				transform: none;
+			}
+		}
+
+		/* Technical hover: precise 2px lift */
+		.tech-lift {
+			transition:
+				transform 0.2s ease-out,
+				border-color 0.2s ease-out,
+				box-shadow 0.2s ease-out;
+		}
+		.tech-lift:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 16px -8px hsl(var(--foreground) / 0.25);
+		}
+	}
+}

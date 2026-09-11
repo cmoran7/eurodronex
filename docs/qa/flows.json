@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Production indexable",
+    "ok": true
+  },
+  {
+    "name": "Demo stays noindex in production",
+    "ok": true
+  },
+  {
+    "name": "Admin requires login",
+    "ok": true
+  },
+  {
+    "name": "Login CSRF token",
+    "ok": true
+  },
+  {
+    "name": "Reject invalid CSRF",
+    "ok": true
+  },
+  {
+    "name": "Reject invalid credentials",
+    "ok": true
+  },
+  {
+    "name": "Admin login and session rotation",
+    "ok": true
+  },
+  {
+    "name": "Create draft",
+    "ok": true
+  },
+  {
+    "name": "Draft not public",
+    "ok": true
+  },
+  {
+    "name": "Publish article",
+    "ok": true
+  },
+  {
+    "name": "Published article renders server-side",
+    "ok": true
+  },
+  {
+    "name": "Sitemap updates after publish",
+    "ok": true
+  },
+  {
+    "name": "Reject stale edit",
+    "ok": true
+  },
+  {
+    "name": "Unpublish to draft",
+    "ok": true
+  },
+  {
+    "name": "Unpublished removed from sitemap",
+    "ok": true
+  },
+  {
+    "name": "Logout",
+    "ok": true
+  },
+  {
+    "name": "Session no longer authorized",
+    "ok": true
+  },
+  {
+    "name": "Invalid form redirects without sending",
+    "ok": true
+  },
+  {
+    "name": "Form rejects forged CSRF",
+    "ok": true
+  },
+  {
+    "name": "Privacy acceptance required",
+    "ok": true
+  },
+  {
+    "name": "Disabled mail returns real failure, no fake success",
+    "ok": true
+  },
+  {
+    "name": "No PHP runtime errors",
+    "ok": true
+  }
+]

@@ -1,0 +1,280 @@
+{
+  "/servicios": {
+    "file": "servicios",
+    "title": "Servicios de inspección de edificios con drones en Madrid | EurodroneX",
+    "description": "Inspección técnica de edificios, termografía, fotogrametría, diagnóstico de fachadas y seguimiento de obra en Madrid. Solicite una evaluación.",
+    "heading": "Servicios de ingeniería técnica con tecnología aérea",
+    "image": "/assets/img/464bbf7f1798693b.webp",
+    "noindex": false,
+    "type": "Services",
+    "slug": ""
+  },
+  "/ingenieria": {
+    "file": "ingenieria",
+    "title": "Ingeniería aplicada a la inspección de edificios | EurodroneX",
+    "description": "Ingeniería y arquitectura para interpretar la información capturada con drones. Diagnóstico, documentación e informes técnicos en Madrid.",
+    "heading": "Ingenieros y arquitectos. No solo operadores.",
+    "image": "/assets/img/e2bba130a78fb381.webp",
+    "noindex": false,
+    "type": "Engineering",
+    "slug": ""
+  },
+  "/sobre-eurodronex": {
+    "file": "sobre-eurodronex",
+    "title": "Sobre EurodroneX: ingeniería técnica e inspección aérea | EurodroneX",
+    "description": "Conozca el enfoque de EurodroneX: ingeniería especializada en inspección, diagnóstico y documentación de edificios mediante tecnología aérea.",
+    "heading": "Ingeniería aérea especializada en servicios para la construcción",
+    "image": "/assets/img/e2bba130a78fb381.webp",
+    "noindex": false,
+    "type": "About",
+    "slug": ""
+  },
+  "/contacto": {
+    "file": "contacto",
+    "title": "Contacto y evaluación técnica de edificios | EurodroneX",
+    "description": "Solicite una evaluación técnica de su edificio. Llame al 611 623 480 o escriba a contacto@eurodronex.com. Madrid y provincias limítrofes.",
+    "heading": "Solicite información técnica",
+    "image": "",
+    "noindex": false,
+    "type": "Contact",
+    "slug": ""
+  },
+  "/videos": {
+    "file": "videos",
+    "title": "Vídeos de inspección técnica de edificios | EurodroneX",
+    "description": "Galería de vídeos de referencia sobre inspección de fachadas, cubiertas, termografía y fotogrametría. Material de demostración identificado.",
+    "heading": "Inspecciones en vídeo",
+    "image": "/assets/img/5264b06c92734ade.webp",
+    "noindex": true,
+    "type": "Videos",
+    "slug": ""
+  },
+  "/casos-de-estudio": {
+    "file": "casos-de-estudio",
+    "title": "Casos de estudio de inspección de edificios | EurodroneX",
+    "description": "Expedientes de demostración sobre inspección técnica: problemática, metodología, captura aérea, análisis y documentación del edificio.",
+    "heading": "Casos de estudio",
+    "image": "/assets/img/8ecc14753dc6a438.webp",
+    "noindex": true,
+    "type": "Cases",
+    "slug": ""
+  },
+  "/patologias": {
+    "file": "patologias",
+    "title": "Biblioteca de patologías de edificios | EurodroneX",
+    "description": "Fichas técnicas sobre fisuras, humedades, filtraciones y anomalías térmicas en edificios. Biblioteca de demostración para revisión profesional.",
+    "heading": "Patologías de edificios",
+    "image": "/assets/img/e6aa8e3ee8204615.webp",
+    "noindex": true,
+    "type": "Pathologies",
+    "slug": ""
+  },
+  "/sectores": {
+    "file": "sectores",
+    "title": "Inspección con drones para profesionales de la construcción | EurodroneX",
+    "description": "Servicios técnicos para arquitectura, ingeniería, administración de fincas, constructoras y aseguradoras. Inspección y diagnóstico de edificios.",
+    "heading": "Sectores profesionales",
+    "image": "",
+    "noindex": false,
+    "type": "Sectors",
+    "slug": ""
+  },
+  "/tecnologia": {
+    "file": "tecnologia",
+    "title": "Tecnología y metodología de inspección con drones | EurodroneX",
+    "description": "Del vuelo al informe: planificación, captura aérea, termografía, fotogrametría e interpretación técnica de los datos de su edificio.",
+    "heading": "Tecnología y metodología",
+    "image": "/assets/img/5f1698c7fbd0ae26.webp",
+    "noindex": false,
+    "type": "Technology",
+    "slug": ""
+  },
+  "/entregables": {
+    "file": "entregables",
+    "title": "Informes y documentación de inspección de edificios | EurodroneX",
+    "description": "Conozca los entregables de una inspección técnica: imágenes anotadas, informes, termografías, modelos 3D y documentación digital del edificio.",
+    "heading": "¿Qué recibe el cliente?",
+    "image": "/assets/img/e6aa8e3ee8204615.webp",
+    "noindex": false,
+    "type": "Deliverables",
+    "slug": ""
+  },
+  "/servicios/inspeccion-tecnica-con-drones": {
+    "file": "servicios--inspeccion-tecnica-con-drones",
+    "title": "Inspección técnica de edificios con drones en Madrid | EurodroneX",
+    "description": "Inspección de fachadas, cubiertas y estructuras con drones. Documentación de patologías e informes técnicos para evaluar el estado del edificio.",
+    "heading": "Informes de patologías de fachadas, cubiertas y obras en estado de estructura",
+    "image": "/assets/img/464bbf7f1798693b.webp",
+    "noindex": false,
+    "type": "ServiceDetail",
+    "slug": "inspeccion-tecnica-con-drones"
+  },
+  "/servicios/termografia-con-dron": {
+    "file": "servicios--termografia-con-dron",
+    "title": "Termografía con drones en edificios de Madrid | EurodroneX",
+    "description": "Inspección termográfica de fachadas y cubiertas para documentar anomalías térmicas, puentes térmicos y posibles humedades con criterio técnico.",
+    "heading": "Termografía avanzada",
+    "image": "/assets/img/093fc2b998634e44.webp",
+    "noindex": false,
+    "type": "ServiceDetail",
+    "slug": "termografia-con-dron"
+  },
+  "/servicios/fotogrametria-3d-edificios": {
+    "file": "servicios--fotogrametria-3d-edificios",
+    "title": "Fotogrametría y modelos 3D de edificios con drones | EurodroneX",
+    "description": "Documentación tridimensional de edificios mediante fotogrametría aérea. Modelos 3D, ortofotos y datos para proyectos técnicos y rehabilitación.",
+    "heading": "Fotogrametría 3D",
+    "image": "/assets/img/4ae3ec6c15d81219.webp",
+    "noindex": false,
+    "type": "ServiceDetail",
+    "slug": "fotogrametria-3d-edificios"
+  },
+  "/servicios/diagnostico-fachadas": {
+    "file": "servicios--diagnostico-fachadas",
+    "title": "Diagnóstico de fachadas con drones en Madrid | EurodroneX",
+    "description": "Documentación y evaluación técnica de fisuras, desprendimientos y lesiones en fachadas. Inspección aérea para orientar el diagnóstico del edificio.",
+    "heading": "Diagnóstico de fachadas",
+    "image": "/assets/img/a3479b44645a6690.webp",
+    "noindex": false,
+    "type": "ServiceDetail",
+    "slug": "diagnostico-fachadas"
+  },
+  "/servicios/seguimiento-de-obra": {
+    "file": "servicios--seguimiento-de-obra",
+    "title": "Seguimiento de obra con drones en Madrid | EurodroneX",
+    "description": "Documentación aérea periódica del avance de obra. Imágenes y registros para el control técnico, la trazabilidad y la coordinación del proyecto.",
+    "heading": "Seguimiento o visita de obra",
+    "image": "/assets/img/d33674146f494ad3.webp",
+    "noindex": false,
+    "type": "ServiceDetail",
+    "slug": "seguimiento-de-obra"
+  },
+  "/servicios/streaming": {
+    "file": "servicios--streaming",
+    "title": "Peritaje e inspección de edificios en streaming | EurodroneX",
+    "description": "Inspección aérea en directo para evaluación remota de edificios y siniestros. Visualización, indicaciones y documentación sin desplazamientos.",
+    "heading": "Peritaje en streaming",
+    "image": "/assets/img/0cccb397b8888421.webp",
+    "noindex": false,
+    "type": "ServiceDetail",
+    "slug": "streaming"
+  },
+  "/sectores/arquitectura-e-ingenieria": {
+    "file": "sectores--arquitectura-e-ingenieria",
+    "title": "Inspección con drones para arquitectura e ingeniería | EurodroneX",
+    "description": "Captura aérea y documentación técnica para estudios de arquitectura e ingeniería. Apoyo en diagnóstico, rehabilitación y evaluación de edificios.",
+    "heading": "Arquitectura e ingeniería",
+    "image": "",
+    "noindex": false,
+    "type": "SectorDetail",
+    "slug": "arquitectura-e-ingenieria"
+  },
+  "/sectores/administracion-de-fincas": {
+    "file": "sectores--administracion-de-fincas",
+    "title": "Inspección de edificios para administradores de fincas | EurodroneX",
+    "description": "Inspección de fachadas y cubiertas para comunidades y administradores de fincas. Documentación de patologías para planificar el mantenimiento.",
+    "heading": "Administradores de fincas",
+    "image": "",
+    "noindex": false,
+    "type": "SectorDetail",
+    "slug": "administracion-de-fincas"
+  },
+  "/sectores/constructoras-y-promotoras": {
+    "file": "sectores--constructoras-y-promotoras",
+    "title": "Inspección con drones para constructoras y promotoras | EurodroneX",
+    "description": "Seguimiento de obra, captura aérea y documentación técnica para constructoras y promotoras. Información para controlar el avance del proyecto.",
+    "heading": "Constructoras y promotoras",
+    "image": "",
+    "noindex": false,
+    "type": "SectorDetail",
+    "slug": "constructoras-y-promotoras"
+  },
+  "/sectores/aseguradoras-y-peritos": {
+    "file": "sectores--aseguradoras-y-peritos",
+    "title": "Inspección con drones para aseguradoras y peritos | EurodroneX",
+    "description": "Documentación aérea de siniestros y edificios para aseguradoras y peritos. Captura visual, inspección remota y apoyo a la evaluación técnica.",
+    "heading": "Aseguradoras y peritos",
+    "image": "",
+    "noindex": false,
+    "type": "SectorDetail",
+    "slug": "aseguradoras-y-peritos"
+  },
+  "/casos-de-estudio/fisuras-en-fachada-residencial": {
+    "file": "casos-de-estudio--fisuras-en-fachada-residencial",
+    "title": "Documentación de fisuras en fachada de edificio residencial | EurodroneX",
+    "description": "Expediente de demostración: documentación completa de lesiones en fachada de altura media sin medios auxiliares, con localización planimétrica de cada punto ",
+    "heading": "Documentación de fisuras en fachada de edificio residencial",
+    "image": "/assets/img/8ecc14753dc6a438.webp",
+    "noindex": true,
+    "type": "CaseDetail",
+    "slug": "fisuras-en-fachada-residencial"
+  },
+  "/casos-de-estudio/humedades-en-cubierta-plana": {
+    "file": "casos-de-estudio--humedades-en-cubierta-plana",
+    "title": "Localización de humedades en cubierta plana mediante termografía | EurodroneX",
+    "description": "Expediente de demostración: campaña de termografía aérea sobre cubierta plana para localizar acumulaciones de agua y anomalías de impermeabilización no visib",
+    "heading": "Localización de humedades en cubierta plana mediante termografía",
+    "image": "/assets/img/14ad65845c7c8a08.webp",
+    "noindex": true,
+    "type": "CaseDetail",
+    "slug": "humedades-en-cubierta-plana"
+  },
+  "/casos-de-estudio/fotogrametria-de-edificio-patrimonial": {
+    "file": "casos-de-estudio--fotogrametria-de-edificio-patrimonial",
+    "title": "Levantamiento fotogramétrico de edificio patrimonial | EurodroneX",
+    "description": "Expediente de demostración: modelo 3D métrico de un edificio singular mediante fotogrametría aérea, como base de documentación previa a proyecto de restaurac",
+    "heading": "Levantamiento fotogramétrico de edificio patrimonial",
+    "image": "/assets/img/37c5aa641e57bba2.webp",
+    "noindex": true,
+    "type": "CaseDetail",
+    "slug": "fotogrametria-de-edificio-patrimonial"
+  },
+  "/patologias/fisuras-y-grietas-en-fachadas": {
+    "file": "patologias--fisuras-y-grietas-en-fachadas",
+    "title": "Fisuras y grietas en fachadas | EurodroneX",
+    "description": "Lesiones en forma de abertura lineal en el paramento. Su documentación rigurosa — trazado, extensión y evolución — es la base para su posterior interpretació",
+    "heading": "Fisuras y grietas en fachadas",
+    "image": "/assets/img/e6aa8e3ee8204615.webp",
+    "noindex": true,
+    "type": "PathologyDetail",
+    "slug": "fisuras-y-grietas-en-fachadas"
+  },
+  "/patologias/humedades-y-filtraciones-en-cubiertas": {
+    "file": "patologias--humedades-y-filtraciones-en-cubiertas",
+    "title": "Humedades y filtraciones en cubiertas | EurodroneX",
+    "description": "Pérdidas de estanqueidad que se manifiestan lejos de su origen. La combinación de imagen RGB y termografía permite delimitar acumulaciones y anomalías no vis",
+    "heading": "Humedades y filtraciones en cubiertas",
+    "image": "/assets/img/611010467f34e5ae.webp",
+    "noindex": true,
+    "type": "PathologyDetail",
+    "slug": "humedades-y-filtraciones-en-cubiertas"
+  },
+  "/patologias/puentes-termicos-y-anomalias-termicas": {
+    "file": "patologias--puentes-termicos-y-anomalias-termicas",
+    "title": "Puentes térmicos y anomalías térmicas | EurodroneX",
+    "description": "Discontinuidades en el aislamiento de la envolvente que generan pérdidas de energía y riesgo de condensaciones. La termografía las hace visibles como contras",
+    "heading": "Puentes térmicos y anomalías térmicas",
+    "image": "/assets/img/5f1698c7fbd0ae26.webp",
+    "noindex": true,
+    "type": "PathologyDetail",
+    "slug": "puentes-termicos-y-anomalias-termicas"
+  },
+  "/": {
+    "file": "inicio",
+    "title": "Inspección técnica de edificios con drones en Madrid | EurodroneX",
+    "description": "Ingeniería técnica para inspeccionar fachadas y cubiertas con drones en Madrid. Termografía, fotogrametría e informes. Solicite una evaluación de su edificio.",
+    "image": "/assets/img/464bbf7f1798693b.webp",
+    "noindex": false,
+    "type": "Home"
+  },
+  "/servicios/inspeccion-precompra": {
+    "file": "servicios--inspeccion-precompra",
+    "title": "Inspección precompra de edificios e inmuebles | EurodroneX",
+    "description": "Evaluación técnica antes de comprar o vender un inmueble. Inspección y documentación del edificio para inmobiliarias, promotoras y compradores.",
+    "heading": "Inspección técnica para inmobiliarias",
+    "type": "ServiceDetail",
+    "slug": "inspeccion-precompra",
+    "image": "/assets/img/a3479b44645a6690.webp",
+    "noindex": false
+  }
+}

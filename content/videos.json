@@ -1,0 +1,115 @@
+{
+  "videoCategories": [
+    "Todos",
+    "Fachadas",
+    "Cubiertas",
+    "Patologías",
+    "Termografía",
+    "Fotogrametría",
+    "Obra"
+  ],
+  "videos": [
+    {
+      "code": "VID-01",
+      "youtubeId": "tE_R6SoGDAM",
+      "category": "Fachadas",
+      "title": "Flujo de trabajo completo de inspección de fachada",
+      "description": "Recorrido por el flujo completo de una inspección de fachada con dron: planificación de la misión, captura de imagen y tratamiento del dato para su análisis técnico."
+    },
+    {
+      "code": "VID-02",
+      "youtubeId": "e3p5hp7SSsA",
+      "category": "Fachadas",
+      "title": "Inspección de fachadas en edificios altos: consideraciones clave",
+      "description": "Dificultades habituales de la inspección de edificios altos y muy altos, y cómo la captura aérea resuelve el acceso a paramentos sin medios auxiliares."
+    },
+    {
+      "code": "VID-03",
+      "youtubeId": "rN-X9gzi14A",
+      "category": "Fachadas",
+      "title": "Cómo inspeccionar edificios altos con dron",
+      "description": "Opciones de captura según el objetivo del encargo: fachada completa, cubierta y fachadas combinadas, y criterios para elegir la estrategia de vuelo."
+    },
+    {
+      "code": "VID-04",
+      "youtubeId": "dLX8_kMOkA8",
+      "category": "Cubiertas",
+      "title": "Inspección de cubierta con dron — recorrido completo",
+      "description": "Recorrido por una inspección real de cubierta: puntos de control, sumideros, encuentros con petos y estado general de la impermeabilización.",
+      "duration": "28:31"
+    },
+    {
+      "code": "VID-05",
+      "youtubeId": "oDDhK_j6Hc0",
+      "category": "Cubiertas",
+      "title": "Inspección de cubierta con dron equipado con sensor térmico",
+      "description": "Combinación de imagen RGB y térmica en una misma pasada de vuelo para localizar humedades y anomalías no visibles en cubierta.",
+      "duration": "12:25"
+    },
+    {
+      "code": "VID-06",
+      "youtubeId": "3rPnKzZQR2w",
+      "category": "Cubiertas",
+      "title": "Cubiertas y fachadas: flujo de inspección completo",
+      "description": "Flujo de trabajo integrado para inspeccionar cubierta y fachadas en una única campaña de vuelo, con criterios de seguridad y cobertura."
+    },
+    {
+      "code": "VID-07",
+      "youtubeId": "_0CNwpqviEg",
+      "category": "Patologías",
+      "title": "Evaluación de daños en fachada tras episodio meteorológico",
+      "description": "Valoración de patologías en fachada tras un temporal: identificación de daños, delimitación de zonas afectadas y priorización de actuaciones."
+    },
+    {
+      "code": "VID-08",
+      "youtubeId": "zvHpre4W9D0",
+      "category": "Termografía",
+      "title": "Termografía de cubiertas con dron",
+      "description": "Uso de la imagen térmica en cubiertas: detección de humedad bajo impermeabilización, puentes térmicos y pérdida de aislamiento.",
+      "duration": "14:49"
+    },
+    {
+      "code": "VID-09",
+      "youtubeId": "wmecasVx3LU",
+      "category": "Termografía",
+      "title": "Detección de infiltraciones de agua mediante termografía",
+      "description": "Comparativa entre imagen RGB y térmica para localizar infiltraciones de agua en cubierta y deficiencias de aislamiento.",
+      "duration": "9:07"
+    },
+    {
+      "code": "VID-10",
+      "youtubeId": "spRX6f0BlRs",
+      "category": "Termografía",
+      "title": "Captura de datos térmicos: guía completa",
+      "description": "Parámetros de captura para datos térmicos fiables: emisividad, condiciones atmosféricas, resolución y planificación del vuelo."
+    },
+    {
+      "code": "VID-11",
+      "youtubeId": "NJ40Q_ZyyPg",
+      "category": "Fotogrametría",
+      "title": "Modelo 3D y medición de edificios mediante fotogrametría",
+      "description": "Guía de extremo a extremo para generar modelos 3D medibles de edificios a partir de captura con dron: desde el vuelo hasta la explotación del modelo."
+    },
+    {
+      "code": "VID-12",
+      "youtubeId": "vLWLXrhHtTQ",
+      "category": "Fotogrametría",
+      "title": "Reconstrucción 3D de un edificio patrimonial con dron",
+      "description": "Reconstrucción fotogramétrica de un edificio singular con captura inteligente: misiones automatizadas y procesado de la nube de puntos."
+    },
+    {
+      "code": "VID-13",
+      "youtubeId": "YZeC7H_1DoA",
+      "category": "Obra",
+      "title": "Seguimiento de avance de obra con dron: vuelo de demostración",
+      "description": "Vuelo de seguimiento sobre una obra en ejecución: registro periódico del estado de trabajos y comparativa temporal entre campañas."
+    },
+    {
+      "code": "VID-14",
+      "youtubeId": "GTKYeJR8tfQ",
+      "category": "Obra",
+      "title": "Documentación periódica de obra con misiones repetibles",
+      "description": "Configuración de misiones repetibles para documentar el avance de obra con idéntico encuadre y trayectoria en cada campaña de vuelo."
+    }
+  ]
+}

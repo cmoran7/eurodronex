@@ -1,0 +1,14 @@
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule ^(?:react|node_modules|services|content|components|pages|tools|docs|var|\.git|\.agents|\.codex)(?:/|$) - [F,L,NC]
+RewriteRule (^|/)\. - [F,L]
+RewriteRule \.(?:json|jsonc|lock|yaml|yml|md|mjs|cjs|sqlite|sql|log|bak|txt\.html)$ - [F,L,NC]
+RewriteRule ^(?:package|tailwind\.config).* - [F,L,NC]
+RewriteRule ^assets/(?:css|js|img|fonts)/[a-zA-Z0-9._/-]+$ - [L]
+RewriteRule ^ index.php [END,QSA]
+<IfModule mod_headers.c>
+  <FilesMatch "\.(?:css|js|webp|png|jpg|jpeg|svg|woff2)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+</IfModule>

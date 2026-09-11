@@ -1,0 +1,8 @@
+/node_modules/
+/var/
+/services/config.local.php
+/tools/.entry.jsx
+/tools/.render.cjs
+/tools/.reference/
+/docs/sources/*.html
+/docs/qa/*.png

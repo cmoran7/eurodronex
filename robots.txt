@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# El servidor PHP genera la version indexable al configurar EDX_ENV=production.
