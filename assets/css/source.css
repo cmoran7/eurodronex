@@ -231,12 +231,12 @@
 		}
 
 		/* Inspection point callouts appear with a slight delay */
-		main section.reveal-item .point-in,
+
 		main section.is-visible .point-in {
 			opacity: 0;
 			animation: point-in 0.4s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
 		}
-		main section.reveal-item .point-in-late,
+
 		main section.is-visible .point-in-late {
 			animation-delay: 0.45s;
 		}
@@ -252,7 +252,7 @@
 		}
 
 		/* Staggered rise for data cells (stats, phases, cards) */
-		main section.reveal-item .rise-in,
+
 		main section.is-visible .rise-in {
 			opacity: 0;
 			transform: translateY(10px);

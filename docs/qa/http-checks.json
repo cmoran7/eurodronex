@@ -1,6 +1,6 @@
 {
   "pages": 36,
-  "assets": 59,
+  "assets": 60,
   "internalLinks": 36,
   "sitemap": 27,
   "errors": [],
@@ -9,253 +9,253 @@
       "route": "/servicios",
       "status": 200,
       "h1": "Servicios de ingeniería técnica con tecnología aérea",
-      "title": "Servicios de ingeniería técnica con tecnología aérea | EurodroneX",
+      "title": "Servicios de inspección de edificios con drones en Madrid | EurodroneX",
       "robots": "noindex, follow",
-      "images": 6,
-      "bytes": 35931
+      "images": 8,
+      "bytes": 38959
     },
     {
       "route": "/ingenieria",
       "status": 200,
       "h1": "Ingenieros y arquitectos. No solo operadores.",
-      "title": "Ingenieros y arquitectos. No solo operadores. | EurodroneX",
+      "title": "Ingeniería aplicada a la inspección de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 1,
-      "bytes": 35802
+      "images": 3,
+      "bytes": 39883
     },
     {
       "route": "/sobre-eurodronex",
       "status": 200,
       "h1": "Ingeniería aérea especializada en servicios para la construcción",
-      "title": "Ingeniería aérea especializada en servicios para la construcción | EurodroneX",
+      "title": "Sobre EurodroneX: ingeniería técnica e inspección aérea | EurodroneX",
       "robots": "noindex, follow",
-      "images": 1,
-      "bytes": 22584
+      "images": 3,
+      "bytes": 24098
     },
     {
       "route": "/contacto",
       "status": 200,
       "h1": "Solicite información técnica",
-      "title": "Solicite información técnica | EurodroneX",
+      "title": "Contacto y evaluación técnica de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 24583
+      "images": 2,
+      "bytes": 27473
     },
     {
       "route": "/videos",
       "status": 200,
       "h1": "Inspecciones en vídeo",
-      "title": "Inspecciones en vídeo | EurodroneX",
+      "title": "Vídeos de inspección técnica de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 14,
-      "bytes": 47293
+      "images": 16,
+      "bytes": 52963
     },
     {
       "route": "/casos-de-estudio",
       "status": 200,
       "h1": "Casos de estudio",
-      "title": "Casos de estudio | EurodroneX",
+      "title": "Casos de estudio de inspección de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 21635
+      "images": 5,
+      "bytes": 23770
     },
     {
       "route": "/patologias",
       "status": 200,
       "h1": "Patologías de edificios",
-      "title": "Patologías de edificios | EurodroneX",
+      "title": "Biblioteca de patologías de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 22659
+      "images": 5,
+      "bytes": 24970
     },
     {
       "route": "/sectores",
       "status": 200,
       "h1": "Sectores profesionales",
-      "title": "Sectores profesionales | EurodroneX",
+      "title": "Inspección con drones para profesionales de la construcción | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 22128
+      "images": 2,
+      "bytes": 24543
     },
     {
       "route": "/tecnologia",
       "status": 200,
       "h1": "Tecnología y metodología",
-      "title": "Tecnología y metodología | EurodroneX",
+      "title": "Tecnología y metodología de inspección con drones | EurodroneX",
       "robots": "noindex, follow",
-      "images": 1,
-      "bytes": 34417
+      "images": 3,
+      "bytes": 37900
     },
     {
       "route": "/entregables",
       "status": 200,
       "h1": "¿Qué recibe el cliente?",
-      "title": "¿Qué recibe el cliente? | EurodroneX",
+      "title": "Informes y documentación de inspección de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 1,
-      "bytes": 32166
+      "images": 3,
+      "bytes": 35251
     },
     {
-      "route": "/servicios/inspeccion-tecnica-con-drones",
+      "route": "/inspeccion-tecnica-con-drones",
       "status": 200,
       "h1": "Informes de patologías de fachadas, cubiertas y obras en estado de estructura",
-      "title": "Informes de patologías de fachadas, cubiertas y obras en estado de estructura | EurodroneX",
+      "title": "Inspección técnica de edificios con drones en Madrid | EurodroneX",
       "robots": "noindex, follow",
-      "images": 4,
-      "bytes": 36584
+      "images": 6,
+      "bytes": 41806
     },
     {
-      "route": "/servicios/termografia-con-dron",
+      "route": "/termografia-con-dron",
       "status": 200,
       "h1": "Termografía avanzada",
-      "title": "Termografía avanzada | EurodroneX",
+      "title": "Termografía con drones en edificios de Madrid | EurodroneX",
       "robots": "noindex, follow",
-      "images": 4,
-      "bytes": 35442
+      "images": 6,
+      "bytes": 40102
     },
     {
-      "route": "/servicios/fotogrametria-3d-edificios",
+      "route": "/fotogrametria-3d-edificios",
       "status": 200,
       "h1": "Fotogrametría 3D",
-      "title": "Fotogrametría 3D | EurodroneX",
+      "title": "Fotogrametría y modelos 3D de edificios con drones | EurodroneX",
       "robots": "noindex, follow",
-      "images": 4,
-      "bytes": 36917
+      "images": 6,
+      "bytes": 41989
     },
     {
-      "route": "/servicios/diagnostico-fachadas",
+      "route": "/diagnostico-fachadas",
       "status": 200,
       "h1": "Diagnóstico de fachadas",
       "title": "Diagnóstico de fachadas con drones en Madrid | EurodroneX",
       "robots": "noindex, follow",
-      "images": 4,
-      "bytes": 35582
+      "images": 6,
+      "bytes": 40222
     },
     {
-      "route": "/servicios/seguimiento-de-obra",
+      "route": "/seguimiento-de-obra",
       "status": 200,
       "h1": "Seguimiento o visita de obra",
-      "title": "Seguimiento o visita de obra | EurodroneX",
+      "title": "Seguimiento de obra con drones en Madrid | EurodroneX",
       "robots": "noindex, follow",
-      "images": 4,
-      "bytes": 35381
+      "images": 6,
+      "bytes": 40160
     },
     {
-      "route": "/servicios/streaming",
+      "route": "/streaming",
       "status": 200,
       "h1": "Peritaje en streaming",
-      "title": "Peritaje en streaming | EurodroneX",
+      "title": "Peritaje e inspección de edificios en streaming | EurodroneX",
       "robots": "noindex, follow",
-      "images": 4,
-      "bytes": 35523
+      "images": 6,
+      "bytes": 40365
     },
     {
-      "route": "/sectores/arquitectura-e-ingenieria",
+      "route": "/arquitectura-e-ingenieria",
       "status": 200,
       "h1": "Arquitectura e ingeniería",
-      "title": "Arquitectura e ingeniería | EurodroneX",
+      "title": "Inspección con drones para arquitectura e ingeniería | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 30307
+      "images": 2,
+      "bytes": 33568
     },
     {
-      "route": "/sectores/administracion-de-fincas",
+      "route": "/administracion-de-fincas",
       "status": 200,
       "h1": "Administradores de fincas",
-      "title": "Administradores de fincas | EurodroneX",
+      "title": "Inspección de edificios para administradores de fincas | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 28789
+      "images": 2,
+      "bytes": 31835
     },
     {
-      "route": "/sectores/constructoras-y-promotoras",
+      "route": "/constructoras-y-promotoras",
       "status": 200,
       "h1": "Constructoras y promotoras",
-      "title": "Constructoras y promotoras | EurodroneX",
+      "title": "Inspección con drones para constructoras y promotoras | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 26550
+      "images": 2,
+      "bytes": 29372
     },
     {
-      "route": "/sectores/aseguradoras-y-peritos",
+      "route": "/aseguradoras-y-peritos",
       "status": 200,
       "h1": "Aseguradoras y peritos",
-      "title": "Aseguradoras y peritos | EurodroneX",
+      "title": "Inspección con drones para aseguradoras y peritos | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 27633
+      "images": 2,
+      "bytes": 30561
     },
     {
-      "route": "/casos-de-estudio/fisuras-en-fachada-residencial",
+      "route": "/fisuras-en-fachada-residencial",
       "status": 200,
       "h1": "Documentación de fisuras en fachada de edificio residencial",
       "title": "Documentación de fisuras en fachada de edificio residencial | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 38961
+      "images": 5,
+      "bytes": 42153
     },
     {
-      "route": "/casos-de-estudio/humedades-en-cubierta-plana",
+      "route": "/humedades-en-cubierta-plana",
       "status": 200,
       "h1": "Localización de humedades en cubierta plana mediante termografía",
       "title": "Localización de humedades en cubierta plana mediante termografía | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 38324
+      "images": 5,
+      "bytes": 41426
     },
     {
-      "route": "/casos-de-estudio/fotogrametria-de-edificio-patrimonial",
+      "route": "/fotogrametria-de-edificio-patrimonial",
       "status": 200,
       "h1": "Levantamiento fotogramétrico de edificio patrimonial",
       "title": "Levantamiento fotogramétrico de edificio patrimonial | EurodroneX",
       "robots": "noindex, follow",
-      "images": 2,
-      "bytes": 35099
+      "images": 4,
+      "bytes": 37868
     },
     {
-      "route": "/patologias/fisuras-y-grietas-en-fachadas",
+      "route": "/fisuras-y-grietas-en-fachadas",
       "status": 200,
       "h1": "Fisuras y grietas en fachadas",
       "title": "Fisuras y grietas en fachadas | EurodroneX",
       "robots": "noindex, follow",
-      "images": 1,
-      "bytes": 31157
+      "images": 3,
+      "bytes": 33482
     },
     {
-      "route": "/patologias/humedades-y-filtraciones-en-cubiertas",
+      "route": "/humedades-y-filtraciones-en-cubiertas",
       "status": 200,
       "h1": "Humedades y filtraciones en cubiertas",
       "title": "Humedades y filtraciones en cubiertas | EurodroneX",
       "robots": "noindex, follow",
-      "images": 1,
-      "bytes": 31899
+      "images": 3,
+      "bytes": 34329
     },
     {
-      "route": "/patologias/puentes-termicos-y-anomalias-termicas",
+      "route": "/puentes-termicos-y-anomalias-termicas",
       "status": 200,
       "h1": "Puentes térmicos y anomalías térmicas",
       "title": "Puentes térmicos y anomalías térmicas | EurodroneX",
       "robots": "noindex, follow",
-      "images": 1,
-      "bytes": 29893
+      "images": 3,
+      "bytes": 32078
     },
     {
       "route": "/",
       "status": 200,
-      "h1": "Ingeniería técnica aplicada a la inspección de edificios.",
+      "h1": "\n\t\t\t\t\tIngeniería técnica aplicada a la inspección de edificios.\n\t\t\t\t",
       "title": "Inspección técnica de edificios con drones en Madrid | EurodroneX",
       "robots": "noindex, follow",
-      "images": 13,
-      "bytes": 74053
+      "images": 15,
+      "bytes": 83971
     },
     {
-      "route": "/servicios/inspeccion-precompra",
+      "route": "/inspeccion-precompra",
       "status": 200,
       "h1": "Inspección técnica para inmobiliarias",
       "title": "Inspección precompra de edificios e inmuebles | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 23216
+      "images": 2,
+      "bytes": 25438
     },
     {
       "route": "/blog",
@@ -263,8 +263,8 @@
       "h1": "Inspección, diagnóstico y patología de edificios",
       "title": "Blog de inspección y patología de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 18749
+      "images": 5,
+      "bytes": 20236
     },
     {
       "route": "/conocimiento",
@@ -272,35 +272,35 @@
       "h1": "Conocimiento técnico",
       "title": "Conocimiento técnico sobre inspección de edificios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 23,
-      "bytes": 37644
+      "images": 25,
+      "bytes": 40877
     },
     {
-      "route": "/blog/inspeccionar-edificio-sin-andamios-2026",
+      "route": "/como-inspeccionar-un-edificio-sin-andamios-en-2026",
       "status": 200,
       "h1": "Cómo inspeccionar un edificio sin andamios en 2026",
       "title": "Cómo inspeccionar un edificio sin andamios en 2026 | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 24231
+      "images": 5,
+      "bytes": 26132
     },
     {
-      "route": "/blog/arquitecto-drones-vs-piloto",
+      "route": "/por-que-un-arquitecto-con-drones-no-es-lo-mismo-que-un-piloto",
       "status": 200,
       "h1": "Por qué un arquitecto con drones no es lo mismo que un piloto",
       "title": "Por qué un arquitecto con drones no es lo mismo que un piloto | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 23313
+      "images": 5,
+      "bytes": 25242
     },
     {
-      "route": "/blog/inspeccionar-cubiertas-sin-riesgo",
+      "route": "/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios",
       "status": 200,
       "h1": "Cómo inspeccionar cubiertas sin riesgo ni andamios",
       "title": "Cómo inspeccionar cubiertas sin riesgo ni andamios | EurodroneX",
       "robots": "noindex, follow",
-      "images": 3,
-      "bytes": 22803
+      "images": 5,
+      "bytes": 24685
     },
     {
       "route": "/aviso-legal",
@@ -308,8 +308,8 @@
       "h1": "Aviso legal",
       "title": "Aviso legal | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 16154
+      "images": 2,
+      "bytes": 17463
     },
     {
       "route": "/politica-de-privacidad",
@@ -317,8 +317,8 @@
       "h1": "Política de privacidad",
       "title": "Política de privacidad | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 16157
+      "images": 2,
+      "bytes": 17480
     },
     {
       "route": "/politica-de-cookies",
@@ -326,8 +326,8 @@
       "h1": "Política de cookies",
       "title": "Política de cookies | EurodroneX",
       "robots": "noindex, follow",
-      "images": 0,
-      "bytes": 16109
+      "images": 2,
+      "bytes": 17315
     }
   ]
 }

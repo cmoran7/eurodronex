@@ -6,3 +6,6 @@
 /tools/.reference/
 /docs/sources/*.html
 /docs/qa/*.png
+/.pnpm-store/
+/sitemap.xml.lock
+/sitemap.xml.*.tmp

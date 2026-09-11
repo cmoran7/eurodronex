@@ -1,3 +1,8 @@
 User-agent: *
-Disallow: /
-# El servidor PHP genera la version indexable al configurar EDX_ENV=production.
+Allow: /
+Disallow: /admin-blog
+Disallow: /acceso
+Disallow: /services/
+Disallow: /react/
+
+Sitemap: https://eurodronex.com/sitemap.xml

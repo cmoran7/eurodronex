@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	darkMode: ['class'],
-	content: ['./*.php', './components/**/*.php', './pages/**/*.php', './services/**/*.php', './assets/js/*.js'],
+	content: ['./*.php', './components/**/*.php', './services/**/*.php', './assets/js/*.js'],
 	theme: {
 		extend: {
 			opacity: Object.fromEntries(

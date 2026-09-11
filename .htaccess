@@ -1,14 +1,121 @@
 Options -Indexes -MultiViews
 DirectoryIndex index.php
 RewriteEngine On
-RewriteRule ^(?:react|node_modules|services|content|components|pages|tools|docs|var|\.git|\.agents|\.codex)(?:/|$) - [F,L,NC]
-RewriteRule (^|/)\. - [F,L]
-RewriteRule \.(?:json|jsonc|lock|yaml|yml|md|mjs|cjs|sqlite|sql|log|bak|txt\.html)$ - [F,L,NC]
-RewriteRule ^(?:package|tailwind\.config).* - [F,L,NC]
-RewriteRule ^assets/(?:css|js|img|fonts)/[a-zA-Z0-9._/-]+$ - [L]
-RewriteRule ^ index.php [END,QSA]
-<IfModule mod_headers.c>
-  <FilesMatch "\.(?:css|js|webp|png|jpg|jpeg|svg|woff2)$">
-    Header set Cache-Control "public, max-age=604800"
-  </FilesMatch>
+
+# Canonical domain; local/staging hosts are not redirected.
+RewriteCond %{HTTP_HOST} ^(?:www\.)?eurodronex\.com$ [NC]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.eurodronex\.com$ [NC]
+RewriteRule ^ https://eurodronex.com%{REQUEST_URI} [R=301,L]
+
+# Existing public URLs.
+RewriteRule ^index\.html$ / [R=301,L,NE]
+RewriteRule ^about$ /sobre-eurodronex [R=301,L,NE]
+RewriteRule ^login$ /acceso [R=301,L,NE]
+RewriteRule ^pagina\-de\-privacidad$ /politica-de-privacidad [R=301,L,NE]
+RewriteRule ^pagina\-de\-privacidad/$ /politica-de-privacidad [R=301,L,NE]
+RewriteRule ^sitemap_index\.xml$ /sitemap.xml [R=301,L,NE]
+RewriteRule ^wp\-sitemap\.xml$ /sitemap.xml [R=301,L,NE]
+RewriteRule ^about/$ /sobre-eurodronex [R=301,L,NE]
+RewriteRule ^inspeccion\-tecnica\-con\-drones/$ /inspeccion-tecnica-con-drones [R=301,L,NE]
+RewriteRule ^termografia\-con\-dron/$ /termografia-con-dron [R=301,L,NE]
+RewriteRule ^fotogrametria\-3d\-edificios/$ /fotogrametria-3d-edificios [R=301,L,NE]
+RewriteRule ^diagnostico\-fachadas/$ /diagnostico-fachadas [R=301,L,NE]
+RewriteRule ^seguimiento\-de\-obra/$ /seguimiento-de-obra [R=301,L,NE]
+RewriteRule ^streaming/$ /streaming [R=301,L,NE]
+RewriteRule ^inspeccion\-precompra/$ /inspeccion-precompra [R=301,L,NE]
+RewriteRule ^como\-inspeccionar\-cubiertas\-sin\-riesgo\-ni\-andamios/$ /como-inspeccionar-cubiertas-sin-riesgo-ni-andamios [R=301,L,NE]
+RewriteRule ^por\-que\-un\-arquitecto\-con\-drones\-no\-es\-lo\-mismo\-que\-un\-piloto/$ /por-que-un-arquitecto-con-drones-no-es-lo-mismo-que-un-piloto [R=301,L,NE]
+RewriteRule ^como\-inspeccionar\-un\-edificio\-sin\-andamios\-en\-2026/$ /como-inspeccionar-un-edificio-sin-andamios-en-2026 [R=301,L,NE]
+RewriteRule ^category/uncategorized/$ /blog [R=301,L,NE]
+RewriteRule ^category/uncategorized$ /blog [R=301,L,NE]
+RewriteRule ^page\-sitemap\.xml$ /sitemap.xml [R=301,L,NE]
+RewriteRule ^post\-sitemap\.xml$ /sitemap.xml [R=301,L,NE]
+RewriteRule ^category\-sitemap\.xml$ /sitemap.xml [R=301,L,NE]
+RewriteRule ^servicios/inspeccion\-tecnica\-con\-drones$ /inspeccion-tecnica-con-drones [R=301,L,NE]
+RewriteRule ^servicios/termografia\-con\-dron$ /termografia-con-dron [R=301,L,NE]
+RewriteRule ^servicios/fotogrametria\-3d\-edificios$ /fotogrametria-3d-edificios [R=301,L,NE]
+RewriteRule ^servicios/diagnostico\-fachadas$ /diagnostico-fachadas [R=301,L,NE]
+RewriteRule ^servicios/seguimiento\-de\-obra$ /seguimiento-de-obra [R=301,L,NE]
+RewriteRule ^servicios/streaming$ /streaming [R=301,L,NE]
+RewriteRule ^sectores/arquitectura\-e\-ingenieria$ /arquitectura-e-ingenieria [R=301,L,NE]
+RewriteRule ^sectores/administracion\-de\-fincas$ /administracion-de-fincas [R=301,L,NE]
+RewriteRule ^sectores/constructoras\-y\-promotoras$ /constructoras-y-promotoras [R=301,L,NE]
+RewriteRule ^sectores/aseguradoras\-y\-peritos$ /aseguradoras-y-peritos [R=301,L,NE]
+RewriteRule ^casos\-de\-estudio/fisuras\-en\-fachada\-residencial$ /fisuras-en-fachada-residencial [R=301,L,NE]
+RewriteRule ^casos\-de\-estudio/humedades\-en\-cubierta\-plana$ /humedades-en-cubierta-plana [R=301,L,NE]
+RewriteRule ^casos\-de\-estudio/fotogrametria\-de\-edificio\-patrimonial$ /fotogrametria-de-edificio-patrimonial [R=301,L,NE]
+RewriteRule ^patologias/fisuras\-y\-grietas\-en\-fachadas$ /fisuras-y-grietas-en-fachadas [R=301,L,NE]
+RewriteRule ^patologias/humedades\-y\-filtraciones\-en\-cubiertas$ /humedades-y-filtraciones-en-cubiertas [R=301,L,NE]
+RewriteRule ^patologias/puentes\-termicos\-y\-anomalias\-termicas$ /puentes-termicos-y-anomalias-termicas [R=301,L,NE]
+RewriteRule ^servicios/inspeccion\-precompra$ /inspeccion-precompra [R=301,L,NE]
+RewriteRule ^blog/inspeccionar\-edificio\-sin\-andamios\-2026$ /como-inspeccionar-un-edificio-sin-andamios-en-2026 [R=301,L,NE]
+RewriteRule ^blog/arquitecto\-drones\-vs\-piloto$ /por-que-un-arquitecto-con-drones-no-es-lo-mismo-que-un-piloto [R=301,L,NE]
+RewriteRule ^blog/inspeccionar\-cubiertas\-sin\-riesgo$ /como-inspeccionar-cubiertas-sin-riesgo-ni-andamios [R=301,L,NE]
+RewriteRule ^api/contacto$ /services/contact_process.php [R=301,L,NE]
+RewriteRule ^admin/blog$ /admin-blog [R=301,L,NE]
+RewriteRule ^index\.html/$ / [R=301,L,NE]
+RewriteRule ^login/$ /acceso [R=301,L,NE]
+RewriteRule ^servicios/inspeccion\-tecnica\-con\-drones/$ /inspeccion-tecnica-con-drones [R=301,L,NE]
+RewriteRule ^servicios/termografia\-con\-dron/$ /termografia-con-dron [R=301,L,NE]
+RewriteRule ^servicios/fotogrametria\-3d\-edificios/$ /fotogrametria-3d-edificios [R=301,L,NE]
+RewriteRule ^servicios/diagnostico\-fachadas/$ /diagnostico-fachadas [R=301,L,NE]
+RewriteRule ^servicios/seguimiento\-de\-obra/$ /seguimiento-de-obra [R=301,L,NE]
+RewriteRule ^servicios/streaming/$ /streaming [R=301,L,NE]
+RewriteRule ^sectores/arquitectura\-e\-ingenieria/$ /arquitectura-e-ingenieria [R=301,L,NE]
+RewriteRule ^sectores/administracion\-de\-fincas/$ /administracion-de-fincas [R=301,L,NE]
+RewriteRule ^sectores/constructoras\-y\-promotoras/$ /constructoras-y-promotoras [R=301,L,NE]
+RewriteRule ^sectores/aseguradoras\-y\-peritos/$ /aseguradoras-y-peritos [R=301,L,NE]
+RewriteRule ^casos\-de\-estudio/fisuras\-en\-fachada\-residencial/$ /fisuras-en-fachada-residencial [R=301,L,NE]
+RewriteRule ^casos\-de\-estudio/humedades\-en\-cubierta\-plana/$ /humedades-en-cubierta-plana [R=301,L,NE]
+RewriteRule ^casos\-de\-estudio/fotogrametria\-de\-edificio\-patrimonial/$ /fotogrametria-de-edificio-patrimonial [R=301,L,NE]
+RewriteRule ^patologias/fisuras\-y\-grietas\-en\-fachadas/$ /fisuras-y-grietas-en-fachadas [R=301,L,NE]
+RewriteRule ^patologias/humedades\-y\-filtraciones\-en\-cubiertas/$ /humedades-y-filtraciones-en-cubiertas [R=301,L,NE]
+RewriteRule ^patologias/puentes\-termicos\-y\-anomalias\-termicas/$ /puentes-termicos-y-anomalias-termicas [R=301,L,NE]
+RewriteRule ^servicios/inspeccion\-precompra/$ /inspeccion-precompra [R=301,L,NE]
+RewriteRule ^blog/inspeccionar\-edificio\-sin\-andamios\-2026/$ /como-inspeccionar-un-edificio-sin-andamios-en-2026 [R=301,L,NE]
+RewriteRule ^blog/arquitecto\-drones\-vs\-piloto/$ /por-que-un-arquitecto-con-drones-no-es-lo-mismo-que-un-piloto [R=301,L,NE]
+RewriteRule ^blog/inspeccionar\-cubiertas\-sin\-riesgo/$ /como-inspeccionar-cubiertas-sin-riesgo-ni-andamios [R=301,L,NE]
+RewriteRule ^api/contacto/$ /services/contact_process.php [R=301,L,NE]
+RewriteRule ^admin/blog/$ /admin-blog [R=301,L,NE]
+RewriteRule ^index$ / [R=301,L,NE]
+RewriteRule ^index/$ / [R=301,L,NE]
+
+# Internal code is never served directly.
+RewriteRule ^router(?:\.php)?$ - [R=404,L]
+RewriteRule ^services/contact_process\.php$ - [L]
+RewriteRule ^(?:components|services|react|node_modules|tools|docs|var)(?:/|$) - [R=404,L]
+RewriteRule (^|/)\. - [R=404,L]
+RewriteRule \.(?:json|jsonc|yaml|yml|mjs|cjs|md|lock|tmp)$ - [R=404,L,NC]
+
+# Visible pages have no .php suffix.
+RewriteCond %{THE_REQUEST} \s/+index\.php[?\s] [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+([a-z0-9-]+)\.php[?\s] [NC]
+RewriteRule ^([a-z0-9-]+)\.php$ /$1 [R=301,L]
+RewriteCond %{REQUEST_URI} .+/$
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# Serve existing root PHP files, like Transportes Cooper.
+RewriteRule ^$ index.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-z0-9-]+)$ $1.php [L]
+
+# Static assets, robots.txt and sitemap.xml are real files.
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# New blog articles use the common root article template.
+RewriteRule ^([a-z0-9-]+)$ articulo.php?slug=$1 [L,QSA]
+RewriteRule ^ - [R=404,L]
+ErrorDocument 404 /404.php
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
 </IfModule>

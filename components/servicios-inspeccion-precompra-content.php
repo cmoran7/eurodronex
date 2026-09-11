@@ -1,0 +1,79 @@
+<?php $props = [
+	'eyebrow' => 'SRV.07 / Inspección precompra',
+	'title' => 'Inspección técnica para inmobiliarias',
+	'text' =>
+		'Reduzca riesgos en operaciones de compra y venta de activos inmobiliarios con una evaluación técnica previa.',
+];
+include __DIR__ . '/page-heading.php';
+?>
+<section class="section-pad py-16">
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+		<div>
+			<h2 class="heading-display text-3xl">Por qué necesita una inspección técnica</h2>
+			<p class="mt-6 text-muted-foreground leading-relaxed">
+				Las inmobiliarias necesitan seguridad técnica antes de cerrar operaciones de compraventa. La inspección aporta documentación del estado del
+				edificio y permite identificar indicios de patologías antes de tomar una decisión.
+			</p>
+			<p class="mt-5 text-muted-foreground leading-relaxed">
+				El servicio está orientado a inmuebles en altura, edificios antiguos, promociones con posibles patologías y activos que requieren evaluar su
+				estado. El alcance se acuerda según las características del inmueble y la información necesaria para la operación.
+			</p>
+			<a class="button-primary mt-8" href="#solicitar">Solicitar evaluación precompra</a>
+		</div>
+		<div class="border border-border p-8 bg-card">
+			<h2 class="heading-display text-2xl">Qué incluye el servicio</h2>
+			<ul class="list-disc pl-5 mt-6 space-y-4 text-muted-foreground">
+				<li>Inspección visual aérea del inmueble.</li>
+				<li>Análisis técnico de los hallazgos.</li>
+				<li>Informe con conclusiones y fotografía georreferenciada.</li>
+				<li>Documentación técnica en formato digital.</li>
+				<li>Alcance y plazo de entrega acordados antes del encargo.</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section class="section-pad py-16 border-t border-border bg-secondary/30">
+	<h2 class="heading-display text-3xl mb-8">Información para decidir con mayor seguridad</h2>
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+		<?php foreach (
+					[
+						'Anticipar incidencias' => 'Documentar indicios de deterioro antes del cierre de la operación.',
+						'Valorar el mantenimiento' =>
+							'Comprender qué zonas pueden necesitar una evaluación adicional o una intervención.',
+						'Informar al comprador' =>
+							'Aportar una base técnica documentada para la negociación y la toma de decisiones.',
+					]
+					as $h => $p
+				): ?>
+		<div class="border border-border p-6 bg-card">
+			<h3 class="heading-display text-xl"><?= e($h) ?></h3>
+			<p class="mt-4 text-muted-foreground"><?= e($p) ?></p>
+		</div>
+		<?php endforeach; ?>
+	</div>
+</section>
+<section class="section-pad py-16">
+	<h2 class="heading-display text-3xl mb-8">Cómo funciona</h2>
+	<ol class="grid grid-cols-1 md:grid-cols-4 gap-6">
+		<?php foreach (
+					[
+						'Solicitud' => 'Datos del inmueble y necesidad de la operación.',
+						'Visita técnica' => 'Inspección y captura de información con los permisos necesarios.',
+						'Análisis' => 'Evaluación profesional de las observaciones.',
+						'Informe' => 'Entrega digital y explicación de los hallazgos.',
+					]
+					as $h => $p
+				): ?>
+		<li class="border border-border p-6">
+			<h3 class="heading-display text-xl"><?= e($h) ?></h3>
+			<p class="mt-4 text-muted-foreground"><?= e($p) ?></p>
+		</li>
+		<?php endforeach; ?>
+	</ol>
+</section>
+<section id="solicitar" class="section-pad py-16 border-t border-border">
+	<div class="max-w-3xl mx-auto"><?php
+		$props = ['defaultService' => 'Inspección precompra'];
+		include __DIR__ . '/contact-form.php';
+		?></div>
+</section>
