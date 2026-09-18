@@ -46,6 +46,7 @@
 					data-id="6d55622"
 				>
 					<p>Control constructivo</p>
+					<p>Registro visual sistemático del estado de obra mediante capturas aéreas periódicas. Documentamos avance de trabajos, estado de acopios, presencia de maquinaria, cumplimiento de medidas de seguridad y cualquier incidencia visible.</p>
 				</div>
 				<div
 					class="elementor-element elementor-element-37bb44a elementor-widget elementor-widget-button"
@@ -81,6 +82,7 @@
 					data-id="e15e888"
 				>
 					<p>En tiempo real y sin desplazamiento</p>
+					<p>Servicio especializado para compañías aseguradoras y peritos que necesitan evaluar daños en cubiertas o fachadas de difícil acceso sin desplazarse. Vuelo en directo mientras el perito visualiza las imágenes en tiempo real.</p>
 				</div>
 				<div
 					class="elementor-element elementor-element-ad0f0ac elementor-widget elementor-widget-button"
@@ -152,6 +154,7 @@
 					data-id="798aabf"
 				>
 					<p>Inspección técnica y estudios patológicos</p>
+					<p>Reduzca riesgos en operaciones de compra y venta de activos inmobiliarios con una evaluación técnica previa.</p>
 				</div>
 				<div
 					class="elementor-element elementor-element-ccee7e3 elementor-widget elementor-widget-button"
