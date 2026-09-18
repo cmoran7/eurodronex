@@ -1,0 +1,5 @@
+/var/
+/services/config.local.php
+/docs/source/
+/docs/*.png
+/docs/home-rendered.html

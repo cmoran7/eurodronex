@@ -30,7 +30,7 @@
 				</div>
 				<div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-1 md:gap-6 px-5 py-3">
 					<dt class="mono-label pt-0.5">Patologías relacionadas</dt>
-					<dd class="text-sm text-foreground/90 leading-relaxed">Fisuras y grietas en fachadas</dd>
+					<dd class="text-sm text-foreground/90 leading-relaxed">Fisuras y grietas en fachadas debido a asientos diferenciales</dd>
 				</div>
 				<div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-1 md:gap-6 px-5 py-3">
 					<dt class="mono-label pt-0.5">Dificultad de acceso</dt>
@@ -505,4 +505,5 @@ $props = [
 	'secondary' => ['label' => 'Ver entregables', 'to' => '/entregables'],
 ];
 include __DIR__ . '/cta.php';
+
 ?>

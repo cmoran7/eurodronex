@@ -127,7 +127,7 @@
 		<div class="bg-background p-7">
 			<span class="font-mono text-[11px] uppercase tracking-[0.18em] text-primary">02</span>
 			<h3 class="mt-3 font-heading font-semibold text-base text-foreground">Experiencia profesional</h3>
-			<p class="mt-2 text-sm text-muted-foreground leading-relaxed">Más de 20 años en inspección técnica de edificios y peritaciones.</p>
+			<p class="mt-2 text-sm text-muted-foreground leading-relaxed">Más de 25 años de experiencia en la construccion y la patología constructiva.</p>
 		</div>
 		<div class="bg-background p-7">
 			<span class="font-mono text-[11px] uppercase tracking-[0.18em] text-primary">03</span>
@@ -160,10 +160,9 @@
 		</div>
 		<div class="bg-background p-7 md:p-8 grid grid-cols-1 md:grid-cols-12 gap-6">
 			<span class="md:col-span-1 font-mono text-[11px] uppercase tracking-[0.18em] text-primary">02</span>
-			<h3 class="md:col-span-4 font-heading font-semibold text-lg text-foreground">Técnicos colegiados, cuando se requiere</h3>
+			<h3 class="md:col-span-4 font-heading font-semibold text-lg text-foreground">Técnicos colegiados</h3>
 			<p class="md:col-span-7 text-sm text-muted-foreground leading-relaxed">
-				Podemos incorporar técnicos colegiados cuando el encargo lo exija o se solicite expresamente, adaptando el alcance documental y técnico a las
-				necesidades reales del proyecto.
+				Hacemos informes y dictámenes, visados cuando se requiere.
 			</p>
 		</div>
 		<div class="bg-background p-7 md:p-8 grid grid-cols-1 md:grid-cols-12 gap-6">
@@ -220,7 +219,10 @@
 	<div class="flex flex-wrap gap-2">
 		<span class="border border-border bg-background px-4 py-2.5 font-mono text-[11px] uppercase tracking-[0.12em] text-foreground/80">Fachadas</span>
 		<span class="border border-border bg-background px-4 py-2.5 font-mono text-[11px] uppercase tracking-[0.12em] text-foreground/80">
-			Cubiertas planas e inclinadas
+			Cubiertas
+		</span>
+		<span class="border border-border bg-background px-4 py-2.5 font-mono text-[11px] uppercase tracking-[0.12em] text-foreground/80">
+			Inspecciones de tendidos eléctricos
 		</span>
 		<span class="border border-border bg-background px-4 py-2.5 font-mono text-[11px] uppercase tracking-[0.12em] text-foreground/80">
 			Elementos estructurales
@@ -307,9 +309,9 @@
 	</div>
 	<div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-border border border-border">
 		<div class="bg-background p-7">
-			<h3 class="font-heading font-semibold text-base text-foreground">Intervención colegiada, cuando se requiere</h3>
+			<h3 class="font-heading font-semibold text-base text-foreground">Informes visados por el colegio</h3>
 			<p class="mt-2 text-sm text-muted-foreground leading-relaxed">
-				Posibilidad de incorporar técnicos colegiados en aquellos encargos que lo exijan o cuando se solicite expresamente.
+				Cuando se requiera nuestros técnicos, entregarán un informe visado por el colegio profesional pertinente.
 			</p>
 		</div>
 		<div class="bg-background p-7">
@@ -333,37 +335,37 @@
 			<h2 class="mt-4 heading-display text-3xl text-balance">Dudas habituales</h2>
 		</div>
 		<div class="lg:col-span-8"><?php
-				$props = [
-					'items' => [
-						[
-							'q' => '¿Qué diferencia a un piloto operador de un ingeniero especializado?',
-							'a' =>
-								'Un operador captura imágenes. Un ingeniero interpreta técnicamente la información obtenida y emite conclusiones profesionales fundamentadas.',
-						],
-						[
-							'q' => '¿Los informes tienen validez legal?',
-							'a' =>
-								'Sí. Están firmados por profesionales colegiados con capacidad legal para emitir dictámenes técnicos válidos en procedimientos administrativos y judiciales.',
-						],
-						['q' => '¿Se necesitan andamios o medios auxiliares?', 'a' => 'No.'],
-						[
-							'q' => '¿Qué tipo de patologías pueden detectarse?',
-							'a' => 'Cualquier patología que presente el envolvente.',
-						],
-						[
-							'q' => '¿En cuánto tiempo se entrega el informe?',
-							'a' =>
-								'Depende de la complejidad del edificio, pero normalmente en un plazo breve tras la inspección.',
-						],
-						[
-							'q' => '¿Trabajan con inmobiliarias y aseguradoras?',
-							'a' =>
-								'Sí. Ofrecemos evaluaciones técnicas previas a compra, peritaciones y análisis post-siniestro.',
-						],
-					],
-				];
-				include __DIR__ . '/faq.php';
-				?></div>
+  $props = [
+  	'items' => [
+  		[
+  			'q' => '¿Qué diferencia a un piloto operador de un ingeniero especializado?',
+  			'a' =>
+  				'Un operador captura imágenes. Un ingeniero interpreta técnicamente la información obtenida y emite conclusiones profesionales fundamentadas.',
+  		],
+  		[
+  			'q' => '¿Los informes tienen validez legal?',
+  			'a' =>
+  				'Sí. Están firmados por profesionales colegiados con capacidad legal para emitir dictámenes técnicos válidos en procedimientos administrativos y judiciales.',
+  		],
+  		['q' => '¿Se necesitan andamios o medios auxiliares?', 'a' => 'No.'],
+  		[
+  			'q' => '¿Qué tipo de patologías pueden detectarse?',
+  			'a' => 'Cualquier patología que presente la envolvente.',
+  		],
+  		[
+  			'q' => '¿En cuánto tiempo se entrega el informe?',
+  			'a' =>
+  				'Depende de la complejidad del edificio, pero normalmente en un plazo breve tras la inspección.',
+  		],
+  		[
+  			'q' => '¿Trabajan con inmobiliarias y aseguradoras?',
+  			'a' =>
+  				'Sí. Ofrecemos evaluaciones técnicas previas a compra, peritaciones y análisis post-siniestro.',
+  		],
+  	],
+  ];
+  include __DIR__ . '/faq.php';
+  ?></div>
 	</div>
 </section>
 <?php
@@ -374,4 +376,6 @@ $props = [
 		'Cada edificio requiere un análisis específico. Hablemos de su caso con rigor técnico y sin compromiso.',
 ];
 include __DIR__ . '/cta.php';
+
+
 ?>

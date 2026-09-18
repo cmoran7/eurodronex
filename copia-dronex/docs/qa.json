@@ -1,0 +1,220 @@
+{
+  "report": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Inspección de Edificios con Drones | EurodroneX",
+      "h1": [
+        "Ingeniería técnica"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "title": "Solicita tu Inspección con Drones | EurodroneX",
+      "h1": [
+        "Solicite información técnica"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/inspeccion-tecnica-con-drones/",
+      "status": 200,
+      "title": "Inspección Técnica de Edificios con Drones | EurodroneX",
+      "h1": [
+        "Inspección Técnica de Edificios con Drones"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/termografia-con-dron/",
+      "status": 200,
+      "title": "Termografía de Edificios con Dron en Madrid | EurodroneX",
+      "h1": [
+        "Termografía de Edificios con Dron"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/inspeccion-precompra/",
+      "status": 200,
+      "title": "Inspección Precompra de Edificios | EurodroneX",
+      "h1": [
+        "Inspección técnica para inmobiliarias"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/fotogrametria-3d-edificios/",
+      "status": 200,
+      "title": "Fotogrametría 3D de Edificios con Drones | EurodroneX",
+      "h1": [
+        "Fotogrametría 3D para edificios y estructuras"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/streaming/",
+      "status": 200,
+      "title": "Dirección de Obra por Streaming con Drones | EurodroneX",
+      "h1": [
+        "Peritaje en streaming"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/seguimiento-de-obra/",
+      "status": 200,
+      "title": "Seguimiento de Obra con Drones | EurodroneX",
+      "h1": [
+        "Seguimiento o visita de obra"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "title": "Arquitectos e Ingenieros Pilotos de Drones | EurodroneX",
+      "h1": [
+        "Sobre Eurodrónex"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/diagnostico-fachadas/",
+      "status": 200,
+      "title": "Diagnóstico de Fachadas: Grietas y Humedades | EurodroneX",
+      "h1": [
+        "Inspección pre compra"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "title": "Blog - eurodronex.com",
+      "h1": [
+        "Nuestro blog"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/politica-de-cookies/",
+      "status": 200,
+      "title": "Política de cookies - eurodronex.com",
+      "h1": [
+        "Política de cookies"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/aviso-legal/",
+      "status": 200,
+      "title": "Aviso legal - eurodronex.com",
+      "h1": [
+        "Aviso legal"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/pagina-de-privacidad/",
+      "status": 200,
+      "title": "Página de privacidad - eurodronex.com",
+      "h1": [
+        "Página de privacidad"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/servicios/",
+      "status": 200,
+      "title": "Inspección de Fachadas y Cubiertas | EurodroneX",
+      "h1": [
+        "Servicios de ingeniería\n\t\t\t\t\n\t\t\t\ttécnica con tecnología aérea"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/ingenieria/",
+      "status": 200,
+      "title": "Arquitecto e Ingeniero de Drones | EurodroneX",
+      "h1": [
+        "Ingenieros y arquitectos.\n\t\t\t\t\n\t\t\t\tNo solo operadores."
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/",
+      "status": 200,
+      "title": "Cómo inspeccionar cubiertas sin riesgo ni andamios | EuroDroneX",
+      "h1": [
+        "Cómo inspeccionar cubiertas sin riesgo ni andamios"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/por-que-un-arquitecto-con-drones-no-es-lo-mismo-que-un-piloto/",
+      "status": 200,
+      "title": "Por qué un arquitecto con drones no es lo mismo que un piloto",
+      "h1": [
+        "Por qué un arquitecto con drones no es lo mismo que un piloto"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    },
+    {
+      "path": "/como-inspeccionar-un-edificio-sin-andamios-en-2026/",
+      "status": 200,
+      "title": "Cómo inspeccionar un edificio sin andamios en 2026",
+      "h1": [
+        "Cómo inspeccionar un edificio sin andamios en 2026"
+      ],
+      "broken": [],
+      "overflow": false,
+      "remote": []
+    }
+  ],
+  "badLinks": [],
+  "errors": [],
+  "hover": {
+    "before": "brightness(1) contrast(1) saturate(0) blur(0px) hue-rotate(0deg)",
+    "after": "brightness(1) contrast(1) saturate(2) blur(0px) hue-rotate(0deg)"
+  },
+  "mobileMenu": true
+}

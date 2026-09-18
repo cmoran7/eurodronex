@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Para quién trabajamos | EurodroneX",
+  "url": "https://eurodronex.com/para-quien/",
+  "description": "Inspección técnica de edificios según las necesidades de cada profesional.",
+  "inLanguage": "es",
+  "hasPart": [
+    {
+      "@type": "WebPageElement",
+      "name": "Estudios de arquitectura",
+      "@id": "https://eurodronex.com/para-quien/#arquitectura"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Ingenierías",
+      "@id": "https://eurodronex.com/para-quien/#ingenierias"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Administradores de fincas",
+      "@id": "https://eurodronex.com/para-quien/#administradores-de-fincas"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Aseguradoras",
+      "@id": "https://eurodronex.com/para-quien/#aseguradoras"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Promotoras",
+      "@id": "https://eurodronex.com/para-quien/#promotoras"
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "Inmobiliarias",
+      "@id": "https://eurodronex.com/para-quien/#inmobiliarias"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+img.lzl,
+img.lzl-ing {
+	opacity: 0.01;
+}
+img.lzl-ed {
+	transition: opacity 0.25s ease-in-out;
+}

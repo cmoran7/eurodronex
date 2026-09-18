@@ -6,17 +6,14 @@ export const services = [
 		slug: 'inspeccion-tecnica-con-drones',
 		id: '01',
 		code: 'SRV-01',
-		title:
-			'Informes de patologías de fachadas, cubiertas y obras en estado de estructura',
+		title: 'Informes de patologías en fachadas, cubiertas y obras en estado de estructura',
 		shortTitle: 'Inspección técnica de edificios',
 		tagline: 'Escaneo avanzado de la envolvente sin medios auxiliares',
 		summary:
 			'Evaluación visual completa de la envolvente del edificio mediante captura aérea de alta resolución. Documentamos patologías, grietas, desprendimientos, humedades y cualquier lesión visible en fachadas, cubiertas, cornisas o elementos estructurales.',
-		image:
-			'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/c20e78e0a_generated_8d8c2abd.jpg',
+		image: 'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/c20e78e0a_generated_8d8c2abd.jpg',
 		category: 'Inspección visual',
-		whatIs:
-			'Evaluación visual completa de la envolvente del edificio mediante captura aérea de alta resolución. Documentamos patologías, grietas, desprendimientos, humedades y cualquier lesión visible en fachadas, cubiertas, cornisas o elementos estructurales. El informe técnico, elaborado por ingenieros colegiados, tiene plena validez para ITE/IEE, proyectos de rehabilitación o peritajes judiciales.',
+		whatIs: 'Evaluación visual completa de la envolvente del edificio mediante captura aérea de alta resolución. Documentamos patologías, grietas, desprendimientos, humedades y cualquier lesión visible en fachadas, cubiertas, cornisas o elementos estructurales. El informe técnico, elaborado por ingenieros colegiados, tiene plena validez para ITE/IEE, proyectos de rehabilitación o peritajes judiciales.',
 		whenToUse:
 			'Inspecciones técnicas de edificios (ITE/IEE), evaluaciones pre-compra, detección de patologías, seguros y siniestros, proyectos de rehabilitación.',
 		problem:
@@ -107,15 +104,12 @@ export const services = [
 		code: 'SRV-02',
 		title: 'Termografía avanzada',
 		shortTitle: 'Termografía',
-		tagline:
-			'Detección de pérdidas térmicas y humedades mediante cámara infrarroja aerotransportada',
+		tagline: 'Detección de pérdidas térmicas y humedades mediante cámara infrarroja aerotransportada',
 		summary:
 			'Análisis térmico completo de la envolvente del edificio con cámara termográfica de alta sensibilidad montada en dron. Identificamos puentes térmicos, filtraciones de agua no visibles, deficiencias en aislamiento, infiltraciones de aire y condensaciones internas.',
-		image:
-			'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/6142ae27c_generated_61428c6e.jpg',
+		image: 'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/6142ae27c_generated_61428c6e.jpg',
 		category: 'Diagnóstico térmico',
-		whatIs:
-			'Análisis térmico completo de la envolvente del edificio con cámara termográfica de alta sensibilidad montada en dron. Identificamos puentes térmicos, filtraciones de agua no visibles al ojo, deficiencias en aislamiento, infiltraciones de aire y condensaciones internas. El análisis se realiza bajo condiciones controladas de diferencial térmico (mínimo 15°C entre interior y exterior) para garantizar diagnóstico fiable.',
+		whatIs: 'Análisis térmico completo de la envolvente del edificio con cámara termográfica de alta sensibilidad montada en dron. Identificamos puentes térmicos, filtraciones de agua no visibles al ojo, deficiencias en aislamiento, infiltraciones de aire y condensaciones internas. El análisis se realiza bajo condiciones controladas de diferencial térmico para garantizar diagnóstico fiable.',
 		whenToUse:
 			'Auditorías energéticas, certificación energética, detección de humedades ocultas, control post-rehabilitación, estudios previos a reforma.',
 		problem:
@@ -125,10 +119,10 @@ export const services = [
 		benefits: [
 			{
 				title: 'Puentes térmicos',
-				text: 'Identificación de fugas en marcos de ventanas o accesos mal aislados por puertas de mala calidad o sin rotura de puente térmico.',
+				text: 'Localizamos puentes térmicos en frentes de forjado y elementos estructurales.',
 			},
 			{
-				title: 'Aislamiento deteriorado',
+				title: 'Aislamiento deteriorado o inexistente',
 				text: 'Identifica zonas donde el material aislante está degradado, se ha movido o falta, mostrando «puntos calientes» (fugas de calor).',
 			},
 			{
@@ -136,7 +130,7 @@ export const services = [
 				text: 'Detecta acumulaciones de agua en cubiertas planas o fachadas. El agua aparece con temperatura diferente (más fría en evaporación o más caliente si ha estado al sol).',
 			},
 			{
-				title: 'Desprendimientos de revestimiento',
+				title: 'Desprendimientos de revestimiento anclados',
 				text: 'Detecta zonas donde el revestimiento de la fachada se ha desprendido del soporte estructural.',
 			},
 			{
@@ -198,15 +192,12 @@ export const services = [
 		code: 'SRV-03',
 		title: 'Fotogrametría 3D',
 		shortTitle: 'Fotogrametría',
-		tagline:
-			'Modelos 3D de precisión milimétrica para documentación técnica y BIM',
+		tagline: 'Modelos 3D de precisión milimétrica para documentación técnica y BIM',
 		summary:
 			'Generación de réplicas digitales exactas del edificio mediante procesado fotogramétrico avanzado. Nubes de puntos densas, mallas 3D texturizadas y ortofotografías métricas exportables a formatos BIM estándar.',
-		image:
-			'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/a588201bf_generated_da6f4468.jpg',
+		image: 'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/a588201bf_generated_da6f4468.jpg',
 		category: 'Modelado 3D',
-		whatIs:
-			'Generación de réplicas digitales exactas del edificio mediante procesado fotogramétrico avanzado. Capturamos cientos de imágenes aéreas con solapamiento controlado y las procesamos para crear nubes de puntos densas, mallas 3D texturizadas y ortofotografías métricas. Los modelos resultantes permiten mediciones precisas, análisis dimensional, comparativas temporales y exportación a formatos BIM estándar (IFC, RVT).',
+		whatIs: 'Generación de réplicas digitales exactas del edificio mediante procesado fotogramétrico avanzado. Capturamos cientos de imágenes aéreas con solapamiento controlado y las procesamos para crear nubes de puntos densas, mallas 3D texturizadas y ortofotografías métricas. Los modelos resultantes permiten mediciones precisas, análisis dimensional, comparativas temporales y exportación a formatos BIM estándar (IFC, RVT).',
 		whenToUse:
 			'Levantamientos As-Built, documentación previa a rehabilitación, control dimensional, proyectos BIM, seguimiento de deformaciones estructurales.',
 		problem:
@@ -305,15 +296,12 @@ export const services = [
 		code: 'SRV-04',
 		title: 'Inspección pre compra',
 		shortTitle: 'Inspección pre compra',
-		tagline:
-			'Análisis técnico de fisuras, desprendimientos y lesiones estructurales',
+		tagline: 'Análisis técnico de fisuras, desprendimientos y lesiones estructurales',
 		summary:
-			'Evaluación especializada de patologías en envolventes del edificio. Documentamos y clasificamos técnicamente fisuras, desprendimientos, eflorescencias, corrosión y cualquier lesión que comprometa la integridad o durabilidad de la fachada.',
-		image:
-			'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/65a0b72b1_generated_b488f22a.jpg',
+			'Evaluación especializada de patologías en envolventes del edificio. Documentamos y clasificamos técnicamente fisuras, desprendimientos, eflorescencias, corrosión y cualquier lesión que comprometa la integridad o durabilidad de la envolvente.',
+		image: 'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/65a0b72b1_generated_b488f22a.jpg',
 		category: 'Patología estructural',
-		whatIs:
-			'Evaluación especializada de patologías en envolventes del edificio. Documentamos y clasificamos técnicamente fisuras (estructurales vs. retracción), desprendimientos, eflorescencias, corrosión de elementos metálicos, degradación de juntas y cualquier lesión que comprometa la integridad o durabilidad de la fachada. El informe técnico incluye diagnóstico de causas, valoración de gravedad y recomendaciones de intervención.',
+		whatIs: 'Evaluación especializada de patologías en envolventes del edificio. Documentamos y clasificamos técnicamente fisuras (estructurales vs. retracción), desprendimientos, eflorescencias, corrosión de elementos metálicos, degradación de juntas y cualquier lesión que comprometa la integridad o durabilidad de la envolvente. El informe técnico incluye diagnóstico de causas, valoración de gravedad y recomendaciones de intervención.',
 		whenToUse:
 			'ITE/IEE con patologías evidentes, proyectos de rehabilitación de fachadas, peritajes judiciales, evaluaciones pre-compra de edificios antiguos.',
 		problem:
@@ -397,15 +385,12 @@ export const services = [
 		code: 'SRV-05',
 		title: 'Seguimiento o visita de obra',
 		shortTitle: 'Seguimiento de obra',
-		tagline:
-			'Documentación periódica del avance de obra para control y trazabilidad',
+		tagline: 'Documentación periódica del avance de obra para control y trazabilidad',
 		summary:
 			'Registro visual sistemático del estado de obra mediante capturas aéreas periódicas. Documentamos avance de trabajos, estado de acopios, presencia de maquinaria, cumplimiento de medidas de seguridad y cualquier incidencia visible.',
-		image:
-			'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/09c0dbf4c_generated_1bc27bd4.jpg',
+		image: 'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/09c0dbf4c_generated_1bc27bd4.jpg',
 		category: 'Control de ejecución',
-		whatIs:
-			'Registro visual sistemático del estado de obra mediante capturas aéreas periódicas (semanal, quincenal o mensual según ritmo de trabajo). Documentamos avance de trabajos, estado de acopios, presencia de maquinaria, cumplimiento de medidas de seguridad y cualquier incidencia visible. La documentación ordenada cronológicamente permite comparativas temporales, control de plazos y resolución objetiva de discrepancias.',
+		whatIs: 'Registro visual sistemático del estado de obra mediante capturas aéreas periódicas (semanal, quincenal o mensual según ritmo de trabajo). Documentamos avance de trabajos, estado de acopios, presencia de maquinaria, cumplimiento de medidas de seguridad y cualquier incidencia visible. La documentación ordenada cronológicamente permite comparativas temporales, control de plazos y resolución objetiva de discrepancias.',
 		whenToUse:
 			'Proyectos de construcción o rehabilitación, control de subcontratas, auditorías de obra, documentación para certificaciones, gestión de reclamaciones.',
 		problem:
@@ -492,11 +477,9 @@ export const services = [
 		tagline: 'Transmisión en tiempo real para evaluación remota de siniestros',
 		summary:
 			'Servicio especializado para compañías aseguradoras y peritos que necesitan evaluar daños en cubiertas o fachadas de difícil acceso sin desplazarse. Vuelo en directo mientras el perito visualiza las imágenes en tiempo real.',
-		image:
-			'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/5d3d85c2a_generated_06d39e84.jpg',
+		image: 'https://media.base44.com/images/public/6aa02279bb40b972ab2ba76a/5d3d85c2a_generated_06d39e84.jpg',
 		category: 'Evaluación remota',
-		whatIs:
-			'Servicio especializado para compañías aseguradoras y peritos que necesitan evaluar daños en cubiertas o fachadas de difícil acceso sin desplazarse. Realizamos vuelo en directo mientras el perito visualiza las imágenes en tiempo real desde cualquier ubicación, puede solicitar enfoques específicos y dirigir la inspección remotamente. Todo queda grabado en alta definición para documentación pericial posterior.',
+		whatIs: 'Servicio especializado para compañías aseguradoras y peritos que necesitan evaluar daños en cubiertas o fachadas de difícil acceso sin desplazarse. Realizamos vuelo en directo mientras el perito visualiza las imágenes en tiempo real desde cualquier ubicación, puede solicitar enfoques específicos y dirigir la inspección remotamente. Todo queda grabado en alta definición para documentación pericial posterior.',
 		whenToUse:
 			'Siniestros urgentes (incendios, granizadas, temporales), peritaciones remotas, evaluación rápida de daños, inspecciones para seguros.',
 		problem:
@@ -578,9 +561,9 @@ export const services = [
 			},
 		],
 	},
-]
+];
 
-export const getService = (slug) => services.find((s) => s.slug === slug)
+export const getService = (slug) => services.find((s) => s.slug === slug);
 
 export const clientTypes = [
 	'Administrador de fincas',
@@ -592,7 +575,7 @@ export const clientTypes = [
 	'Particular',
 	'Inmobiliaria',
 	'Otro',
-]
+];
 
 export const serviceTypes = [
 	'Inspección técnica ITE',
@@ -605,19 +588,13 @@ export const serviceTypes = [
 	'Inspección precompra',
 	'Topografía',
 	'Consulta / Asesoramiento',
-]
+];
 
-export const buildingTypes = [
-	'Residencial',
-	'Industrial',
-	'Comercial',
-	'Histórico',
-	'Otro',
-]
+export const buildingTypes = ['Residencial', 'Industrial', 'Comercial', 'Histórico', 'Otro'];
 
 export const urgencyLevels = [
 	'No urgente (más de 1 mes)',
 	'Normal (2-4 semanas)',
 	'Prioritaria (1-2 semanas)',
 	'Urgente (menos de 1 semana)',
-]
+];

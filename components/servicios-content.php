@@ -26,7 +26,7 @@
 	<div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-border border border-border">
 		<div class="bg-background p-7">
 			<span class="font-mono text-[11px] uppercase tracking-[0.18em] text-primary">01</span>
-			<h3 class="mt-4 font-heading font-semibold text-base text-foreground">Ingenieros colegiados</h3>
+			<h3 class="mt-4 font-heading font-semibold text-base text-foreground">Ingenieros o arquitectos</h3>
 			<p class="mt-2 text-sm text-muted-foreground leading-relaxed">
 				Todos los informes están elaborados y firmados por ingenieros con responsabilidad profesional directa.
 			</p>
@@ -358,7 +358,7 @@
 			</div>
 			<div class="flex items-center gap-3 md:flex-1">
 				<span class="text-primary hidden md:inline">→</span>
-				<p class="text-sm text-foreground/80">Informes de patologías de fachadas, cubiertas y obras</p>
+				<p class="text-sm text-foreground/80">Informes de patologías en fachadas, cubiertas y obras</p>
 			</div>
 		</div>
 		<div class="flex flex-col md:flex-row md:items-center gap-3 md:gap-6 p-5 md:p-6 border-b border-border">

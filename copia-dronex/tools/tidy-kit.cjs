@@ -1,0 +1,1 @@
+const fs=require('fs'),prettier=require('prettier');const p='copia-dronex/assets/css/elementor-post-6-css-6f90335eeee0.css';prettier.format(fs.readFileSync(p,'utf8').replaceAll('{}',''),{parser:'css',useTabs:true}).then(s=>fs.writeFileSync(p,s));

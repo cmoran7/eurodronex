@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+	#menubar-185 {
+		background-color: #fff !important;
+		box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08) !important;
+		padding-bottom: 10px;
+	}
+}
+.bg-grow-effect {
+	overflow: hidden !important;
+	position: relative;
+}
+.bg-grow-effect::before {
+	transition:
+		transform 0.6s ease-in-out,
+		filter 0.6s ease-in-out !important;
+}
+.bg-grow-effect:hover::before {
+	transform: scale(1.15);
+}

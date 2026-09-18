@@ -160,7 +160,7 @@
 					>
 						<path d="M20 6 9 17l-5-5"></path>
 					</svg>
-					<span>Gestionamos todos los permisos (AESA, ENAIRE)</span>
+					<span>Gestionamos todos los permisos (AESA, u otros organismos)</span>
 				</li>
 				<li class="flex items-start gap-3 text-sm text-background/90">
 					<svg
