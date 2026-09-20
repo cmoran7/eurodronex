@@ -1,6 +1,20 @@
 Options -Indexes -MultiViews
 DirectoryIndex index.php
 RewriteEngine On
+# Portada unica del dominio oficial; THE_REQUEST evita redirigir el index interno.
+RewriteCond %{HTTP_HOST} ^(?:www\.)?eurodronex\.com(?::[0-9]+)?$ [NC]
+RewriteCond %{THE_REQUEST} \s/+((?:index|home|inicio)(?:\.(?:php|html?))?)/?(?:[?\s]) [NC]
+RewriteRule ^(?:index|home|inicio)(?:\.(?:php|html?))?/?$ https://eurodronex.com/ [R=301,L,NC]
+
+# HTTPS y sin www, conservando ruta y parametros. No afecta al subdominio de pruebas.
+RewriteCond %{HTTP_HOST} ^(?:www\.)?eurodronex\.com(?::[0-9]+)?$ [NC]
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^eurodronex\.com$ [NC]
+RewriteRule ^ https://eurodronex.com%{REQUEST_URI} [R=301,L]
+
+# Alias de portada tambien en desarrollo, antes de resolver internamente index.php.
+RewriteCond %{THE_REQUEST} \s/+((?:index|home|inicio)(?:\.(?:php|html?))?)/?(?:[?\s]) [NC]
+RewriteRule ^(?:index|home|inicio)(?:\.(?:php|html?))?/?$ / [R=301,L,NC]
 RewriteRule ^assets/img/356d1286436b\.avif$ /assets/img/tecnico-dron-obra.avif [R=301,L]
 RewriteRule ^assets/img/84bee8a5b725\.avif$ /assets/img/dron-inspeccion-edificio-construccion.avif [R=301,L]
 RewriteRule ^assets/img/40597b370799\.avif$ /assets/img/dron-planos-ingenieria.avif [R=301,L]
@@ -50,8 +64,6 @@ RewriteRule ^(?:components|services|tools|docs|var)(?:/|$) - [R=404,L]
 RewriteRule (^|/)\. - [R=404,L]
 RewriteRule ^router(?:\.php)?$ - [R=404,L]
 RewriteRule ^$ index.php [L]
-RewriteCond %{THE_REQUEST} \s/+index\.php[?\s] [NC]
-RewriteRule ^index\.php$ / [R=301,L]
 RewriteCond %{THE_REQUEST} \s/+([a-z0-9-]+)\.php[?\s] [NC]
 RewriteRule ^([a-z0-9-]+)\.php$ /$1/ [R=301,L]
 RewriteCond %{REQUEST_FILENAME} -f
