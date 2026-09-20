@@ -111,7 +111,7 @@
 				<h3 class="heading-display text-lg md:text-xl pt-1">Problema</h3>
 				<div>
 					<p class="text-base text-muted-foreground leading-relaxed">
-						Presencia de lesiones visibles en el paramento — fisuras de trazado escalonado y desconchados del revestimiento — sin posibilidad de
+						Presencia de lesiones visibles en cerramientos — fisuras de trazado diagonal y escalonado y desconchados del revestimiento — sin posibilidad de
 						examen próximo desde el suelo ni desde los viales adyacentes.
 					</p>
 				</div>
@@ -122,7 +122,7 @@
 				<div>
 					<p class="text-base text-muted-foreground leading-relaxed">
 						Obtener documentación objetiva de cada lesión — trazado, extensión y localización exacta — para que el técnico pudiera valorar su
-						gravedad y planificar la intervención sin instalar medios auxiliares.
+						gravedad y planificar la intervención.
 					</p>
 				</div>
 			</div>
@@ -131,7 +131,7 @@
 				<h3 class="heading-display text-lg md:text-xl pt-1">Metodología</h3>
 				<div>
 					<p class="text-base text-muted-foreground leading-relaxed">
-						Inspección visual con captura aérea de alta resolución. Vuelo perimetral sistemático por paramentos con acercamiento a cada lesión
+						Inspección visual con captura aérea de alta resolución. Vuelo perimetral sistemático por cerramientos con acercamiento a cada lesión
 						detectada, pilotado por técnico que decide en vuelo qué encuentros requieren detalle adicional.
 					</p>
 					<ul class="mt-4 space-y-2">
@@ -145,7 +145,7 @@
 						</li>
 						<li class="flex gap-3">
 							<span class="font-mono text-[10px] text-primary pt-1.5 shrink-0">03</span>
-							<span class="text-sm text-foreground/85">Vídeo documental 4K de paramentos</span>
+							<span class="text-sm text-foreground/85">Vídeo documental 5K de paramentos</span>
 						</li>
 					</ul>
 				</div>
@@ -184,7 +184,7 @@
 						</li>
 						<li class="flex gap-3">
 							<span class="font-mono text-[10px] text-primary pt-1.5 shrink-0">02</span>
-							<span class="text-sm text-foreground/85">Desconchados del revestimiento</span>
+							<span class="text-sm text-foreground/85">Desprendimientos del revestimiento</span>
 						</li>
 						<li class="flex gap-3">
 							<span class="font-mono text-[10px] text-primary pt-1.5 shrink-0">03</span>
@@ -213,7 +213,7 @@
 						</li>
 						<li class="flex gap-3">
 							<span class="font-mono text-[10px] text-primary pt-1.5 shrink-0">04</span>
-							<span class="text-sm text-foreground/85">Vídeo perimetral 4K del paramento</span>
+							<span class="text-sm text-foreground/85">Vídeo perimetral 5K del paramento</span>
 						</li>
 					</ul>
 				</div>
@@ -239,18 +239,18 @@
 		</div>
 		<div class="border border-border bg-card p-6 tech-lift rise-in" style="animation-delay: 60ms">
 			<span class="mono-label-accent">F-02</span>
-			<h3 class="mt-3 heading-display text-base text-balance">Desconchados del revestimiento</h3>
+			<h3 class="mt-3 heading-display text-base text-balance">Desprendimiento del revestimiento</h3>
 			<p class="mt-2.5 text-sm text-muted-foreground leading-relaxed">
 				Zonas con pérdida de revestimiento y exposición del soporte, fotografiadas a máxima resolución para valorar su extensión real.
 			</p>
 		</div>
-		<div class="border border-border bg-card p-6 tech-lift rise-in" style="animation-delay: 120ms">
+		<!--<div class="border border-border bg-card p-6 tech-lift rise-in" style="animation-delay: 120ms">
 			<span class="mono-label-accent">F-03</span>
 			<h3 class="mt-3 heading-display text-base text-balance">Junta de dilatación degradada</h3>
 			<p class="mt-2.5 text-sm text-muted-foreground leading-relaxed">
 				Discontinuidad constructiva con material de sellado envejecido, registrada para su comparativa temporal en campañas futuras.
 			</p>
-		</div>
+		</div>-->
 	</div>
 </section>
 <section class="section-pad py-16">
@@ -505,5 +505,6 @@ $props = [
 	'secondary' => ['label' => 'Ver entregables', 'to' => '/entregables'],
 ];
 include __DIR__ . '/cta.php';
+
 
 ?>

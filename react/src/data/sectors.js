@@ -2,7 +2,7 @@
 // A sector page answers "how can EurodroneX help a professional like me?"
 // (a service page answers "what does EurodroneX do?").
 
-import { PenTool, Building2, HardHat, Scale } from 'lucide-react'
+import { PenTool, Building2, HardHat, Scale } from 'lucide-react';
 
 export const sectors = [
 	{
@@ -11,8 +11,7 @@ export const sectors = [
 		icon: PenTool,
 		title: 'Arquitectura e ingeniería',
 		tagline: 'Documentación técnica para decisiones de proyecto',
-		intro:
-			'Trabajamos como apoyo técnico en el proceso proyectual: acceso inmediato a cualquier punto del edificio, documentación rigurosa de la envolvente e información fiable sobre la que decidir. El dron es el instrumento; el criterio, el suyo.',
+		intro: 'Trabajamos como apoyo técnico en el proceso proyectual: acceso inmediato a cualquier punto del edificio, documentación rigurosa de la envolvente e información fiable sobre la que decidir. El dron es el instrumento; el criterio, el suyo.',
 		needsIntro: 'Lo que este perfil necesita habitualmente en su trabajo:',
 		needs: [
 			{
@@ -48,18 +47,11 @@ export const sectors = [
 			},
 			{
 				title: 'Formatos compatibles con su trabajo',
-				text: 'Entrega en formatos CAD/BIM y documentación apta para expediente y visado.',
+				text: 'Documentación apta para expediente y visado. Además podríamos entregar en formatos CAD/BIM.',
 			},
 		],
-		services: [
-			'inspeccion-tecnica-con-drones',
-			'fotogrametria-3d-edificios',
-			'diagnostico-fachadas',
-		],
-		cases: [
-			'fisuras-en-fachada-residencial',
-			'fotogrametria-de-edificio-patrimonial',
-		],
+		services: ['inspeccion-tecnica-con-drones', 'fotogrametria-3d-edificios', 'diagnostico-fachadas'],
+		cases: ['fisuras-en-fachada-residencial', 'fotogrametria-de-edificio-patrimonial'],
 		pathologies: ['fisuras-y-grietas-en-fachadas'],
 		videos: ['VID-01', 'VID-11'],
 		articles: ['arquitecto-drones-vs-piloto'],
@@ -70,8 +62,7 @@ export const sectors = [
 		icon: Building2,
 		title: 'Administradores de fincas',
 		tagline: 'Estado real del edificio, información para la comunidad',
-		intro:
-			'La comunidad necesita decisiones respaldadas: qué está pasando, cuánta urgencia tiene y con qué documentación se justifica el gasto. La inspección aérea aporta esa información sin costes de medios auxiliares ni molestias para los vecinos.',
+		intro: 'La comunidad necesita decisiones respaldadas: qué está pasando, cuánta urgencia tiene y con qué documentación se justifica el gasto. La inspección aérea aporta esa información sin costes de medios auxiliares ni molestias para los vecinos.',
 		needsIntro: 'Lo que este perfil necesita habitualmente en su trabajo:',
 		needs: [
 			{
@@ -108,10 +99,7 @@ export const sectors = [
 		],
 		services: ['inspeccion-tecnica-con-drones', 'termografia-con-dron'],
 		cases: ['humedades-en-cubierta-plana'],
-		pathologies: [
-			'humedades-y-filtraciones-en-cubiertas',
-			'fisuras-y-grietas-en-fachadas',
-		],
+		pathologies: ['humedades-y-filtraciones-en-cubiertas', 'fisuras-y-grietas-en-fachadas'],
 		videos: ['VID-04', 'VID-09'],
 		articles: ['inspeccionar-edificio-sin-andamios-2026'],
 	},
@@ -121,8 +109,7 @@ export const sectors = [
 		icon: HardHat,
 		title: 'Constructoras y promotoras',
 		tagline: 'Control de ejecución y trazabilidad documental',
-		intro:
-			'La obra genera preguntas constantes: en qué punto está el avance real, qué estado tenía la parcela en cada fecha, qué se ejecutó y cuándo. La captura aérea periódica convierte esa incertidumbre en un archivo visual objetivo y ordenado.',
+		intro: 'La obra genera preguntas constantes: en qué punto está el avance real, qué estado tenía la parcela en cada fecha, qué se ejecutó y cuándo. La captura aérea periódica convierte esa incertidumbre en un archivo visual objetivo y ordenado.',
 		needsIntro: 'Lo que este perfil necesita habitualmente en su trabajo:',
 		needs: [
 			{
@@ -169,8 +156,7 @@ export const sectors = [
 		icon: Scale,
 		title: 'Aseguradoras y peritos',
 		tagline: 'Evaluación de daños sin desplazamientos ni riesgo',
-		intro:
-			'Tras un siniestro, la pregunta es siempre la misma: qué ha pasado exactamente y con qué gravedad. La captura aérea permite evaluar daños en cubiertas y fachadas de difícil acceso sin exponer a nadie, con grabación completa para el informe pericial.',
+		intro: 'Tras un siniestro, la pregunta es siempre la misma: qué ha pasado exactamente y con qué gravedad. La captura aérea permite evaluar daños en cubiertas y fachadas de difícil acceso sin exponer a nadie, con grabación completa para el informe pericial.',
 		needsIntro: 'Lo que este perfil necesita habitualmente en su trabajo:',
 		needs: [
 			{
@@ -207,13 +193,10 @@ export const sectors = [
 		],
 		services: ['streaming', 'diagnostico-fachadas'],
 		cases: ['fisuras-en-fachada-residencial'],
-		pathologies: [
-			'fisuras-y-grietas-en-fachadas',
-			'humedades-y-filtraciones-en-cubiertas',
-		],
+		pathologies: ['fisuras-y-grietas-en-fachadas', 'humedades-y-filtraciones-en-cubiertas'],
 		videos: ['VID-07'],
 		articles: ['arquitecto-drones-vs-piloto'],
 	},
-]
+];
 
-export const getSector = (slug) => sectors.find((s) => s.slug === slug)
+export const getSector = (slug) => sectors.find((s) => s.slug === slug);

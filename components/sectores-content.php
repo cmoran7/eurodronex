@@ -3,7 +3,7 @@
 		<span class="font-mono text-[11px] uppercase tracking-[0.18em] text-primary">SEC.00 / Para profesionales</span>
 		<h1 class="mt-6 heading-display text-4xl md:text-5xl lg:text-6xl text-balance">Sectores profesionales</h1>
 		<p class="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl text-pretty">
-			Una página de servicio responde a «¿qué hace EurodroneX?». Esta responde a otra pregunta: ¿cómo puede ayudarle a usted, en su trabajo concreto? Cada
+			Una página de servicio responde a «¿qué hace Eurodronex?». Esta responde a otra pregunta: ¿cómo te puede ayudar, en tu trabajo concreto? Cada
 			perfil profesional obtiene una información distinta de la misma captura técnica.
 		</p>
 	</div>
@@ -227,4 +227,5 @@ $props = [
 	'secondary' => ['label' => 'Ver servicios', 'to' => '/servicios'],
 ];
 include __DIR__ . '/cta.php';
+
 ?>
