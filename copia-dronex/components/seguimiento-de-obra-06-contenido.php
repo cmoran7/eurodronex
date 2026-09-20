@@ -66,9 +66,9 @@
 					decoding="async"
 					width="120"
 					height="120"
-					src="/assets/img/4afab174acb5.svg"
+					src="/assets/img/icono-evolucion-obra.svg"
 					class="attachment-large size-large wp-image-1982 lzl-ed lzl-cached"
-					alt="EurodroneX"
+					alt=""
 				/>
 			</div>
 			<div

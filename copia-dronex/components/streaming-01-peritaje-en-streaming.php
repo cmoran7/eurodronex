@@ -21,7 +21,7 @@
 			>
 				<div
 					class="elementor-background-slideshow__slide__image"
-					style="background-image: url(&quot;/assets/img/202ff2d9f1c3.webp&quot;)"
+					style="background-image: url(&quot;/assets/img/corrosion-junta-panel-metalico.webp&quot;)"
 				></div>
 			</div>
 			<div
@@ -33,7 +33,7 @@
 			>
 				<div
 					class="elementor-background-slideshow__slide__image"
-					style="background-image: url(&quot;/assets/img/e95629ca101a.webp&quot;)"
+					style="background-image: url(&quot;/assets/img/desprendimiento-revestimiento-fachada.webp&quot;)"
 				></div>
 			</div>
 			<div
@@ -45,7 +45,7 @@
 			>
 				<div
 					class="elementor-background-slideshow__slide__image"
-					style="background-image: url(&quot;/assets/img/202ff2d9f1c3.webp&quot;)"
+					style="background-image: url(&quot;/assets/img/corrosion-junta-panel-metalico.webp&quot;)"
 				></div>
 			</div>
 			<div
@@ -57,7 +57,7 @@
 			>
 				<div
 					class="elementor-background-slideshow__slide__image"
-					style="background-image: url(&quot;/assets/img/e95629ca101a.webp&quot;)"
+					style="background-image: url(&quot;/assets/img/desprendimiento-revestimiento-fachada.webp&quot;)"
 				></div>
 			</div>
 			<div
@@ -69,7 +69,7 @@
 			>
 				<div
 					class="elementor-background-slideshow__slide__image"
-					style="background-image: url(&quot;/assets/img/202ff2d9f1c3.webp&quot;)"
+					style="background-image: url(&quot;/assets/img/corrosion-junta-panel-metalico.webp&quot;)"
 				></div>
 			</div>
 			<div
@@ -81,7 +81,7 @@
 			>
 				<div
 					class="elementor-background-slideshow__slide__image"
-					style="background-image: url(&quot;/assets/img/e95629ca101a.webp&quot;)"
+					style="background-image: url(&quot;/assets/img/desprendimiento-revestimiento-fachada.webp&quot;)"
 				></div>
 			</div>
 		</div>
@@ -98,10 +98,7 @@
 			class="elementor-element elementor-element-9c2ffa5 elementor-widget elementor-widget-text-editor"
 			data-id="9c2ffa5"
 		>
-			<p>
-				Streaming en tiempo real sin desplazamiento: peritaciones, visitas de obra, inspecciones peligrosas, de
-				difícil acceso o informes patológicos.
-			</p>
+			<p>Servicio especializado para compañías aseguradoras y peritos que necesitan evaluar daños en cubiertas o fachadas de difícil acceso sin desplazarse. Vuelo en directo mientras el perito visualiza las imágenes en tiempo real.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-1282cfa elementor-mobile-align-center elementor-widget elementor-widget-button"

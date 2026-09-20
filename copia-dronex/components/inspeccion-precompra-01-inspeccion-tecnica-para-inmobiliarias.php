@@ -29,8 +29,8 @@
 					class="elementor-element elementor-element-ab19e4e elementor-widget elementor-widget-text-editor"
 					data-id="ab19e4e"
 				>
-					Reduce riesgos en operaciones de compra y venta de activos inmobiliarios.
-				</div>
+			<p>Reduzca riesgos en operaciones de compra y venta de activos inmobiliarios con una evaluación técnica previa.</p>
+		</div>
 				<div
 					class="elementor-element elementor-element-2b675c4 elementor-mobile-align-justify elementor-widget elementor-widget-button"
 					data-id="2b675c4"
@@ -54,9 +54,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/ba090ad46e51.jpg"
+						src="/assets/img/edificio-residencial-inspeccion-precompra.jpg"
 						class="elementor-animation-grow attachment-large size-large wp-image-281 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Edificio residencial visto entre las ramas de un árbol"
 					/>
 				</div>
 			</div>

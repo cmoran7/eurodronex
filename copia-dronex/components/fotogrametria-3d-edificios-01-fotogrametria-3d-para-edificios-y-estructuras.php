@@ -22,12 +22,8 @@
 					class="elementor-element elementor-element-b17d417 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
 					data-id="b17d417"
 				>
-					<p>
-						Obtenemos mediciones fiables, mapas, modelos 3D y ortomosaicos a partir de fotografías (aéreas o
-						terrestres). Utiliza algoritmos avanzados para procesar imágenes, permitiendo calcular formas,
-						tamaños y posiciones de objetos con alta precisión para topografía, ingeniería y arquitectura.
-					</p>
-				</div>
+			<p>Generación de réplicas digitales exactas del edificio mediante procesado fotogramétrico avanzado. Nubes de puntos densas, mallas 3D texturizadas y ortofotografías métricas exportables a formatos BIM estándar.</p>
+		</div>
 				<div
 					class="elementor-element elementor-element-6f2ee57 elementor-mobile-align-center elementor-widget elementor-widget-button"
 					data-id="6f2ee57"
@@ -67,10 +63,11 @@
 						class="elementor-element elementor-element-af63393 elementor-widget elementor-widget-text-editor"
 						data-id="af63393"
 					>
-						Los métodos topográficos tradicionales requieren acceso físico a todas las zonas,
+				<p>Los métodos topográficos tradicionales requieren acceso físico a todas las zonas,
 						instrumentación pesada, tiempo extenso en campo y dificultades para documentar geometrías
-						complejas.
-					</div>
+						complejas.</p>
+				<p>Levantamientos As-Built, documentación previa a rehabilitación, control dimensional, proyectos BIM, seguimiento de deformaciones estructurales.</p>
+			</div>
 				</div>
 				<div
 					class="elementor-element elementor-element-98431df e-con-full e-flex e-con e-child e-lazyloaded"
@@ -1454,9 +1451,9 @@
 										decoding="async"
 										width="800"
 										height="534"
-										src="/assets/img/d0c0f8082f50.webp"
+										src="/assets/img/vista-aerea-cubiertas-edificio-detalle.webp"
 										class="elementor-animation-grow attachment-large size-large wp-image-2076 lzl-ed lzl-cached"
-										alt="EurodroneX"
+										alt="Vista aérea de las cubiertas y terrazas de un edificio"
 									/>
 								</a>
 							</div>
@@ -1501,9 +1498,9 @@
 										decoding="async"
 										width="800"
 										height="534"
-										src="/assets/img/400e2d38af86.webp"
+										src="/assets/img/termografia-aerea-edificios.webp"
 										class="elementor-animation-grow attachment-large size-large wp-image-2089 lzl-ed lzl-cached"
-										alt="EurodroneX"
+										alt="Imagen termográfica aérea de varios edificios"
 									/>
 								</a>
 							</div>
@@ -1546,9 +1543,9 @@
 										decoding="async"
 										width="800"
 										height="534"
-										src="/assets/img/49f9f67953a5.jpg"
+										src="/assets/img/visita-tecnica-obra-construccion.jpg"
 										class="elementor-animation-grow attachment-large size-large wp-image-634 lzl-ed lzl-cached"
-										alt="EurodroneX"
+										alt="Equipo técnico durante una visita a una obra en construcción"
 									/>
 								</a>
 							</div>

@@ -8,7 +8,7 @@
                 <p>Arquitectos, ingenierías, administradores de fincas, aseguradoras, promotoras e inmobiliarias. Un mismo edificio puede plantear preguntas diferentes según quién necesita evaluarlo.</p>
                 <p>Adaptamos el alcance de la inspección a la información que necesita cada profesional para su trabajo.</p>
             </div>
-            <img src="/assets/img/deb248287144.webp" alt="Fachada de un edificio residencial" width="1000" height="1000" class="audiences-photo">
+            <img src="/assets/img/fachada-balcones-paneles-colores.webp" alt="Fachada de un edificio con balcones y paneles de colores" width="1000" height="1000" class="audiences-photo">
         </div>
         <nav class="audiences-nav" aria-label="Tipos de cliente">
             <a href="#arquitectura">Estudios de arquitectura</a>

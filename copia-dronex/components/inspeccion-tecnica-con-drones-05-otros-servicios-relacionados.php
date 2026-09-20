@@ -30,9 +30,9 @@
 								decoding="async"
 								width="800"
 								height="534"
-								src="/assets/img/400e2d38af86.webp"
+								src="/assets/img/termografia-aerea-edificios.webp"
 								class="elementor-animation-grow attachment-large size-large wp-image-2089 lzl-ed lzl-cached"
-								alt="EurodroneX"
+								alt="Imagen termográfica aérea de varios edificios"
 							/>
 						</a>
 					</div>
@@ -75,9 +75,9 @@
 								decoding="async"
 								width="1080"
 								height="720"
-								src="/assets/img/03194119e993.jpg"
+								src="/assets/img/fachada-edificio-paneles-ventanas.jpg"
 								class="elementor-animation-grow attachment-full size-full wp-image-12 lzl-ed lzl-cached"
-								alt="EurodroneX"
+								alt="Paneles y ventanas de la fachada de un edificio"
 							/>
 						</a>
 					</div>
@@ -120,9 +120,9 @@
 								decoding="async"
 								width="800"
 								height="534"
-								src="/assets/img/49f9f67953a5.jpg"
+								src="/assets/img/visita-tecnica-obra-construccion.jpg"
 								class="elementor-animation-grow attachment-large size-large wp-image-634 lzl-ed lzl-cached"
-								alt="EurodroneX"
+								alt="Equipo técnico durante una visita a una obra en construcción"
 							/>
 						</a>
 					</div>

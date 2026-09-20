@@ -19,9 +19,9 @@
 						decoding="async"
 						width="683"
 						height="1024"
-						src="/assets/img/84bee8a5b725.avif"
+						src="/assets/img/dron-inspeccion-edificio-construccion.avif"
 						class="attachment-large size-large wp-image-315 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Ilustración de un dron sobre un edificio en construcción"
 					/>
 				</div>
 			</div>

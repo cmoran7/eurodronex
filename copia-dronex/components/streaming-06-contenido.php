@@ -72,9 +72,9 @@
 					decoding="async"
 					width="120"
 					height="120"
-					src="/assets/img/743868d96144.svg"
+					src="/assets/img/icono-camara-streaming.svg"
 					class="attachment-large size-large wp-image-1986 lzl-ed lzl-cached"
-					alt="EurodroneX"
+					alt=""
 				/>
 			</div>
 			<div

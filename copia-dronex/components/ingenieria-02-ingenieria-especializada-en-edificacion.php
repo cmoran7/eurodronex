@@ -19,9 +19,9 @@
 						decoding="async"
 						width="683"
 						height="1024"
-						src="/assets/img/40597b370799.avif"
+						src="/assets/img/dron-planos-ingenieria.avif"
 						class="attachment-large size-large wp-image-446 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Ilustración de un dron sobre planos de ingeniería"
 					/>
 				</div>
 			</div>

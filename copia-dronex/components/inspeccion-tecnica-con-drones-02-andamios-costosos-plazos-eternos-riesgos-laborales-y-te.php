@@ -29,6 +29,7 @@
 					Los métodos tradicionales de inspección requieren medios auxiliares costosos, permisos municipales
 					lentos y exponen a operarios a trabajos en altura.
 				</p>
+				<p>Inspecciones técnicas de edificios (ITE/IEE), evaluaciones pre-compra, detección de patologías, seguros y siniestros, proyectos de rehabilitación.</p>
 			</div>
 		</div>
 		<div

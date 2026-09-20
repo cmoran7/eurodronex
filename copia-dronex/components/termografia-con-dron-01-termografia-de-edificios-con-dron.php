@@ -13,12 +13,7 @@
 			class="elementor-element elementor-element-8221fd1 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
 			data-id="8221fd1"
 		>
-			<p>
-				Permite identificar, de forma no invasiva y a distancia, diferencias de temperatura en la superficie que
-				revelan patologías ocultas. Mediante tecnología aérea, detectamos con precisión absoluta errores de
-				diseño, degradación del aislamiento y puentes térmicos, ubicando el origen de humedades al milímetro sin
-				necesidad de métodos destructivos.
-			</p>
+			<p>Análisis térmico completo de la envolvente del edificio con cámara termográfica de alta sensibilidad montada en dron. Identificamos puentes térmicos, filtraciones de agua no visibles, deficiencias en aislamiento, infiltraciones de aire y condensaciones internas.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-05f6e37 elementor-mobile-align-center elementor-widget elementor-widget-button"

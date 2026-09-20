@@ -13,7 +13,7 @@
 			class="elementor-element elementor-element-15e29f5 elementor-widget elementor-widget-text-editor"
 			data-id="15e29f5"
 		>
-			<p>Inspección técnica y estudios patológicos</p>
+			<p>Evaluación visual completa de la envolvente del edificio mediante captura aérea de alta resolución. Documentamos patologías, grietas, desprendimientos, humedades y cualquier lesión visible en fachadas, cubiertas, cornisas o elementos estructurales.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-cf3d40e elementor-mobile-align-center elementor-widget elementor-widget-button"

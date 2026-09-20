@@ -25,9 +25,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/49f9f67953a5.jpg"
+						src="/assets/img/visita-tecnica-obra-construccion.jpg"
 						class="elementor-animation-grow attachment-large size-large wp-image-634 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Equipo técnico durante una visita a una obra en construcción"
 					/>
 				</div>
 			</div>
@@ -110,9 +110,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/25d95184a310.webp"
+						src="/assets/img/detalle-desprendimiento-revestimiento.webp"
 						class="elementor-animation-grow attachment-large size-large wp-image-2034 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Desprendimiento del revestimiento de una fachada"
 					/>
 				</div>
 			</div>
@@ -133,9 +133,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/6bef06707f0a.jpg"
+						src="/assets/img/fachada-paneles-ventanas-detalle.jpg"
 						class="elementor-animation-grow attachment-large size-large wp-image-12 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Detalle de los paneles y ventanas de la fachada de un edificio"
 					/>
 				</div>
 			</div>
@@ -217,9 +217,9 @@
 						decoding="async"
 						width="800"
 						height="448"
-						src="/assets/img/b9fbea1c0e97.webp"
+						src="/assets/img/modelo-topografico-terreno.webp"
 						class="elementor-animation-grow attachment-large size-large wp-image-2263 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Modelo tridimensional de un terreno montañoso"
 					/>
 				</div>
 			</div>

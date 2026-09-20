@@ -21,9 +21,9 @@
 						<img
 							width="600"
 							height="200"
-							src="/assets/img/1bfc5bb4d2e4.png"
+							src="/assets/img/logo-eurodronex-fondo-oscuro.png"
 							class="attachment-large size-large wp-image-2443 lzl-cached lzl-ed"
-							alt="EurodroneX"
+							alt="Eurodrónex, ingeniería técnica con drones"
 						/>
 					</a>
 				</div>

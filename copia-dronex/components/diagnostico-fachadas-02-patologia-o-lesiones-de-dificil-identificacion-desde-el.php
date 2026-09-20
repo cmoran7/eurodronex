@@ -30,6 +30,7 @@
 					detectan pueden estar en un estado avanzado y producir otro tipo de lesiones que eleven el costo
 					tras la compra.
 				</p>
+				<p>ITE/IEE con patologías evidentes, proyectos de rehabilitación de fachadas, peritajes judiciales, evaluaciones pre-compra de edificios antiguos.</p>
 			</div>
 		</div>
 		<div

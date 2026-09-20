@@ -7,13 +7,13 @@
 			class="elementor-element elementor-element-7e7e338 elementor-widget__width-initial elementor-widget elementor-widget-heading"
 			data-id="7e7e338"
 		>
-			<h1 class="elementor-heading-title elementor-size-default">Inspección pre compra</h1>
+			<h1 class="elementor-heading-title elementor-size-default">Diagnóstico de fachadas y cubiertas</h1>
 		</div>
 		<div
 			class="elementor-element elementor-element-f12b1b1 elementor-widget elementor-widget-text-editor"
 			data-id="f12b1b1"
 		>
-			<p>Inspección enfocada al riesgo de mantenimiento y negociabilidad del precio</p>
+			<p>Evaluación especializada de patologías en envolventes del edificio. Documentamos y clasificamos técnicamente fisuras, desprendimientos, eflorescencias, corrosión y cualquier lesión que comprometa la integridad o durabilidad de la envolvente.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-96948dc elementor-mobile-align-center elementor-widget elementor-widget-button"

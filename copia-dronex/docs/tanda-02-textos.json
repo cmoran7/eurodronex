@@ -1,0 +1,92 @@
+[
+  {
+    "page": "inspeccion-tecnica-con-drones",
+    "file": "copia-dronex/components/inspeccion-tecnica-con-drones-01-inspeccion-tecnica-de-edificios-con-drones.php",
+    "source": "https://eurodronix.com/inspeccion-tecnica-con-drones",
+    "before": "<p>Inspección técnica y estudios patológicos</p>",
+    "after": "Evaluación visual completa de la envolvente del edificio mediante captura aérea de alta resolución. Documentamos patologías, grietas, desprendimientos, humedades y cualquier lesión visible en fachadas, cubiertas, cornisas o elementos estructurales.",
+    "operation": "presentacion literal"
+  },
+  {
+    "page": "inspeccion-tecnica-con-drones",
+    "file": "copia-dronex/components/inspeccion-tecnica-con-drones-02-andamios-costosos-plazos-eternos-riesgos-laborales-y-te.php",
+    "source": "https://eurodronix.com/inspeccion-tecnica-con-drones",
+    "after": "Inspecciones técnicas de edificios (ITE/IEE), evaluaciones pre-compra, detección de patologías, seguros y siniestros, proyectos de rehabilitación.",
+    "operation": "casos de uso literales"
+  },
+  {
+    "page": "termografia-con-dron",
+    "file": "copia-dronex/components/termografia-con-dron-01-termografia-de-edificios-con-dron.php",
+    "source": "https://eurodronix.com/termografia-con-dron",
+    "before": "<p>\n\t\t\t\tPermite identificar, de forma no invasiva y a distancia, diferencias de temperatura en la superficie que\n\t\t\t\trevelan patologías ocultas. Mediante tecnología aérea, detectamos con precisión absoluta errores de\n\t\t\t\tdiseño, degradación del aislamiento y puentes térmicos, ubicando el origen de humedades al milímetro sin\n\t\t\t\tnecesidad de métodos destructivos.\n\t\t\t</p>",
+    "after": "Análisis térmico completo de la envolvente del edificio con cámara termográfica de alta sensibilidad montada en dron. Identificamos puentes térmicos, filtraciones de agua no visibles, deficiencias en aislamiento, infiltraciones de aire y condensaciones internas.",
+    "operation": "presentacion literal"
+  },
+  {
+    "page": "termografia-con-dron",
+    "file": "copia-dronex/components/termografia-con-dron-02-perdida-economica-y-falta-de-confort.php",
+    "source": "https://eurodronix.com/termografia-con-dron",
+    "after": "Auditorías energéticas, certificación energética, detección de humedades ocultas, control post-rehabilitación, estudios previos a reforma.",
+    "operation": "casos de uso literales"
+  },
+  {
+    "page": "fotogrametria-3d-edificios",
+    "file": "copia-dronex/components/fotogrametria-3d-edificios-01-fotogrametria-3d-para-edificios-y-estructuras.php",
+    "source": "https://eurodronix.com/fotogrametria-3d-edificios",
+    "before": "<p>\n\t\t\t\t\t\tObtenemos mediciones fiables, mapas, modelos 3D y ortomosaicos a partir de fotografías (aéreas o\n\t\t\t\t\t\tterrestres). Utiliza algoritmos avanzados para procesar imágenes, permitiendo calcular formas,\n\t\t\t\t\t\ttamaños y posiciones de objetos con alta precisión para topografía, ingeniería y arquitectura.\n\t\t\t\t\t</p>",
+    "after": "Generación de réplicas digitales exactas del edificio mediante procesado fotogramétrico avanzado. Nubes de puntos densas, mallas 3D texturizadas y ortofotografías métricas exportables a formatos BIM estándar.",
+    "operation": "presentacion literal"
+  },
+  {
+    "page": "fotogrametria-3d-edificios",
+    "file": "copia-dronex/components/fotogrametria-3d-edificios-01-fotogrametria-3d-para-edificios-y-estructuras.php",
+    "source": "https://eurodronix.com/fotogrametria-3d-edificios",
+    "after": "Levantamientos As-Built, documentación previa a rehabilitación, control dimensional, proyectos BIM, seguimiento de deformaciones estructurales.",
+    "operation": "casos de uso literales"
+  },
+  {
+    "page": "diagnostico-fachadas",
+    "file": "copia-dronex/components/diagnostico-fachadas-01-inspeccion-pre-compra.php",
+    "source": "https://eurodronix.com/diagnostico-fachadas",
+    "before": "<p>Inspección enfocada al riesgo de mantenimiento y negociabilidad del precio</p>",
+    "after": "Evaluación especializada de patologías en envolventes del edificio. Documentamos y clasificamos técnicamente fisuras, desprendimientos, eflorescencias, corrosión y cualquier lesión que comprometa la integridad o durabilidad de la envolvente.",
+    "operation": "presentacion literal"
+  },
+  {
+    "page": "diagnostico-fachadas",
+    "file": "copia-dronex/components/diagnostico-fachadas-02-patologia-o-lesiones-de-dificil-identificacion-desde-el.php",
+    "source": "https://eurodronix.com/diagnostico-fachadas",
+    "after": "ITE/IEE con patologías evidentes, proyectos de rehabilitación de fachadas, peritajes judiciales, evaluaciones pre-compra de edificios antiguos.",
+    "operation": "casos de uso literales"
+  },
+  {
+    "page": "streaming",
+    "file": "copia-dronex/components/streaming-01-peritaje-en-streaming.php",
+    "source": "https://eurodronix.com/streaming",
+    "before": "<p>\n\t\t\t\tStreaming en tiempo real sin desplazamiento: peritaciones, visitas de obra, inspecciones peligrosas, de\n\t\t\t\tdifícil acceso o informes patológicos.\n\t\t\t</p>",
+    "after": "Servicio especializado para compañías aseguradoras y peritos que necesitan evaluar daños en cubiertas o fachadas de difícil acceso sin desplazarse. Vuelo en directo mientras el perito visualiza las imágenes en tiempo real.",
+    "operation": "presentacion literal"
+  },
+  {
+    "page": "streaming",
+    "file": "copia-dronex/components/streaming-02-desplazamientos-tiempo-perdido-riesgos-o-puntos-de-muy-.php",
+    "source": "https://eurodronix.com/streaming",
+    "after": "Siniestros urgentes (incendios, granizadas, temporales), peritaciones remotas, evaluación rápida de daños, inspecciones para seguros.",
+    "operation": "casos de uso literales"
+  },
+  {
+    "page": "inspeccion-precompra",
+    "file": "copia-dronex/components/inspeccion-precompra-01-inspeccion-tecnica-para-inmobiliarias.php",
+    "source": "https://eurodronix.com/inspeccion-precompra",
+    "before": "Reduce riesgos en operaciones de compra y venta de activos inmobiliarios.",
+    "after": "Reduzca riesgos en operaciones de compra y venta de activos inmobiliarios con una evaluación técnica previa.",
+    "operation": "presentacion literal"
+  },
+  {
+    "page": "diagnostico-fachadas",
+    "operation": "titulo literal",
+    "source": "https://eurodronix.com/diagnostico-fachadas",
+    "before": "Inspección pre compra",
+    "after": "Diagnóstico de fachadas y cubiertas"
+  }
+]

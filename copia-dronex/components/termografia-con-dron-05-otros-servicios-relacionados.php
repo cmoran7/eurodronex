@@ -30,9 +30,9 @@
 								decoding="async"
 								width="800"
 								height="534"
-								src="/assets/img/d0c0f8082f50.webp"
+								src="/assets/img/vista-aerea-cubiertas-edificio-detalle.webp"
 								class="elementor-animation-grow attachment-large size-large wp-image-2076 lzl-ed lzl-cached"
-								alt="EurodroneX"
+								alt="Vista aérea de las cubiertas y terrazas de un edificio"
 							/>
 						</a>
 					</div>
@@ -77,9 +77,9 @@
 								decoding="async"
 								width="800"
 								height="534"
-								src="/assets/img/6bef06707f0a.jpg"
+								src="/assets/img/fachada-paneles-ventanas-detalle.jpg"
 								class="elementor-animation-grow attachment-large size-large wp-image-12 lzl-ed lzl-cached"
-								alt="EurodroneX"
+								alt="Detalle de los paneles y ventanas de la fachada de un edificio"
 							/>
 						</a>
 					</div>
@@ -122,9 +122,9 @@
 								decoding="async"
 								width="800"
 								height="450"
-								src="/assets/img/bc9f26066541.jpg"
+								src="/assets/img/modelo-3d-vivienda-perspectiva.jpg"
 								class="elementor-animation-grow attachment-large size-large wp-image-679 lzl-ed lzl-cached"
-								alt="EurodroneX"
+								alt="Modelo tridimensional de una vivienda"
 							/>
 						</a>
 					</div>

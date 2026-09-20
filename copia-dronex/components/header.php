@@ -22,9 +22,9 @@
 							fetchpriority="high"
 							width="600"
 							height="200"
-							src="/assets/img/1bfc5bb4d2e4.png"
+							src="/assets/img/logo-eurodronex-fondo-oscuro.png"
 							class="attachment-large size-large wp-image-2443 lzl-ed lzl-cached"
-							alt="EurodroneX"
+							alt="Eurodrónex, ingeniería técnica con drones"
 						/>
 					</a>
 				</div>
@@ -147,9 +147,9 @@
 																<img
 																	width="800"
 																	height="534"
-																	src="/assets/img/d0c0f8082f50.webp"
+																	src="/assets/img/vista-aerea-cubiertas-edificio-detalle.webp"
 																	class="elementor-animation-grow attachment-large size-large wp-image-2076"
-																	alt="EurodroneX"
+																	alt="Vista aérea de las cubiertas y terrazas de un edificio"
 																/>
 															</div>
 															<div
@@ -189,9 +189,9 @@
 																<img
 																	width="800"
 																	height="531"
-																	src="/assets/img/be614a2858ba.jpeg"
+																	src="/assets/img/termografia-fachadas-edificio.jpeg"
 																	class="elementor-animation-grow attachment-large size-large wp-image-2262"
-																	alt="EurodroneX"
+																	alt="Imagen termográfica de las fachadas de un edificio"
 																/>
 															</div>
 														</div>
@@ -228,9 +228,9 @@
 																<img
 																	width="800"
 																	height="450"
-																	src="/assets/img/bc9f26066541.jpg"
+																	src="/assets/img/modelo-3d-vivienda-perspectiva.jpg"
 																	class="elementor-animation-grow attachment-large size-large wp-image-679"
-																	alt="EurodroneX"
+																	alt="Modelo tridimensional de una vivienda"
 																/>
 															</div>
 														</div>
@@ -272,9 +272,9 @@
 																<img
 																	width="800"
 																	height="534"
-																	src="/assets/img/25d95184a310.webp"
+																	src="/assets/img/detalle-desprendimiento-revestimiento.webp"
 																	class="elementor-animation-grow attachment-large size-large wp-image-2034"
-																	alt="EurodroneX"
+																	alt="Desprendimiento del revestimiento de una fachada"
 																/>
 															</div>
 															<div
@@ -313,9 +313,9 @@
 																<img
 																	width="800"
 																	height="534"
-																	src="/assets/img/6bef06707f0a.jpg"
+																	src="/assets/img/fachada-paneles-ventanas-detalle.jpg"
 																	class="elementor-animation-grow attachment-large size-large wp-image-12"
-																	alt="EurodroneX"
+																	alt="Detalle de los paneles y ventanas de la fachada de un edificio"
 																/>
 															</div>
 														</div>
@@ -355,9 +355,9 @@
 																<img
 																	width="800"
 																	height="534"
-																	src="/assets/img/49f9f67953a5.jpg"
+																	src="/assets/img/visita-tecnica-obra-construccion.jpg"
 																	class="elementor-animation-grow attachment-large size-large wp-image-634"
-																	alt="EurodroneX"
+																	alt="Equipo técnico durante una visita a una obra en construcción"
 																/>
 															</div>
 														</div>

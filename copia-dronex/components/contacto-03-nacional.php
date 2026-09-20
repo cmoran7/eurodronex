@@ -112,7 +112,7 @@
 						height="200"
 						src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTE1MCA0MEwxNzAgNTBMMTgwIDcwTDE3NSA5MEwxNzAgMTAwTDE2MCAxMTBMMTUwIDExNUwxNDAgMTIwTDEzMCAxMjVMMTIwIDEyOEwxMTAgMTMwTDEwMCAxMzBMOTAgMTI4TDgwIDEyNUw3MCAxMjBMNjAgMTE1TDUwIDExMEw0MCAxMDBMMzUgOTBMMzAgNzBMMzUgNTBMNTAgNDBMNzAgMzVMOTAgMzNMMTEwIDM1TDEzMCAzOFoiIHN0cm9rZT0iI0QxRDFEMSIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9Im5vbmUiPjwvcGF0aD48Y2lyY2xlIGN4PSIxMDAiIGN5PSI5NSIgcj0iOCIgZmlsbD0iIzFhMjMzMiI+PC9jaXJjbGU+PHRleHQgeD0iMTAwIiB5PSIxNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzExMTExMSI+TWFkcmlkPC90ZXh0Pjwvc3ZnPg=="
 						class="attachment-large size-large wp-image-252"
-						alt="EurodroneX"
+						alt="Mapa esquemático con Madrid señalado"
 					/>
 				</div>
 			</div>

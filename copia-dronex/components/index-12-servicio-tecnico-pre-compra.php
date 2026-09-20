@@ -53,9 +53,9 @@
 						decoding="async"
 						width="800"
 						height="648"
-						src="/assets/img/7f8281d703b4.webp"
+						src="/assets/img/vivienda-cartel-venta.webp"
 						class="elementor-animation-grow attachment-large size-large wp-image-2422 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Cartel de venta delante de una vivienda"
 					/>
 				</div>
 			</div>

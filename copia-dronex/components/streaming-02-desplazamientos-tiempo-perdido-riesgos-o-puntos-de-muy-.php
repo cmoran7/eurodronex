@@ -26,6 +26,7 @@
 				data-id="6b80f96"
 			>
 				<p>Los técnicos tienen que desplazarse, realizar visitas lentas y en algunos casos peligrosas.</p>
+				<p>Siniestros urgentes (incendios, granizadas, temporales), peritaciones remotas, evaluación rápida de daños, inspecciones para seguros.</p>
 			</div>
 		</div>
 		<div

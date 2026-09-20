@@ -19,9 +19,9 @@
 						decoding="async"
 						width="683"
 						height="1024"
-						src="/assets/img/356d1286436b.avif"
+						src="/assets/img/tecnico-dron-obra.avif"
 						class="attachment-large size-large wp-image-383 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Ilustración de un técnico con casco y un dron en una obra"
 					/>
 				</div>
 			</div>

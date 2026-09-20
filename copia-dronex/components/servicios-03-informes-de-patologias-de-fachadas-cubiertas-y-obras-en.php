@@ -19,9 +19,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/d0c0f8082f50.webp"
+						src="/assets/img/vista-aerea-cubiertas-edificio-detalle.webp"
 						class="elementor-animation-grow attachment-large size-large wp-image-2076 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Vista aérea de las cubiertas y terrazas de un edificio"
 					/>
 				</div>
 			</div>
@@ -367,9 +367,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/400e2d38af86.webp"
+						src="/assets/img/termografia-aerea-edificios.webp"
 						class="elementor-animation-grow attachment-large size-large wp-image-2089 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Imagen termográfica aérea de varios edificios"
 					/>
 				</div>
 			</div>
@@ -390,9 +390,9 @@
 						decoding="async"
 						width="800"
 						height="450"
-						src="/assets/img/c41908f919c6.jpg"
+						src="/assets/img/modelo-3d-vivienda-detalle.jpg"
 						class="elementor-animation-grow attachment-large size-large wp-image-114 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Vista en perspectiva de un modelo tridimensional de vivienda"
 					/>
 				</div>
 			</div>
@@ -727,9 +727,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/25d95184a310.webp"
+						src="/assets/img/detalle-desprendimiento-revestimiento.webp"
 						class="elementor-animation-grow attachment-large size-large wp-image-2034 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Desprendimiento del revestimiento de una fachada"
 					/>
 				</div>
 			</div>
@@ -750,9 +750,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/6bef06707f0a.jpg"
+						src="/assets/img/fachada-paneles-ventanas-detalle.jpg"
 						class="elementor-animation-grow attachment-large size-large wp-image-12 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Detalle de los paneles y ventanas de la fachada de un edificio"
 					/>
 				</div>
 			</div>
@@ -1087,9 +1087,9 @@
 						decoding="async"
 						width="800"
 						height="534"
-						src="/assets/img/49f9f67953a5.jpg"
+						src="/assets/img/visita-tecnica-obra-construccion.jpg"
 						class="elementor-animation-grow attachment-large size-large wp-image-634 lzl-ed lzl-cached"
-						alt="EurodroneX"
+						alt="Equipo técnico durante una visita a una obra en construcción"
 					/>
 				</div>
 			</div>

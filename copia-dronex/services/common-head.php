@@ -11,7 +11,7 @@
 <meta property="og:locale" content="es_ES">
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <?php foreach (json_decode(file_get_contents(__DIR__ . '/data/' . $pageKey . '-styles.json'), true) as $css): ?>
-<link rel="stylesheet" href="<?= e($css) ?>">
+<link rel="stylesheet" href="<?= e($css) ?>?v=<?= filemtime(ROOT . $css) ?>">
 <?php endforeach; ?>
 <link rel="stylesheet" href="/assets/css/site.css?v=<?= filemtime(ROOT . '/assets/css/site.css') ?>">
 <link rel="stylesheet" href="/assets/css/cookie-banner.css">

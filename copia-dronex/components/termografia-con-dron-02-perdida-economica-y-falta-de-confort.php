@@ -29,6 +29,7 @@
 					obligar a demoliciones costosas en la vivienda sin asegurar el éxito, nosotros localizamos el origen
 					exacto del problema de forma limpia y directa.
 				</p>
+				<p>Auditorías energéticas, certificación energética, detección de humedades ocultas, control post-rehabilitación, estudios previos a reforma.</p>
 			</div>
 		</div>
 		<div
