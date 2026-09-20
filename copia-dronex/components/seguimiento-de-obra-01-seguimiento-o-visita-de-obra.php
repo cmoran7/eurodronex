@@ -13,7 +13,7 @@
 			class="elementor-element elementor-element-3453c45 elementor-widget elementor-widget-text-editor"
 			data-id="3453c45"
 		>
-			<p>Control visual del avance. Documentación periódica objetiva y ordenada.</p>
+			<p>Seguimiento de obra con drones mediante capturas aéreas periódicas. Documentamos el avance de los trabajos, los acopios, la maquinaria y las incidencias visibles para disponer de un registro objetivo y ordenado.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-e894c7d elementor-mobile-align-center elementor-widget elementor-widget-button"

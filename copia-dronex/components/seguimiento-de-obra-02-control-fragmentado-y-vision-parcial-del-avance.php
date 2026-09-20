@@ -25,9 +25,10 @@
 				class="elementor-element elementor-element-eb5f1c0 elementor-widget elementor-widget-text-editor"
 				data-id="eb5f1c0"
 			>
-				Las visitas a pie de obra no permiten tener perspectiva global del avance real. Las fotografías desde el
+				<p>Las visitas a pie de obra no permiten tener perspectiva global del avance real. Las fotografías desde el
 				suelo son limitadas, y la falta de registro sistemático genera conflictos sobre el estado real en fechas
-				pasadas.
+				pasadas.</p>
+				<p>Se utiliza en proyectos de construcción o rehabilitación, control de subcontratas, auditorías de obra, documentación para certificaciones y gestión de reclamaciones.</p>
 			</div>
 		</div>
 		<div
@@ -50,8 +51,9 @@
 				class="elementor-element elementor-element-9261e8b elementor-widget elementor-widget-text-editor"
 				data-id="9261e8b"
 			>
-				Documentación visual aérea con periodicidad establecida, capturando el estado global de obra, avance de
-				trabajos, acopios, maquinaria y cumplimiento de medidas de seguridad. Trazabilidad completa.
+				<p>Documentación visual aérea con periodicidad establecida, capturando el estado global de obra, avance de
+				trabajos, acopios, maquinaria y cumplimiento de medidas de seguridad. Trazabilidad completa.</p>
+				<p>La documentación ordenada cronológicamente permite comparar el avance entre visitas, controlar plazos y aclarar discrepancias sobre el estado de la obra en fechas concretas.</p>
 			</div>
 		</div>
 	</div>
