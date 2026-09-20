@@ -256,6 +256,13 @@ body {
 @media(min-width:1025px) and (max-width:1399px){.elementor-location-header .e-n-menu-title-container{padding-inline:10px!important}.elementor-location-header .e-n-menu-title-text{font-size:14px}}
 @media(max-width:767px){.audiences-lead,.audiences-profile{grid-template-columns:1fr;gap:24px}.audiences-photo{height:260px}.audiences-profile{padding:38px 0}.audiences-intro{padding-top:24px}.audiences-breadcrumb{margin-bottom:24px}.audiences-profile h2{font-size:28px}.audiences-contact{padding:48px 0}}
 @media(prefers-reduced-motion:reduce){.audiences-photo{transition:none}}
+.contact-privacy-notice {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+.contact-privacy-notice a { text-decoration: underline; }
+
 /* Portada: espacio para el nuevo titular y su explicación. */
 .elementor-8 .elementor-element.elementor-element-84eede2 {
     --container-widget-width: min(100%, 1050px);

@@ -24,6 +24,7 @@
 			<input type="hidden" name="csrf" value="<?= e(csrf_token()) ?>" />
 			<input type="text" name="website" class="form-trap" tabindex="-1" autocomplete="off" aria-hidden="true" />
 			<p class="form-status" role="status" hidden=""></p>
+					<?php include ROOT . "/components/contact-privacy-notice.php"; ?>
 			<p class="comment-notes">
 				<span id="email-notes">Tu dirección de correo electrónico no será publicada.</span>
 				<span class="required-field-message">

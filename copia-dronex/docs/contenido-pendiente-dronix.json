@@ -1,0 +1,43 @@
+[
+  {
+    "servicio": "inspeccion-tecnica-con-drones",
+    "bloques_no_trasladados_literalmente": [
+      "whatIs"
+    ]
+  },
+  {
+    "servicio": "termografia-con-dron",
+    "bloques_no_trasladados_literalmente": [
+      "whatIs"
+    ]
+  },
+  {
+    "servicio": "fotogrametria-3d-edificios",
+    "bloques_no_trasladados_literalmente": [
+      "whatIs"
+    ]
+  },
+  {
+    "servicio": "diagnostico-fachadas",
+    "bloques_no_trasladados_literalmente": [
+      "whatIs"
+    ]
+  },
+  {
+    "servicio": "seguimiento-de-obra",
+    "bloques_no_trasladados_literalmente": [
+      "whatIs",
+      "whenToUse"
+    ]
+  },
+  {
+    "servicio": "streaming",
+    "bloques_no_trasladados_literalmente": [
+      "whatIs"
+    ]
+  },
+  {
+    "servicio": "inspeccion-precompra",
+    "bloques_no_trasladados_literalmente": []
+  }
+]

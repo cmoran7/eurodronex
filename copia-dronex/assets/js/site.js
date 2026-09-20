@@ -94,6 +94,34 @@ document.querySelectorAll('.e-n-accordion-item').forEach(item => {
     });
 });
 
+const contactScript = document.querySelector('script[data-contact-recaptcha]');
+const contactRecaptchaEnabled = contactScript?.dataset.contactRecaptcha === 'true';
+const contactRecaptchaKey = contactScript?.dataset.recaptchaKey || '';
+let contactRecaptchaLoader;
+function contactRecaptchaToken() {
+    if (!contactRecaptchaKey) return Promise.reject(new Error('Antispam not configured'));
+    if (!contactRecaptchaLoader) {
+        contactRecaptchaLoader = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            const timer = setTimeout(() => reject(new Error('Antispam timeout')), 12000);
+            script.src = 'https://www.google.com/recaptcha/api.js?render=' + encodeURIComponent(contactRecaptchaKey);
+            script.async = true;
+            script.onload = () => {
+                if (!window.grecaptcha) { clearTimeout(timer); reject(new Error('Antispam unavailable')); return; }
+                grecaptcha.ready(() => { clearTimeout(timer); resolve(); });
+            };
+            script.onerror = () => { clearTimeout(timer); script.remove(); reject(new Error('Antispam unavailable')); };
+            document.head.append(script);
+        }).catch(error => { contactRecaptchaLoader = null; throw error; });
+    }
+    return contactRecaptchaLoader.then(() => new Promise((resolve, reject) => {
+        const timer = setTimeout(() => reject(new Error('Antispam timeout')), 12000);
+        grecaptcha.execute(contactRecaptchaKey, {action: 'contact'}).then(token => {
+            clearTimeout(timer);
+            if (token) resolve(token); else reject(new Error('Empty antispam token'));
+        }, error => { clearTimeout(timer); reject(error); });
+    }));
+}
 document.querySelectorAll('[data-contact-form]').forEach(form => {
     form.addEventListener('submit', async event => {
         event.preventDefault();
@@ -103,7 +131,9 @@ document.querySelectorAll('[data-contact-form]').forEach(form => {
         status.hidden = false;
         status.textContent = 'Enviando solicitud…';
         try {
-            const response = await fetch(form.action, {method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
+            const data = new FormData(form);
+            if (contactRecaptchaEnabled) data.set('g-recaptcha-response', await contactRecaptchaToken());
+            const response = await fetch(form.action, {method:'POST',body:data,headers:{Accept:'application/json'}});
             const result = await response.json();
             status.textContent = result.message;
             if (result.ok) form.reset();

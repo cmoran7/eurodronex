@@ -30,6 +30,7 @@
 						aria-hidden="true"
 					/>
 					<p class="form-status" role="status" hidden=""></p>
+					<?php include ROOT . "/components/contact-privacy-notice.php"; ?>
 					<div class="elementor-form-fields-wrapper elementor-labels-above">
 						<div
 							class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50"

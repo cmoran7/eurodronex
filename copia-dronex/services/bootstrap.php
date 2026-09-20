@@ -7,8 +7,19 @@ $config = [
     'environment' => 'development',
     'storage_path' => ROOT . '/var',
     'mail_transport' => 'disabled',
-    'mail_to' => 'contacto@eurodronex.com',
+    'mail_to' => 'eurodronex@gmail.com',
     'mail_from' => 'web@eurodronex.com',
+    'mail_from_name' => 'Eurodrónex — Solicitudes web',
+    'smtp_host' => '',
+    'smtp_port' => 587,
+    'smtp_encryption' => 'tls',
+    'smtp_username' => '',
+    'smtp_password' => '',
+    'recaptcha_enabled' => true,
+    'recaptcha_site_key' => '',
+    'recaptcha_secret_key' => '',
+    'recaptcha_min_score' => 0.5,
+    'recaptcha_hostnames' => ['eurodronex.devnavigate.com', 'eurodronex.com', 'www.eurodronex.com'],
 ];
 if (is_file(__DIR__ . '/config.local.php')) {
     $config = array_replace($config, require __DIR__ . '/config.local.php');
