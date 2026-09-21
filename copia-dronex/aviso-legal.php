@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Aviso legal - eurodronex.com';
-	$pageDescription = 'En cumplimiento de lo previsto en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se';
+	$pageTitle = 'Aviso legal y condiciones de uso | EurodroneX';
+	$pageDescription = 'Consulte los datos del titular de EurodroneX, las condiciones de uso de esta web y la información legal sobre sus contenidos y servicios de inspección.';
 	$pageCanonical = '/aviso-legal/';
 	$pageKey = 'aviso-legal';
 	include_once 'services/bootstrap.php';

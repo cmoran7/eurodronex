@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Página de privacidad - eurodronex.com';
-	$pageDescription = 'La presente Política de Privacidad describe cómo Dronspain Solutions S.L. recoge, utiliza y protege los datos personales de sus usuarios en cumplimiento del';
+	$pageTitle = 'Política de privacidad y datos personales | EurodroneX';
+	$pageDescription = 'Conozca cómo EurodroneX trata los datos personales enviados a través de esta web, con qué finalidad se utilizan y cómo ejercer sus derechos de privacidad.';
 	$pageCanonical = '/pagina-de-privacidad/';
 	$pageKey = 'pagina-de-privacidad';
 	include_once 'services/bootstrap.php';

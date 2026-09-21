@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Inspección de Fachadas y Cubiertas | EurodroneX';
-	$pageDescription = 'Servicios de Inspección de fachadas, cubiertas, termografía, fotogrametría 3D, seguimiento de obra y streaming. Todos nuestros servicios técnicos con drones en un solo lugar.';
+	$pageTitle = 'Servicios de inspección de edificios con drones | EurodroneX';
+	$pageDescription = 'Inspección de edificios con drones: fachadas, cubiertas, termografía, fotogrametría 3D, seguimiento de obra, peritaje en streaming e inspección precompra.';
 	$pageCanonical = '/servicios/';
 	$pageKey = 'servicios';
 	include_once 'services/bootstrap.php';

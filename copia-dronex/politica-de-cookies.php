@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Política de cookies - eurodronex.com';
-	$pageDescription = 'Dronspain Solutions S.L. informa sobre el uso de cookies en su sitio web para mejorar la experiencia de usuario y analizar el tráfico.';
+	$pageTitle = 'Política de cookies y consentimiento | EurodroneX';
+	$pageDescription = 'Información sobre el uso de cookies en la web de EurodroneX. Consulte su finalidad y cómo gestionar sus preferencias de consentimiento durante la navegación.';
 	$pageCanonical = '/politica-de-cookies/';
 	$pageKey = 'politica-de-cookies';
 	include_once 'services/bootstrap.php';

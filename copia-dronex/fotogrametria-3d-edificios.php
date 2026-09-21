@@ -1,6 +1,6 @@
 <?php
 	$pageTitle = 'Fotogrametría 3D de Edificios con Drones | EurodroneX';
-	$pageDescription = 'Generamos modelos 3D, nubes de puntos y ortofotografías de edificios mediante fotogrametría 3D con drones. Mediciones precisas para rehabilitación, obra y gestión de activos.';
+	$pageDescription = 'Fotogrametría con drones para obtener modelos 3D de edificios, ortofotos y mediciones. Documentación técnica de fachadas y cubiertas para sus proyectos.';
 	$pageCanonical = '/fotogrametria-3d-edificios/';
 	$pageKey = 'fotogrametria-3d-edificios';
 	include_once 'services/bootstrap.php';

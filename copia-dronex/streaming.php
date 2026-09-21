@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Dirección de Obra por Streaming con Drones | EurodroneX';
-	$pageDescription = 'Supervisión remota de obra en tiempo real mediante streaming con drones. Dirección facultativa a distancia sin visitas presenciales. Ahorra tiempo y costes.';
+	$pageTitle = 'Peritaje en streaming con drones | EurodroneX';
+	$pageDescription = 'Peritaje con drones en tiempo real para examinar daños a distancia. Inspección aérea de edificios por streaming para peritos y compañías aseguradoras.';
 	$pageCanonical = '/streaming/';
 	$pageKey = 'streaming';
 	include_once 'services/bootstrap.php';

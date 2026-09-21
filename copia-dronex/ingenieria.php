@@ -1,6 +1,6 @@
 <?php
 	$pageTitle = 'Arquitecto e Ingeniero de Drones | EurodroneX';
-	$pageDescription = 'Servicios de ingeniería aplicada a la inspección de edificios con tecnología drone. Arquitectos e ingenieros colegiados. Informes técnicos con validez profesional.';
+	$pageDescription = 'Ingeniería y arquitectura aplicadas a la inspección de edificios con drones. Diagnóstico técnico de fachadas y cubiertas con criterio profesional.';
 	$pageCanonical = '/ingenieria/';
 	$pageKey = 'ingenieria';
 	include_once 'services/bootstrap.php';

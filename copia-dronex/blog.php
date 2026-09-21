@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Blog - eurodronex.com';
-	$pageDescription = 'Nuestro blog';
+	$pageTitle = 'Blog de inspección de edificios con drones | EurodroneX';
+	$pageDescription = 'Artículos sobre inspección de edificios con drones: fachadas, cubiertas y diagnóstico técnico. Conozca las aplicaciones de esta tecnología en edificación.';
 	$pageCanonical = '/blog/';
 	$pageKey = 'blog';
 	include_once 'services/bootstrap.php';
