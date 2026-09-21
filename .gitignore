@@ -9,3 +9,5 @@
 /.pnpm-store/
 /sitemap.xml.lock
 /sitemap.xml.*.tmp
+
+/.audit-work/
