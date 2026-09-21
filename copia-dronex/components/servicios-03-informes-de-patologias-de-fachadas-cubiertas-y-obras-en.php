@@ -16,6 +16,8 @@
 					data-id="dfc58a2"
 				>
 					<img
+						srcset="/assets/img/vista-aerea-cubiertas-edificio-detalle-480.webp 480w, /assets/img/vista-aerea-cubiertas-edificio-detalle-800.webp 800w, /assets/img/vista-aerea-cubiertas-edificio-detalle.webp 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 						decoding="async"
 						width="800"
 						height="534"
@@ -364,6 +366,8 @@
 					data-id="a8f79d4"
 				>
 					<img
+						srcset="/assets/img/termografia-aerea-edificios-480.webp 480w, /assets/img/termografia-aerea-edificios-800.webp 800w, /assets/img/termografia-aerea-edificios.webp 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 						decoding="async"
 						width="800"
 						height="534"
@@ -387,6 +391,8 @@
 					data-id="ee5618e"
 				>
 					<img
+						srcset="/assets/img/modelo-3d-vivienda-detalle-480.webp 480w, /assets/img/modelo-3d-vivienda-detalle-800.webp 800w, /assets/img/modelo-3d-vivienda-detalle.jpg 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 						decoding="async"
 						width="800"
 						height="450"
@@ -724,6 +730,8 @@
 					data-id="4f3476f"
 				>
 					<img
+						srcset="/assets/img/detalle-desprendimiento-revestimiento-480.webp 480w, /assets/img/detalle-desprendimiento-revestimiento-800.webp 800w, /assets/img/detalle-desprendimiento-revestimiento.webp 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 						decoding="async"
 						width="800"
 						height="534"
@@ -747,6 +755,8 @@
 					data-id="41d4b4f"
 				>
 					<img
+						srcset="/assets/img/fachada-paneles-ventanas-detalle-480.webp 480w, /assets/img/fachada-paneles-ventanas-detalle-800.webp 800w, /assets/img/fachada-paneles-ventanas-detalle.jpg 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 						decoding="async"
 						width="800"
 						height="534"
@@ -1084,6 +1094,8 @@
 					data-id="51fad62"
 				>
 					<img
+						srcset="/assets/img/visita-tecnica-obra-construccion-480.webp 480w, /assets/img/visita-tecnica-obra-construccion-800.webp 800w, /assets/img/visita-tecnica-obra-construccion.jpg 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 						decoding="async"
 						width="800"
 						height="534"

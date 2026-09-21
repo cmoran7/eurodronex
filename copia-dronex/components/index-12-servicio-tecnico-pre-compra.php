@@ -50,6 +50,9 @@
 					data-id="18ccb85"
 				>
 					<img
+						srcset="/assets/img/vivienda-cartel-venta-480.webp 480w, /assets/img/vivienda-cartel-venta-800.webp 800w, /assets/img/vivienda-cartel-venta.webp 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+						loading="lazy"
 						decoding="async"
 						width="800"
 						height="648"

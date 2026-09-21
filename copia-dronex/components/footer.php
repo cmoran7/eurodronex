@@ -21,7 +21,7 @@
 						<img
 							width="600"
 							height="200"
-							src="/assets/img/logo-eurodronex-fondo-oscuro.png"
+							src="/assets/img/logo-eurodronex-fondo-oscuro.webp"
 							class="attachment-large size-large wp-image-2443 lzl-cached lzl-ed"
 							alt="Eurodrónex, ingeniería técnica con drones"
 						/>
@@ -42,7 +42,7 @@
 					class="elementor-element elementor-element-d5c1352 elementor-widget elementor-widget-heading"
 					data-id="d5c1352"
 				>
-					<h4 class="elementor-heading-title elementor-size-default">SERVICIOS</h4>
+					<h2 class="elementor-heading-title elementor-size-default">SERVICIOS</h2>
 				</div>
 				<div
 					class="elementor-element elementor-element-d132579 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -92,7 +92,7 @@
 					class="elementor-element elementor-element-8a8738d elementor-widget elementor-widget-heading"
 					data-id="8a8738d"
 				>
-					<h4 class="elementor-heading-title elementor-size-default">EMPRESA</h4>
+					<h2 class="elementor-heading-title elementor-size-default">EMPRESA</h2>
 				</div>
 				<div
 					class="elementor-element elementor-element-890b588 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -122,7 +122,7 @@
 					class="elementor-element elementor-element-1b4367b elementor-widget elementor-widget-heading"
 					data-id="1b4367b"
 				>
-					<h4 class="elementor-heading-title elementor-size-default">CONTACTO</h4>
+					<h2 class="elementor-heading-title elementor-size-default">CONTACTO</h2>
 				</div>
 				<div
 					class="elementor-element elementor-element-6c8ae97 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"

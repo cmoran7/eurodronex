@@ -51,6 +51,8 @@
 					data-id="e2da3dc"
 				>
 					<img
+						srcset="/assets/img/edificio-residencial-inspeccion-precompra-480.webp 480w, /assets/img/edificio-residencial-inspeccion-precompra-800.webp 800w, /assets/img/edificio-residencial-inspeccion-precompra.jpg 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 						decoding="async"
 						width="800"
 						height="534"

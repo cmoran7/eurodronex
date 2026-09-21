@@ -27,6 +27,8 @@
 					>
 						<a href="/termografia-con-dron/">
 							<img
+								srcset="/assets/img/termografia-aerea-edificios-480.webp 480w, /assets/img/termografia-aerea-edificios-800.webp 800w, /assets/img/termografia-aerea-edificios.webp 1024w"
+								sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 								decoding="async"
 								width="800"
 								height="534"
@@ -72,6 +74,8 @@
 					>
 						<a href="/diagnostico-fachadas/">
 							<img
+								srcset="/assets/img/fachada-edificio-paneles-ventanas-480.webp 480w, /assets/img/fachada-edificio-paneles-ventanas-800.webp 800w, /assets/img/fachada-edificio-paneles-ventanas.jpg 1080w"
+								sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 								decoding="async"
 								width="1080"
 								height="720"
@@ -117,6 +121,8 @@
 					>
 						<a href="/seguimiento-de-obra/">
 							<img
+								srcset="/assets/img/visita-tecnica-obra-construccion-480.webp 480w, /assets/img/visita-tecnica-obra-construccion-800.webp 800w, /assets/img/visita-tecnica-obra-construccion.jpg 1024w"
+								sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
 								decoding="async"
 								width="800"
 								height="534"

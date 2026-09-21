@@ -22,6 +22,9 @@
 					data-id="aaa081f"
 				>
 					<img
+						srcset="/assets/img/visita-tecnica-obra-construccion-480.webp 480w, /assets/img/visita-tecnica-obra-construccion-800.webp 800w, /assets/img/visita-tecnica-obra-construccion.jpg 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+						loading="lazy"
 						decoding="async"
 						width="800"
 						height="534"
@@ -107,6 +110,9 @@
 					data-id="09660c9"
 				>
 					<img
+						srcset="/assets/img/detalle-desprendimiento-revestimiento-480.webp 480w, /assets/img/detalle-desprendimiento-revestimiento-800.webp 800w, /assets/img/detalle-desprendimiento-revestimiento.webp 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+						loading="lazy"
 						decoding="async"
 						width="800"
 						height="534"
@@ -130,6 +136,9 @@
 					data-id="1c3d015"
 				>
 					<img
+						srcset="/assets/img/fachada-paneles-ventanas-detalle-480.webp 480w, /assets/img/fachada-paneles-ventanas-detalle-800.webp 800w, /assets/img/fachada-paneles-ventanas-detalle.jpg 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+						loading="lazy"
 						decoding="async"
 						width="800"
 						height="534"
@@ -214,6 +223,9 @@
 					data-id="b47a610"
 				>
 					<img
+						srcset="/assets/img/modelo-topografico-terreno-480.webp 480w, /assets/img/modelo-topografico-terreno-800.webp 800w, /assets/img/modelo-topografico-terreno.webp 1024w"
+						sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+						loading="lazy"
 						decoding="async"
 						width="800"
 						height="448"

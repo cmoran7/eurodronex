@@ -8,7 +8,9 @@
                 <p>Arquitectos, ingenierías, administradores de fincas, aseguradoras, promotoras e inmobiliarias. Un mismo edificio puede plantear preguntas diferentes según quién necesita evaluarlo.</p>
                 <p>Adaptamos el alcance de la inspección a la información que necesita cada profesional para su trabajo.</p>
             </div>
-            <img src="/assets/img/fachada-balcones-paneles-colores.webp" alt="Fachada de un edificio con balcones y paneles de colores" width="1000" height="1000" class="audiences-photo">
+            <img
+            	srcset="/assets/img/fachada-balcones-paneles-colores-480.webp 480w, /assets/img/fachada-balcones-paneles-colores-800.webp 800w, /assets/img/fachada-balcones-paneles-colores-1280.webp 1280w, /assets/img/fachada-balcones-paneles-colores.webp 2560w"
+            	sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px" src="/assets/img/fachada-balcones-paneles-colores.webp" alt="Fachada de un edificio con balcones y paneles de colores" width="1000" height="1000" class="audiences-photo">
         </div>
         <nav class="audiences-nav" aria-label="Tipos de cliente">
             <a href="#arquitectura">Estudios de arquitectura</a>

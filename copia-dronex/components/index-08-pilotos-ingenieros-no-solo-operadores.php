@@ -15,7 +15,7 @@
 					class="elementor-element elementor-element-d064d21 elementor-widget elementor-widget-image"
 					data-id="d064d21"
 				>
-					<img
+					<img loading="lazy"
 						decoding="async"
 						width="683"
 						height="1024"

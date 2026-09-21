@@ -22,7 +22,7 @@
 							fetchpriority="high"
 							width="600"
 							height="200"
-							src="/assets/img/logo-eurodronex-fondo-oscuro.png"
+							src="/assets/img/logo-eurodronex-fondo-oscuro.webp"
 							class="attachment-large size-large wp-image-2443 lzl-ed lzl-cached"
 							alt="Eurodrónex, ingeniería técnica con drones"
 						/>
@@ -50,7 +50,7 @@
 							aria-haspopup="true"
 							aria-expanded="false"
 							aria-controls="menubar-185"
-							aria-label="Menu Toggle"
+							aria-label="Abrir o cerrar menú"
 						>
 							<span class="e-n-menu-toggle-icon e-open">
 								<svg
@@ -145,6 +145,9 @@
 																data-id="1692109"
 															>
 																<img
+																	srcset="/assets/img/vista-aerea-cubiertas-edificio-detalle-480.webp 480w, /assets/img/vista-aerea-cubiertas-edificio-detalle-800.webp 800w, /assets/img/vista-aerea-cubiertas-edificio-detalle.webp 1024w"
+																	sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+																	loading="lazy"
 																	width="800"
 																	height="534"
 																	src="/assets/img/vista-aerea-cubiertas-edificio-detalle.webp"
@@ -187,6 +190,9 @@
 																data-id="5aa1629"
 															>
 																<img
+																	srcset="/assets/img/termografia-fachadas-edificio-480.webp 480w, /assets/img/termografia-fachadas-edificio-800.webp 800w, /assets/img/termografia-fachadas-edificio.jpeg 1024w"
+																	sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+																	loading="lazy"
 																	width="800"
 																	height="531"
 																	src="/assets/img/termografia-fachadas-edificio.jpeg"
@@ -226,6 +232,9 @@
 																data-id="396a7bc"
 															>
 																<img
+																	srcset="/assets/img/modelo-3d-vivienda-perspectiva-480.webp 480w, /assets/img/modelo-3d-vivienda-perspectiva-800.webp 800w, /assets/img/modelo-3d-vivienda-perspectiva.jpg 1024w"
+																	sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+																	loading="lazy"
 																	width="800"
 																	height="450"
 																	src="/assets/img/modelo-3d-vivienda-perspectiva.jpg"
@@ -270,6 +279,9 @@
 																data-id="e2af548"
 															>
 																<img
+																	srcset="/assets/img/detalle-desprendimiento-revestimiento-480.webp 480w, /assets/img/detalle-desprendimiento-revestimiento-800.webp 800w, /assets/img/detalle-desprendimiento-revestimiento.webp 1024w"
+																	sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+																	loading="lazy"
 																	width="800"
 																	height="534"
 																	src="/assets/img/detalle-desprendimiento-revestimiento.webp"
@@ -311,6 +323,9 @@
 																data-id="56ce435"
 															>
 																<img
+																	srcset="/assets/img/fachada-paneles-ventanas-detalle-480.webp 480w, /assets/img/fachada-paneles-ventanas-detalle-800.webp 800w, /assets/img/fachada-paneles-ventanas-detalle.jpg 1024w"
+																	sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+																	loading="lazy"
 																	width="800"
 																	height="534"
 																	src="/assets/img/fachada-paneles-ventanas-detalle.jpg"
@@ -353,6 +368,9 @@
 																data-id="15ec58f"
 															>
 																<img
+																	srcset="/assets/img/visita-tecnica-obra-construccion-480.webp 480w, /assets/img/visita-tecnica-obra-construccion-800.webp 800w, /assets/img/visita-tecnica-obra-construccion.jpg 1024w"
+																	sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1440px) 50vw, 720px"
+																	loading="lazy"
 																	width="800"
 																	height="534"
 																	src="/assets/img/visita-tecnica-obra-construccion.jpg"

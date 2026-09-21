@@ -33,7 +33,7 @@
 					class="elementor-element elementor-element-aa997a8 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image"
 					data-id="aa997a8"
 				>
-					<img
+					<img loading="lazy"
 						decoding="async"
 						width="200"
 						height="200"

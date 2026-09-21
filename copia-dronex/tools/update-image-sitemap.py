@@ -33,6 +33,8 @@ for url in tree.getroot():
             if f'elementor-post-{page_id[1]}-' in css:
                 texts.append((ROOT / css.lstrip('/')).read_text(encoding='utf-8'))
     images = sorted(set(re.findall(r'/assets/img/[\w.-]+\.(?:webp|png|jpe?g|avif)', '\n'.join(texts))))
+    # Responsive variants show the same photograph; list its main URL only.
+    images = [image for image in images if not re.search(r'-(?:480|800|1280)\.webp$', image)]
     for old in list(url.findall(f'{{{IMG}}}image')):
         url.remove(old)
     if not images:
