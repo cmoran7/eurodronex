@@ -62,13 +62,13 @@
 				class="elementor-element elementor-element-3254750 elementor-widget elementor-widget-heading"
 				data-id="3254750"
 			>
-				<span class="elementor-heading-title elementor-size-default">+20</span>
+				<span class="elementor-heading-title elementor-size-default">25</span>
 			</div>
 			<div
 				class="elementor-element elementor-element-4aedcfd elementor-widget elementor-widget-heading"
 				data-id="4aedcfd"
 			>
-				<span class="elementor-heading-title elementor-size-default">Años experiencia</span>
+				<span class="elementor-heading-title elementor-size-default">Años de experiencia</span>
 			</div>
 		</div>
 	</div>

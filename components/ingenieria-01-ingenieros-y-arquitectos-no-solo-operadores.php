@@ -17,7 +17,7 @@
 			class="elementor-element elementor-element-7607a49 elementor-widget elementor-widget-text-editor"
 			data-id="7607a49"
 		>
-			<p>Ingeniería aplicada con tecnología aérea. Interpretación técnica real.</p>
+			<p>Ingeniería aplicada con tecnología aérea. Interpretación técnica real. Eurodrónex nace de la necesidad de aplicar rigor técnico profesional a la inspección de edificios mediante drones.</p>
 		</div>
 	</div>
 </div>

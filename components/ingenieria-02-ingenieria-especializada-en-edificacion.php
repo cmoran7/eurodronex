@@ -48,8 +48,7 @@
 					data-id="5e144a0"
 				>
 					<p>
-						Eurodrónex nace de la necesidad de aplicar rigor técnico profesional a la inspección de
-						edificios mediante drones. No somos una empresa de servicios aéreos genéricos: somos ingenieros
+						No somos una empresa de servicios aéreos genéricos: somos ingenieros
 						especializados que utilizan la tecnología como herramienta.
 					</p>
 					<p>
