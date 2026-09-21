@@ -157,15 +157,20 @@ body {
 	}
 	.e-n-menu-toggle {
 		display: flex !important;
+		min-width: 44px;
+		min-height: 44px;
+		align-items: center;
+		justify-content: center;
 	}
+	.e-n-menu-toggle .e-close svg { display: block !important; width: 24px; height: 24px; }
 	.e-n-menu .e-close {
 		display: none;
 	}
 	.e-n-menu.menu-open .e-close {
-		display: block;
+		display: block !important;
 	}
 	.e-n-menu.menu-open .e-open {
-		display: none;
+		display: none !important;
 	}
 }
 @media (prefers-reduced-motion: reduce) {
@@ -284,5 +289,25 @@ body {
     .elementor-8 .elementor-element-3821726 .home-savings-explanation {
         font-size: 17px;
         margin-top: 20px;
+    }
+}
+
+/* Legibility and proportional image cropping, without changing the layout. */
+.elementor-8 .elementor-element-423796a span.elementor-heading-title { color: #666 !important; }
+.elementor-location-footer .elementor-element-c389a53 p,
+.elementor-location-footer .elementor-element-c389a53 a { color: #666 !important; }
+img[src="/assets/img/fachada-paneles-ventanas-detalle.jpg"] { object-fit: cover; }
+.elementor-8 .elementor-element.elementor-element-63ebbbb {
+    background-image: url('/assets/img/fachada-paneles-blanco-negro-1600.webp') !important;
+}
+.elementor-8 .elementor-element.elementor-element-bec6fd2 {
+    background-image: url('/assets/img/fachada-balcones-blanco-negro-1600.webp') !important;
+}
+@media (max-width: 767px) {
+    .elementor-8 .elementor-element.elementor-element-63ebbbb {
+        background-image: url('/assets/img/fachada-paneles-blanco-negro-640.webp') !important;
+    }
+    .elementor-8 .elementor-element.elementor-element-bec6fd2 {
+        background-image: url('/assets/img/fachada-balcones-blanco-negro-640.webp') !important;
     }
 }

@@ -16,7 +16,7 @@
 	.elementor-element.elementor-element-63ebbbb
 	> .elementor-motion-effects-container
 	> .elementor-motion-effects-layer {
-	background-image: url("/assets/img/fachada-paneles-blanco-negro.jpg");
+	background-image: url("/assets/img/fachada-paneles-blanco-negro-1600.webp");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -167,7 +167,7 @@
 	.elementor-element.elementor-element-bec6fd2
 	> .elementor-motion-effects-container
 	> .elementor-motion-effects-layer {
-	background-image: url("/assets/img/fachada-balcones-blanco-negro.webp");
+	background-image: url("/assets/img/fachada-balcones-blanco-negro-1600.webp");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1526,7 +1526,7 @@
 	> .elementor-motion-effects-container
 	> .elementor-motion-effects-layer::before {
 	background-color: #000;
-	background-image: url("/assets/img/humedades-revestimiento-fachada.png");
+	background-image: url("/assets/img/humedades-revestimiento-fachada.webp");
 	--background-overlay: "";
 	background-position: top center;
 	background-repeat: no-repeat;
