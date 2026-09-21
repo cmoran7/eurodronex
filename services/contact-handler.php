@@ -19,7 +19,7 @@ function contact_response(int $status, string $message): never
 	if (!preg_match('#^/[a-z0-9-]*$#', $return) || ($return !== '/' && !is_file(ROOT . $return . '.php'))) {
 		$return = '/contacto';
 	}
-	redirect_to($return . '#solicitud-nombre');
+	redirect_to($return . '/#form-field-name');
 }
 if (!csrf_valid()) {
 	contact_response(403, 'La sesión del formulario ha caducado. Recargue la página y vuelva a intentarlo.');
@@ -54,10 +54,9 @@ foreach (
 if (
 	$data['nombre'] === '' ||
 	!filter_var($data['email'], FILTER_VALIDATE_EMAIL) ||
-	preg_match('/[\r\n]/', $data['email']) ||
-	($_POST['privacidad'] ?? '') !== '1'
+	preg_match('/[\r\n]/', $data['email'])
 ) {
-	contact_response(422, 'Indique su nombre, un email válido y acepte la política de privacidad.');
+	contact_response(422, 'Indique su nombre y un email válido.');
 }
 if (time() - ($_SESSION['last_contact'] ?? 0) < 60) {
 	contact_response(429, 'Espere un minuto antes de enviar otra solicitud.');
@@ -68,6 +67,15 @@ if (!rate_allowed('contact', 5, 900)) {
 		429,
 		'Se ha alcanzado el límite de solicitudes. Espere unos minutos o contacte por teléfono.',
 	);
+}
+if ($config['recaptcha_enabled']) {
+    if (empty($config['recaptcha_site_key']) || empty($config['recaptcha_secret_key'])) {
+        contact_response(503, 'El envío web no está disponible en este momento. Contacte por email o teléfono.');
+    }
+    require_once __DIR__ . '/recaptcha.php';
+    if (!verify_contact_recaptcha($config, $_POST['g-recaptcha-response'] ?? null)) {
+        contact_response(422, 'No se ha podido validar la protección antispam. Vuelva a intentarlo o contacte por email o teléfono.');
+    }
 }
 $attachments = [];
 $upload = $_FILES['imagenes'] ?? null;
@@ -98,38 +106,8 @@ if ($upload && is_array($upload['error'])) {
 		];
 	}
 }
-if ($config['mail_transport'] !== 'mail') {
-	contact_response(
-		503,
-		'El envío web no está disponible en este momento. Escríbanos a contacto@eurodronex.com o llame al 611 623 480.',
-	);
-}
-$body = "Nueva solicitud de evaluación técnica\n\n";
-foreach ($data as $key => $value) {
-	$body .= $key . ': ' . $value . "\n";
-}
-$boundary = 'edx_' . bin2hex(random_bytes(16));
-$headers = [
-	'From: ' . $config['mail_from'],
-	'Reply-To: ' . $data['email'],
-	'MIME-Version: 1.0',
-	'Content-Type: multipart/mixed; boundary="' . $boundary . '"',
-];
-$message =
-	"--$boundary\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n" .
-	chunk_split(base64_encode($body));
-foreach ($attachments as $a) {
-	$message .=
-		"--$boundary\r\nContent-Type: {$a['mime']}\r\nContent-Disposition: attachment; filename=\"{$a['name']}\"\r\nContent-Transfer-Encoding: base64\r\n\r\n" .
-		chunk_split(base64_encode($a['content']));
-}
-$message .= "--$boundary--\r\n";
-$sent = @mail(
-	$config['mail_to'],
-	'=?UTF-8?B?' . base64_encode('Nueva solicitud técnica — EurodroneX') . '?=',
-	$message,
-	implode("\r\n", $headers),
-);
+require_once __DIR__ . '/contact-email.php';
+$sent = send_contact_email($config, $data, $attachments);
 if (!$sent) {
 	contact_response(
 		503,

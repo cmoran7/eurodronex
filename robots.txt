@@ -1,8 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /admin-blog
-Disallow: /acceso
-Disallow: /services/
-Disallow: /react/
 
 Sitemap: https://eurodronex.com/sitemap.xml
+Sitemap: https://eurodronex.com/sitemap-images.xml

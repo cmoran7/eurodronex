@@ -1,37 +1,20 @@
 <?php
-    $pageTitle = 'Cómo inspeccionar cubiertas sin riesgo ni andamios | EurodroneX';
-    $pageDescription = 'Las cubiertas están sometidas a exposición constante a la intemperie. Con el tiempo, cualquier edificio puede desarrollar patologías que, si no se detectan a tiempo, derivan en daños estructurales graves y costosas reparaciones.';
-    $pageKeywords = 'cómo inspeccionar cubiertas sin riesgo ni andamios, EurodroneX, inspección de edificios, Madrid';
-    $pageCanonical = '/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios';
-    $pageRobots = 'index, follow';
-    $pageOgImage = '/assets/img/3be72dd4b84abb9c.webp';
-    $pageType = 'BlogPost';
-    $pageSlug = 'inspeccionar-cubiertas-sin-riesgo';
-
-    require_once 'services/site.php';
-    $post = find_post($pageSlug);
-    if (!$post) {
-        include '404.php';
-        return;
-    }
-    $pageTitle = $post['title'] . ' | EurodroneX';
-    $pageDescription = $post['excerpt'];
-    $pageOgImage = $post['image'];
-    include_once 'services/page-init.php';
+	$pageTitle = 'Cómo inspeccionar cubiertas con drones | EurodroneX';
+	$pageDescription = 'Descubra cómo inspeccionar cubiertas con drones sin instalar andamios. Conozca las ventajas de la inspección aérea para reducir riesgos, costes y logística.';
+	$pageCanonical = '/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/';
+	$pageKey = 'como-inspeccionar-cubiertas-sin-riesgo-ni-andamios';
+	include_once 'services/bootstrap.php';
 ?>
 <!doctype html>
 <html lang="es">
 	<head>
 		<?php include_once 'services/common-head.php'; ?>
 	</head>
-	<body class="min-h-screen flex flex-col bg-background text-foreground antialiased">
-		<a class="skip-link" href="#contenido">Saltar al contenido</a>
+	<body class="wp-singular post-template post-template-elementor_header_footer single single-post postid-2428 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-2428    e--ua-blink e--ua-edge e--ua-webkit">
 		<?php include_once 'components/header.php'; ?>
-
-		<main id="contenido" class="flex-1 pt-20" tabindex="-1">
-			<?php include_once 'components/articulo-content.php'; ?>
+		<main id="contenido" class="elementor elementor-2428" data-elementor-id="2428">
+			<?php include 'components/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios-01-como-inspeccionar-cubiertas-sin-riesgo-ni-andamios.php'; ?>
 		</main>
-
 		<?php include_once 'components/footer.php'; ?>
 		<?php include_once 'services/common-scripts.php'; ?>
 	</body>

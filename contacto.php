@@ -1,25 +1,23 @@
 <?php
-    $pageTitle = 'Contacto y evaluación técnica de edificios | EurodroneX';
-    $pageDescription = 'Solicite una evaluación técnica de su edificio. Llame al 611 623 480 o escriba a contacto@eurodronex.com. Madrid y provincias limítrofes.';
-    $pageKeywords = 'contacto y evaluación técnica de edificios, EurodroneX, inspección de edificios, Madrid';
-    $pageCanonical = '/contacto';
-    $pageRobots = 'index, follow';
-    $pageType = 'Contact';
-    include_once 'services/page-init.php';
+	$pageTitle = 'Solicita tu Inspección con Drones | EurodroneX';
+	$pageDescription = 'Contacta con EuroDronex para solicitar una inspección técnica de tu edificio con drones. Te respondemos en menos de 24 horas. Madrid y ámbito nacional.';
+	$pageCanonical = '/contacto/';
+	$pageKey = 'contacto';
+	include_once 'services/bootstrap.php';
 ?>
 <!doctype html>
 <html lang="es">
 	<head>
 		<?php include_once 'services/common-head.php'; ?>
 	</head>
-	<body class="min-h-screen flex flex-col bg-background text-foreground antialiased">
-		<a class="skip-link" href="#contenido">Saltar al contenido</a>
+	<body class="wp-singular page-template page-template-elementor_header_footer page page-id-121 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-121    e--ua-blink e--ua-edge e--ua-webkit">
 		<?php include_once 'components/header.php'; ?>
-
-		<main id="contenido" class="flex-1 pt-20" tabindex="-1">
-			<?php include_once 'components/contacto-content.php'; ?>
+		<main id="contenido" class="elementor elementor-121" data-elementor-id="121">
+			<?php include 'components/contacto-01-solicite-informacion-tecnica.php'; ?>
+			<?php include 'components/contacto-02-contenido.php'; ?>
+			<?php include 'components/contacto-03-nacional.php'; ?>
+			<?php include 'components/contacto-04-contenido.php'; ?>
 		</main>
-
 		<?php include_once 'components/footer.php'; ?>
 		<?php include_once 'services/common-scripts.php'; ?>
 	</body>

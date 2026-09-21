@@ -1,35 +1,32 @@
 <?php
-    $pageTitle = 'Inspección técnica de edificios con drones en Madrid | EurodroneX';
-    $pageDescription = 'Ingeniería técnica para inspeccionar fachadas y cubiertas con drones en Madrid. Termografía, fotogrametría e informes. Solicite una evaluación de su edificio.';
-    $pageKeywords = 'inspección técnica de edificios con drones en madrid, EurodroneX, inspección de edificios, Madrid';
-    $pageCanonical = '/';
-    $pageRobots = 'index, follow';
-    $pageOgImage = '/assets/img/464bbf7f1798693b.webp';
-    $pageType = 'Home';
-    include_once 'services/page-init.php';
+	$pageTitle = 'Inspección de Edificios con Drones | EurodroneX';
+	$pageDescription = 'Arquitectos e ingenieros especializados en inspección de edificios con drones. Diagnóstico de fachadas y cubiertas, termografía y fotogrametría 3D.';
+	$pageCanonical = '/';
+	$pageKey = 'index';
+	include_once 'services/bootstrap.php';
 ?>
 <!doctype html>
 <html lang="es">
 	<head>
 		<?php include_once 'services/common-head.php'; ?>
 	</head>
-	<body class="min-h-screen flex flex-col bg-background text-foreground antialiased">
-		<a class="skip-link" href="#contenido">Saltar al contenido</a>
+	<body class="home wp-singular page-template page-template-elementor_header_footer page page-id-8 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-8    e--ua-blink e--ua-edge e--ua-webkit">
 		<?php include_once 'components/header.php'; ?>
-
-		<main id="contenido" class="flex-1 pt-20" tabindex="-1">
-			<?php include_once 'components/home-hero.php'; ?>
-			<?php include_once 'components/home-problem-solution.php'; ?>
-			<?php include_once 'components/home-manifesto.php'; ?>
-			<?php include_once 'components/home-pathologies.php'; ?>
-			<?php include_once 'components/home-services-preview.php'; ?>
-			<?php include_once 'components/home-methodology.php'; ?>
-			<?php include_once 'components/home-audiences.php'; ?>
-			<?php include_once 'components/home-credentials.php'; ?>
-			<?php include_once 'components/home-faq.php'; ?>
-			<?php include_once 'components/home-contact.php'; ?>
+		<main id="contenido" class="elementor elementor-8" data-elementor-id="8">
+			<?php include 'components/index-01-ingenieria-tecnica.php'; ?>
+			<?php include 'components/index-02-80.php'; ?>
+			<?php include 'components/index-03-servicios.php'; ?>
+			<?php include 'components/index-04-que-ayudamos-a-detectar.php'; ?>
+			<?php include 'components/index-05-metodologia-de-trabajo.php'; ?>
+			<?php include 'components/index-06-trabajamos-para.php'; ?>
+			<?php include 'components/index-07-tipos-de-intervenciones-tecnicas.php'; ?>
+			<?php include 'components/index-08-pilotos-ingenieros-no-solo-operadores.php'; ?>
+			<?php include 'components/index-09-contenido.php'; ?>
+			<?php include 'components/index-10-nacional.php'; ?>
+			<?php include 'components/index-11-solicite-informacion.php'; ?>
+			<?php include 'components/index-12-servicio-tecnico-pre-compra.php'; ?>
+			<?php include 'components/index-13-preguntas-frecuentes.php'; ?>
 		</main>
-
 		<?php include_once 'components/footer.php'; ?>
 		<?php include_once 'services/common-scripts.php'; ?>
 	</body>

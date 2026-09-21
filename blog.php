@@ -1,25 +1,20 @@
 <?php
-    $pageTitle = 'Blog de inspección y patología de edificios | EurodroneX';
-    $pageDescription = 'Artículos técnicos sobre inspección con drones, diagnóstico de fachadas y cubiertas, termografía y documentación de edificios.';
-    $pageKeywords = 'blog de inspección y patología de edificios, EurodroneX, inspección de edificios, Madrid';
-    $pageCanonical = '/blog';
-    $pageRobots = 'index, follow';
-    $pageType = 'Blog';
-    include_once 'services/page-init.php';
+	$pageTitle = 'Blog de inspección de edificios con drones | EurodroneX';
+	$pageDescription = 'Artículos sobre inspección de edificios con drones: fachadas, cubiertas y diagnóstico técnico. Conozca las aplicaciones de esta tecnología en edificación.';
+	$pageCanonical = '/blog/';
+	$pageKey = 'blog';
+	include_once 'services/bootstrap.php';
 ?>
 <!doctype html>
 <html lang="es">
 	<head>
 		<?php include_once 'services/common-head.php'; ?>
 	</head>
-	<body class="min-h-screen flex flex-col bg-background text-foreground antialiased">
-		<a class="skip-link" href="#contenido">Saltar al contenido</a>
+	<body class="wp-singular page-template-default page page-id-2231 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-6 elementor-page elementor-page-2231    e--ua-blink e--ua-edge e--ua-webkit">
 		<?php include_once 'components/header.php'; ?>
-
-		<main id="contenido" class="flex-1 pt-20" tabindex="-1">
-			<?php include_once 'components/blog-content.php'; ?>
+		<main id="contenido" class="site-main post-2231 page type-page status-publish hentry" data-elementor-id="">
+			<?php include 'components/blog-01-nuestro-blog.php'; ?>
 		</main>
-
 		<?php include_once 'components/footer.php'; ?>
 		<?php include_once 'services/common-scripts.php'; ?>
 	</body>

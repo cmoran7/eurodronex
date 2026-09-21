@@ -1,30 +1,28 @@
 <?php
-    $pageTitle = 'Termografía con drones en edificios de Madrid | EurodroneX';
-    $pageDescription = 'Inspección termográfica de fachadas y cubiertas para documentar anomalías térmicas, puentes térmicos y posibles humedades con criterio técnico.';
-    $pageKeywords = 'termografía con drones en edificios de madrid, EurodroneX, inspección de edificios, Madrid';
-    $pageCanonical = '/termografia-con-dron';
-    $pageRobots = 'index, follow';
-    $pageOgImage = '/assets/img/093fc2b998634e44.webp';
-    $pageType = 'ServiceDetail';
-    $pageSlug = 'termografia-con-dron';
-    include_once 'services/page-init.php';
+	$pageTitle = 'Termografía de Edificios con Dron en Madrid | EurodroneX';
+	$pageDescription = 'Termografía con drones para detectar anomalías térmicas en edificios. Inspección de fachadas y cubiertas para localizar humedades y pérdidas de aislamiento.';
+	$pageCanonical = '/termografia-con-dron/';
+	$pageKey = 'termografia-con-dron';
+	include_once 'services/bootstrap.php';
 ?>
 <!doctype html>
 <html lang="es">
 	<head>
 		<?php include_once 'services/common-head.php'; ?>
 	</head>
-	<body class="min-h-screen flex flex-col bg-background text-foreground antialiased">
-		<a class="skip-link" href="#contenido">Saltar al contenido</a>
+	<body class="wp-singular page-template page-template-elementor_header_footer page page-id-536 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-536    e--ua-blink e--ua-edge e--ua-webkit">
 		<?php include_once 'components/header.php'; ?>
-
-		<main id="contenido" class="flex-1 pt-20" tabindex="-1">
-			<?php
-				$props = ['slug' => 'termografia-con-dron'];
-				include_once 'components/service-detail.php';
-			?>
+		<main id="contenido" class="elementor elementor-536" data-elementor-id="536">
+			<?php include 'components/termografia-con-dron-01-termografia-de-edificios-con-dron.php'; ?>
+			<?php include 'components/termografia-con-dron-02-perdida-economica-y-falta-de-confort.php'; ?>
+			<?php include 'components/termografia-con-dron-03-beneficios.php'; ?>
+			<?php include 'components/termografia-con-dron-04-proceso.php'; ?>
+			<?php include 'components/termografia-con-dron-05-otros-servicios-relacionados.php'; ?>
+			<?php include 'components/termografia-con-dron-06-contenido.php'; ?>
+			<?php include 'components/termografia-con-dron-07-preguntas-frecuentes.php'; ?>
+			<?php include 'components/termografia-con-dron-08-lecturas-recomendadas-sobre-inspeccion-de-edificios.php'; ?>
+			<?php include 'components/termografia-con-dron-09-solicitar-presupuesto.php'; ?>
 		</main>
-
 		<?php include_once 'components/footer.php'; ?>
 		<?php include_once 'services/common-scripts.php'; ?>
 	</body>

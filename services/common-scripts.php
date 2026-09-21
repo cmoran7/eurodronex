@@ -1,6 +1,23 @@
-<?php include_once __DIR__ . '/../components/cookie-preferences.php'; ?> <?php if (!empty($pageFaqs)): ?>
-<script type="application/ld+json">
-	<?= json_encode( [ '@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => array_map( fn($q) => [ '@type' => 'Question', 'name' => $q['q'], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $q['a']], ], $pageFaqs, ), ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP, ) ?>
+<?php include_once ROOT . '/components/cookie-banner.php'; ?>
+<?php include_once ROOT . '/components/whatsapp.php'; ?>
+<?php if ($pageKey === 'index'): ?>
+<script>
+if ('IntersectionObserver' in window) {
+    const backgroundObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('edx-section-ready');
+                backgroundObserver.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: '200px' });
+    document.querySelectorAll('#contenido > .e-parent:not(:first-child)').forEach(section => {
+        backgroundObserver.observe(section);
+    });
+}
 </script>
 <?php endif; ?>
-<script src="/assets/js/site.js?v=<?= filemtime(ROOT . '/assets/js/site.js') ?>" defer></script>
+<button type="button" class="cookie-settings" data-cookie-settings>Gestionar consentimiento</button>
+<script src="/assets/js/site.js?v=<?= filemtime(ROOT . '/assets/js/site.js') ?>" defer
+    data-contact-recaptcha="<?= $config['recaptcha_enabled'] ? 'true' : 'false' ?>"
+    data-recaptcha-key="<?= e($config['recaptcha_site_key']) ?>"></script>
