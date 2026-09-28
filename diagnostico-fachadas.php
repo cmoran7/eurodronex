@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Diagnóstico de fachadas con drones | EurodroneX';
-	$pageDescription = 'Documentación y evaluación técnica de fisuras, desprendimientos y lesiones en fachadas. Inspección aérea para orientar el diagnóstico del edificio.';
+	$pageTitle = 'Inspección de fachadas en Madrid | EuroDroneX';
+	$pageDescription = 'Inspección de patologías en fachadas en Madrid: fisuras, desprendimientos y juntas deterioradas. Documentación con drones para orientar el diagnóstico técnico.';
 	$pageCanonical = '/diagnostico-fachadas/';
 	$pageKey = 'diagnostico-fachadas';
 	include_once 'services/bootstrap.php';

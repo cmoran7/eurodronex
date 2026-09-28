@@ -201,4 +201,16 @@
             <image:loc>https://eurodronex.com/assets/img/fachada-balcones-paneles-colores.webp</image:loc>
         </image:image>
     </url>
+    <url>
+        <loc>https://eurodronex.com/juntas-de-dilatacion-fachadas-cubiertas/</loc>
+        <image:image>
+            <image:loc>https://eurodronex.com/assets/img/junta-de-dilatacion-vertical.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://eurodronex.com/assets/img/junta-de-dilatacion-en-cubierta-transitable.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://eurodronex.com/assets/img/inspeccion-junta-dilatacion-fachada-video.jpg</image:loc>
+        </image:image>
+    </url>
 </urlset>

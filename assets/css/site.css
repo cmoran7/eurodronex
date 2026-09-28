@@ -333,3 +333,21 @@ img[src="/assets/img/fachada-paneles-ventanas-detalle.jpg"] { object-fit: cover;
     outline: 2px solid currentColor;
     outline-offset: 3px;
 }
+/* Article photographs keep the site's monochrome-to-colour interaction. */
+.edx-joints .edx-article-path { margin-bottom: 24px; font-size: 14px; }
+.edx-joints a:not(.edx-btn) { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.edx-joints .edx-joint-photo { margin: 28px auto 40px; max-width: 512px; }
+.edx-joints .edx-joint-photo img {
+    display: block; width: 100%; height: auto;
+    filter: grayscale(1); transition: filter 400ms ease;
+}
+.edx-joints .edx-joint-photo:hover img,
+.edx-joints .edx-joint-photo:focus img { filter: grayscale(0); }
+.edx-joints figcaption { padding-top: 10px; font-size: 14px; color: #555; }
+.edx-joints h3 { margin: 28px 0 16px; font-size: 24px; line-height: 1.3; }
+.edx-joints video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #111; }
+.edx-joints details { margin-top: 20px; padding: 16px 0; border-top: 1px solid #ddd; }
+.edx-joints summary { cursor: pointer; font-weight: 500; margin-bottom: 16px; }
+@media (prefers-reduced-motion: reduce) {
+    .edx-joints .edx-joint-photo img { transition: none; }
+}
