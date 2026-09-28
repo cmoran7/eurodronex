@@ -240,5 +240,13 @@
       "para-quien-clientes.php",
       "para-quien-contacto.php"
     ]
+  },
+  {
+    "path": "/juntas-de-dilatacion-fachadas-cubiertas/",
+    "file": "juntas-de-dilatacion-fachadas-cubiertas.php",
+    "title": "Juntas de dilatación en fachadas y cubiertas | EuroDroneX",
+    "sections": [
+      "juntas-de-dilatacion-contenido.php"
+    ]
   }
 ]

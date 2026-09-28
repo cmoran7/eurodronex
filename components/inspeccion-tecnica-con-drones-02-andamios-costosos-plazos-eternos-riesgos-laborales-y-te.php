@@ -25,10 +25,7 @@
 				class="elementor-element elementor-element-15f1fd7 elementor-widget elementor-widget-text-editor"
 				data-id="15f1fd7"
 			>
-				<p>
-					Los métodos tradicionales de inspección requieren medios auxiliares costosos, permisos municipales
-					lentos y exponen a operarios a trabajos en altura.
-				</p>
+				<p>Para conocer el estado de determinadas zonas de un edificio, tradicionalmente puede ser necesario disponer de andamios, plataformas elevadoras, trabajos en altura, permisos, personal y tiempo antes incluso de realizar el análisis técnico.</p>
 				<p>Inspecciones técnicas de edificios (ITE/IEE), <a class="edx-context-link" href="/inspeccion-precompra/">evaluaciones pre-compra</a>, detección de patologías, seguros y siniestros, proyectos de rehabilitación.</p>
 			</div>
 		</div>
@@ -56,10 +53,7 @@
 				class="elementor-element elementor-element-f772a3f elementor-widget elementor-widget-text-editor"
 				data-id="f772a3f"
 			>
-				<p>
-					Acceso instantáneo a cualquier punto de la fachada o cubierta sin contacto físico. Documentación de
-					alta resolución, informes periciales en días y ahorro de hasta el 80%.
-				</p>
+				<p>EuroDroneX intenta <strong>eliminar esos medios auxiliares cuando la naturaleza de la inspección permite sustituirlos por captura aérea</strong>.</p>
 			</div>
 		</div>
 	</div>

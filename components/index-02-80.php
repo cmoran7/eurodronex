@@ -23,7 +23,8 @@
 				*Ejemplo constituido a partir de una fachada de una superficie superior a 800 m², incluyendo los medios
 				auxiliares necesarios para la inspección pertinente.
 			</p>
-			<p class="home-savings-explanation">Obtener esta información tradicionalmente requiere andamios, plataformas, permisos, personal y costes importantes solo para poder observar y documentar la zona. EurodroneX utiliza inspección aérea profesional para acercar al técnico información visual de alta resolución y realizar después el análisis técnico.</p>
+			<p class="home-savings-explanation">Para conocer el estado de determinadas zonas de un edificio, tradicionalmente puede ser necesario disponer de andamios, plataformas elevadoras, trabajos en altura, permisos, personal y tiempo antes incluso de realizar el análisis técnico.</p>
+			<p class="home-savings-explanation">EuroDroneX intenta <strong>eliminar esos medios auxiliares cuando la naturaleza de la inspección permite sustituirlos por captura aérea</strong>.</p>
 		</div>
 	</div>
 </div>

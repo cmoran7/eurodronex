@@ -11,8 +11,8 @@
 <meta property="og:url" content="<?= e($config['base_url'] . $pageCanonical) ?>">
 <meta property="og:site_name" content="EurodroneX">
 <meta property="og:locale" content="es_ES">
-<meta property="og:type" content="website">
-<meta property="og:image" content="<?= e($config['base_url']) ?>/assets/img/logo-eurodronex-fondo-oscuro.webp">
+<meta property="og:type" content="<?= isset($pageArticle) ? 'article' : 'website' ?>">
+<meta property="og:image" content="<?= e($config['base_url'] . ($pageOgImage ?? '/assets/img/logo-eurodronex-fondo-oscuro.webp')) ?>">
 <?php if ($pageKey === 'index'): ?>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/890de452eac5.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/e3237528af75.woff2" crossorigin>
@@ -32,7 +32,7 @@
 <link rel="preload" as="image" href="/assets/img/fachada-paneles-blanco-negro-1600.webp" media="(min-width: 768px)" fetchpriority="high">
 <?php endif; ?>
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
-<?php $pageCss = '/assets/css/pages/' . $pageKey . '.css'; ?>
+<?php $pageCssKey = $pageStyleKey ?? $pageKey; $pageCss = '/assets/css/pages/' . $pageCssKey . '.css'; ?>
 <?php if (is_file(ROOT . $pageCss)): ?>
 <?php if ($pageKey === 'index'): ?>
 <style><?= file_get_contents(ROOT . $pageCss) ?></style>
@@ -40,7 +40,7 @@
 <link rel="stylesheet" href="<?= e($pageCss) ?>?v=<?= filemtime(ROOT . $pageCss) ?>">
 <?php endif; ?>
 <?php else: ?>
-<?php foreach (json_decode(file_get_contents(__DIR__ . '/data/' . $pageKey . '-styles.json'), true) as $css): ?>
+<?php foreach (json_decode(file_get_contents(__DIR__ . '/data/' . $pageCssKey . '-styles.json'), true) as $css): ?>
 <link rel="stylesheet" href="<?= e($css) ?>?v=<?= filemtime(ROOT . $css) ?>">
 <?php endforeach; ?>
 <?php endif; ?>

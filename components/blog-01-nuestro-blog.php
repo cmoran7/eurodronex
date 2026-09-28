@@ -32,6 +32,15 @@
 							class="elementor-posts-container elementor-posts elementor-posts--skin-cards elementor-grid elementor-posts-masonry"
 							role="list"
 						>
+							<article class="elementor-post elementor-grid-item" role="listitem">
+	<div class="elementor-post__card">
+		<div class="elementor-post__text">
+			<h3 class="elementor-post__title"><a href="/juntas-de-dilatacion-fachadas-cubiertas/">Juntas de dilatación en fachadas y cubiertas</a></h3>
+			<div class="elementor-post__excerpt"><p>Una junta de dilatación deteriorada puede convertirse en el origen de importantes patologías en un edificio.</p></div>
+			<a class="elementor-post__read-more" href="/juntas-de-dilatacion-fachadas-cubiertas/" aria-label="Leer sobre inspección y mantenimiento de juntas de dilatación">Leer más »</a>
+		</div>
+	</div>
+</article>
 							<article
 								class="elementor-post elementor-grid-item post-2428 post type-post status-publish format-standard hentry category-uncategorized"
 								role="listitem"

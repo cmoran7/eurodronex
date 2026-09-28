@@ -7,7 +7,7 @@
 			class="elementor-element elementor-element-7e7e338 elementor-widget__width-initial elementor-widget elementor-widget-heading"
 			data-id="7e7e338"
 		>
-			<h1 class="elementor-heading-title elementor-size-default">Diagnóstico de fachadas y cubiertas</h1>
+			<h1 class="elementor-heading-title elementor-size-default">Inspección y diagnóstico de fachadas en Madrid</h1>
 		</div>
 		<div
 			class="elementor-element elementor-element-f12b1b1 elementor-widget elementor-widget-text-editor"

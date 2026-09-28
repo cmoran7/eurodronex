@@ -52,5 +52,26 @@ if ($pageKey === 'servicios') {
     }
     $graph[2]['mainEntity'] = ['@type' => 'ItemList', 'itemListElement' => $items];
 }
+if (isset($pageArticle)) {
+    $graph[2]['mainEntity'] = ['@id' => $currentUrl . '#article'];
+    $graph[2]['breadcrumb'] = ['@id' => $currentUrl . '#breadcrumb'];
+    $graph[] = [
+        '@type' => 'BreadcrumbList', '@id' => $currentUrl . '#breadcrumb',
+        'itemListElement' => [
+            ['@type' => 'ListItem', 'position' => 1, 'name' => 'Inicio', 'item' => $siteUrl . '/'],
+            ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => $siteUrl . '/blog/'],
+            ['@type' => 'ListItem', 'position' => 3, 'name' => $pageArticle['headline'], 'item' => $currentUrl],
+        ],
+    ];
+    $graph[] = [
+        '@type' => 'BlogPosting', '@id' => $currentUrl . '#article',
+        'headline' => $pageArticle['headline'], 'description' => $pageDescription,
+        'image' => array_map(fn($image) => $siteUrl . $image, $pageArticle['images']),
+        'author' => ['@type' => 'Organization', 'name' => 'EuroDroneX', 'url' => $siteUrl . '/about/'],
+        'publisher' => ['@id' => $siteUrl . '/#organization'],
+        'mainEntityOfPage' => ['@id' => $currentUrl . '#webpage'],
+        'inLanguage' => 'es',
+    ];
+}
 ?>
 <script type="application/ld+json"><?= json_encode(['@context' => 'https://schema.org', '@graph' => $graph], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?></script>

@@ -31,7 +31,7 @@
 					<ul class="edx-list">
 						<li>
 							<strong>Filtraciones de agua.</strong>
-							El punto de entrada más común. Una junta deteriorada, una grieta mínima o un desagüe
+							El punto de entrada más común. Una <a href="/juntas-de-dilatacion-fachadas-cubiertas/">junta deteriorada</a>, una grieta mínima o un desagüe
 							obstruido puede provocar humedades que afectan a forjados, fachadas e instalaciones
 							interiores.
 						</li>

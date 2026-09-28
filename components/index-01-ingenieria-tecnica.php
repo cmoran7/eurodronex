@@ -13,10 +13,8 @@
 			class="elementor-element elementor-element-afa6c26 elementor-widget elementor-widget-text-editor"
 			data-id="afa6c26"
 		>
-			<p>No somos operadores de drones. Somos ingenieros y arquitectos que utilizan la
-				inspección aérea para diagnosticar edificios sin andamios,
-					grúas ni plataformas elevadoras. El dron es el instrumento. La ingeniería es el producto.</p>
-			<p>Sin la utilización de medios auxiliares. Mayor rapidez y hasta un 80% de ahorro.</p>
+			<p>No somos operadores de drones. Somos ingenieros y arquitectos que utilizan la inspección aérea para diagnosticar edificios en Madrid. El dron es el instrumento. La ingeniería es el producto.</p>
+			<p>Sin medios auxiliares cuando la naturaleza de la inspección permite evitarlos.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-a7b164d e-con-full e-flex e-con e-child e-lazyloaded"
