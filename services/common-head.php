@@ -2,8 +2,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?= e($pageTitle) ?></title>
 <meta name="description" content="<?= e($pageDescription) ?>">
-<meta name="robots" content="<?= $config['environment'] === 'production' && $pageKey !== '404' ? 'index, follow, max-image-preview:large' : 'noindex, nofollow' ?>">
+<meta name="robots" content="<?= $config['environment'] === 'production' && empty($pageNoindex) && http_response_code() !== 404 ? 'index, follow, max-image-preview:large' : 'noindex, nofollow' ?>">
+<?php if (empty($pageNoindex)): ?>
 <link rel="canonical" href="<?= e($config['base_url'] . $pageCanonical) ?>">
+<?php endif; ?>
 <meta property="og:title" content="<?= e($pageTitle) ?>">
 <meta property="og:description" content="<?= e($pageDescription) ?>">
 <meta property="og:url" content="<?= e($config['base_url'] . $pageCanonical) ?>">
@@ -49,4 +51,4 @@
 <link rel="stylesheet" href="/assets/css/site.css?v=<?= filemtime(ROOT . '/assets/css/site.css') ?>">
 <link rel="stylesheet" href="/assets/css/cookie-banner.css?v=<?= filemtime(ROOT . '/assets/css/cookie-banner.css') ?>">
 <?php endif; ?>
-<?php include __DIR__ . '/structured-data.php'; ?>
+<?php if (empty($pageNoindex)) include __DIR__ . '/structured-data.php'; ?>

@@ -6,4 +6,6 @@ return [
     '/diagnostico-fachadas-edificios/' => '/diagnostico-fachadas/',
     '/inspeccion-edificios-drones/' => '/inspeccion-tecnica-con-drones/',
     '/arquitecto-drones/' => '/ingenieria/',
+    '/fotogrametria/' => '/fotogrametria-3d-edificios/',
+    '/fotogrametria' => '/fotogrametria-3d-edificios/',
 ];
