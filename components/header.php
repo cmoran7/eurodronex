@@ -162,8 +162,8 @@
 																<h3
 																	class="elementor-heading-title elementor-size-default"
 																>
-																	Inspecciones/patologías en envolventes y obras
-																	públicas
+																	<a class="edx-menu-link" href="/inspeccion-tecnica-con-drones/">Inspecciones/patologías en envolventes y obras
+																	públicas</a>
 																</h3>
 															</div>
 															<div
@@ -206,7 +206,7 @@
 															data-id="9d8653f"
 														>
 															<h3 class="elementor-heading-title elementor-size-default">
-																Termografía avanzada
+																<a class="edx-menu-link" href="/termografia-con-dron/">Termografía avanzada</a>
 															</h3>
 														</div>
 														<div
@@ -248,7 +248,7 @@
 															data-id="a0fa474"
 														>
 															<h3 class="elementor-heading-title elementor-size-default">
-																Fotogrametría
+																<a class="edx-menu-link" href="/fotogrametria-3d-edificios/">Fotogrametría</a>
 															</h3>
 														</div>
 														<div
@@ -296,7 +296,7 @@
 																<h3
 																	class="elementor-heading-title elementor-size-default"
 																>
-																	Peritaje en streaming
+																	<a class="edx-menu-link" href="/streaming/">Peritaje en streaming</a>
 																</h3>
 															</div>
 															<div
@@ -310,7 +310,7 @@
 													<div
 														class="make-column-clickable-elementor elementor-element elementor-element-d1604f8 e-con-full e-flex e-con e-child e-lazyloaded"
 														style="cursor: pointer"
-														data-column-clickable="/diagnostico-fachadas/"
+														data-column-clickable="/inspeccion-precompra/"
 														data-column-clickable-blank="_self"
 														data-id="d1604f8"
 													>
@@ -339,7 +339,7 @@
 															data-id="9c1f1bc"
 														>
 															<h3 class="elementor-heading-title elementor-size-default">
-																Inspección pre compra
+																<a class="edx-menu-link" href="/inspeccion-precompra/">Inspección pre compra</a>
 															</h3>
 														</div>
 														<div
@@ -384,7 +384,7 @@
 															data-id="1848be7"
 														>
 															<h3 class="elementor-heading-title elementor-size-default">
-																Seguimiento o visita de obra
+																<a class="edx-menu-link" href="/seguimiento-de-obra/">Seguimiento o visita de obra</a>
 															</h3>
 														</div>
 														<div

@@ -169,7 +169,7 @@
 					Y en la
 					<strong>compra de edificios</strong>
 					, especialmente en activos singulares o de cierta antigüedad, la
-					<a href="/inspeccion-edificios-drones/">inspección técnica previa</a>
+					<a href="/inspeccion-tecnica-con-drones/">inspección técnica previa</a>
 					puede mover decenas de miles de euros en la negociación. Un comprador con un informe profesional
 					detecta costes ocultos, anticipa intervenciones futuras y negocia precio con datos. Un comprador con
 					un dossier de fotos confía en su intuición y en lo que diga el vendedor.
@@ -192,7 +192,7 @@
 				</p>
 				<p class="cta-inline">
 					👉
-					<a href="/arquitecto-drones/">Descubre nuestro servicio de arquitectos e ingenieros con drones</a>
+					<a href="/ingenieria/">Descubre nuestro servicio de arquitectos e ingenieros con drones</a>
 					y solicita un presupuesto sin compromiso.
 				</p>
 			</article>

@@ -30,7 +30,7 @@
 					detectan pueden estar en un estado avanzado y producir otro tipo de lesiones que eleven el costo
 					tras la compra.
 				</p>
-				<p>ITE/IEE con patologías evidentes, proyectos de rehabilitación de fachadas, peritajes judiciales, evaluaciones pre-compra de edificios antiguos.</p>
+				<p>ITE/IEE con patologías evidentes, proyectos de rehabilitación de fachadas, peritajes judiciales, <a class="edx-context-link" href="/inspeccion-precompra/">evaluaciones pre-compra</a> de edificios antiguos.</p>
 			</div>
 		</div>
 		<div
@@ -72,7 +72,7 @@
 				<p>
 					El alcance abarca la revisión detallada de tejas, filtraciones, grietas y canalones; la inspección
 					de fachadas frente a humedades o desprendimientos; y el acceso a zonas críticas como cornisas y
-					medianeras, todo respaldado por evidencia visual en alta resolución y termografía para detectar
+					medianeras, todo respaldado por evidencia visual en alta resolución y <a class="edx-context-link" href="/termografia-con-dron/">termografía</a> para detectar
 					pérdidas energéticas.
 				</p>
 			</div>

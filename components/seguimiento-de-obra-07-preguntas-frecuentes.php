@@ -166,7 +166,7 @@
 							data-id="9e8d07e"
 						>
 							<p>
-								Sí. Las imágenes aéreas y modelos fotogramétricos permiten comparar visualmente el
+								Sí. Las imágenes aéreas y <a class="edx-context-link" href="/fotogrametria-3d-edificios/">modelos fotogramétricos</a> permiten comparar visualmente el
 								avance real con el modelo BIM 4D previsto, identificando desviaciones en ejecución o
 								plazos.
 							</p>

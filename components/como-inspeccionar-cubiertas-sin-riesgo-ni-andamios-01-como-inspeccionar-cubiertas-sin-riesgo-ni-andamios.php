@@ -251,13 +251,13 @@
 				</section>
 				<nav class="edx-links" aria-label="Artículos y servicios relacionados">
 					<p class="edx-links-title">También te puede interesar</p>
-					<a href="/inspeccion-cubiertas-drones/" title="Servicio de inspección de cubiertas con drones">
+					<a href="/inspeccion-tecnica-con-drones/" title="Servicio de inspección de cubiertas con drones">
 						Inspección de cubiertas con drones — ver servicio
 					</a>
-					<a href="/termografia-edificios/" title="Termografía de edificios con dron">
+					<a href="/termografia-con-dron/" title="Termografía de edificios con dron">
 						Termografía de edificios con dron — detecta lo que no se ve
 					</a>
-					<a href="/diagnostico-fachadas-edificios/" title="Diagnóstico técnico de fachadas">
+					<a href="/diagnostico-fachadas/" title="Diagnóstico técnico de fachadas">
 						Diagnóstico técnico de fachadas — patologías y soluciones
 					</a>
 				</nav>
@@ -266,7 +266,7 @@
 					<h3>Solicita tu inspección sin compromiso</h3>
 					<p>Te respondemos en menos de 24 horas. Operamos en Madrid y cualquier punto de España.</p>
 					<a
-						href="/inspeccion-cubiertas-drones/"
+						href="/inspeccion-tecnica-con-drones/"
 						class="edx-btn"
 						title="Solicitar inspección de cubierta con drones"
 					>

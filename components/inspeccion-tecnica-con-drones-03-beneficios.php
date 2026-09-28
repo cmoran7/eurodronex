@@ -250,7 +250,7 @@
 					class="elementor-element elementor-element-b0a777a elementor-widget elementor-widget-text-editor"
 					data-id="b0a777a"
 				>
-					<p>Todo el proceso está desarrollado y supervisado por ingenieros.</p>
+					<p>Todo el proceso está desarrollado y supervisado por <a class="edx-context-link" href="/ingenieria/">ingenieros</a>.</p>
 				</div>
 			</div>
 		</div>

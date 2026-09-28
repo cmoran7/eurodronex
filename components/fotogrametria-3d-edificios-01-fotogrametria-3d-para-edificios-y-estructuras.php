@@ -23,6 +23,7 @@
 					data-id="b17d417"
 				>
 			<p>Generación de réplicas digitales exactas del edificio mediante procesado fotogramétrico avanzado. Nubes de puntos densas, mallas 3D texturizadas y ortofotografías métricas exportables a formatos BIM estándar.</p>
+			<p>Los modelos resultantes permiten mediciones precisas, análisis dimensional, comparativas temporales y exportación a formatos BIM estándar (IFC, RVT).</p>
 		</div>
 				<div
 					class="elementor-element elementor-element-6f2ee57 elementor-mobile-align-center elementor-widget elementor-widget-button"

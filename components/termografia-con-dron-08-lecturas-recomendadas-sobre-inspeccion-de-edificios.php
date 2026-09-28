@@ -16,7 +16,7 @@
 						Lecturas recomendadas sobre inspección de edificios
 					</h2>
 					<p style="text-align: center; max-width: 760px; margin: 0 auto 36px; color: #555">
-						Profundiza sobre cómo aplicamos la termografía y las inspecciones con dron en fachadas y
+						Profundiza sobre cómo aplicamos la termografía y las <a class="edx-context-link" href="/inspeccion-tecnica-con-drones/">inspecciones con dron</a> en fachadas y
 						cubiertas:
 					</p>
 					<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px">

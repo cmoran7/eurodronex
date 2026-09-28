@@ -250,7 +250,7 @@
 						</p>
 						<p class="cta-inline">
 							👉
-							<a href="/inspeccion-edificios-drones/">
+							<a href="/inspeccion-tecnica-con-drones/">
 								Descubre nuestro servicio de inspección de edificios con drones
 							</a>
 							y solicita un presupuesto sin compromiso.

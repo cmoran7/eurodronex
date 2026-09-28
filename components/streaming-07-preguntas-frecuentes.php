@@ -260,7 +260,7 @@
 							class="elementor-element elementor-element-21d9f93 elementor-widget elementor-widget-text-editor"
 							data-id="21d9f93"
 						>
-							<p>Los drones están siempre dirigidos por ingenieros o arquitectos.</p>
+							<p>Los drones están siempre dirigidos por <a class="edx-context-link" href="/ingenieria/">ingenieros o arquitectos</a>.</p>
 						</div>
 					</div>
 				</details>

@@ -14,6 +14,7 @@
 			data-id="8221fd1"
 		>
 			<p>Análisis térmico completo de la envolvente del edificio con cámara termográfica de alta sensibilidad montada en dron. Identificamos puentes térmicos, filtraciones de agua no visibles, deficiencias en aislamiento, infiltraciones de aire y condensaciones internas.</p>
+			<p>El análisis se realiza bajo condiciones controladas de diferencial térmico para garantizar diagnóstico fiable.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-05f6e37 elementor-mobile-align-center elementor-widget elementor-widget-button"

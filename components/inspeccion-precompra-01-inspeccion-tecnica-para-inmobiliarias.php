@@ -29,7 +29,7 @@
 					class="elementor-element elementor-element-ab19e4e elementor-widget elementor-widget-text-editor"
 					data-id="ab19e4e"
 				>
-			<p>Reduzca riesgos en operaciones de compra y venta de activos inmobiliarios con una evaluación técnica previa.</p>
+			<p>Reduzca riesgos en operaciones de compra y venta de activos inmobiliarios con una <a class="edx-context-link" href="/inspeccion-tecnica-con-drones/">evaluación técnica previa</a>.</p>
 		</div>
 				<div
 					class="elementor-element elementor-element-2b675c4 elementor-mobile-align-justify elementor-widget elementor-widget-button"

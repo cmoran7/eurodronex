@@ -14,12 +14,13 @@
 			data-id="f12b1b1"
 		>
 			<p>Evaluación especializada de patologías en envolventes del edificio. Documentamos y clasificamos técnicamente fisuras, desprendimientos, eflorescencias, corrosión y cualquier lesión que comprometa la integridad o durabilidad de la envolvente.</p>
+			<p>El informe técnico incluye diagnóstico de causas, valoración de gravedad y recomendaciones de intervención.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-96948dc elementor-mobile-align-center elementor-widget elementor-widget-button"
 			data-id="96948dc"
 		>
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="/seguimiento-de-obra/">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="/contacto/">
 				<span class="elementor-button-content-wrapper">
 					<span class="elementor-button-text">Solicitar presupuesto</span>
 				</span>

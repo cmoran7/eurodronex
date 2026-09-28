@@ -73,13 +73,16 @@
 						</li>
 						<li class="elementor-icon-list-item">
 							<a href="/diagnostico-fachadas/">
-								<span class="elementor-icon-list-text">Inspección pre compra</span>
+								<span class="elementor-icon-list-text">Diagnóstico de fachadas</span>
 							</a>
 						</li>
 						<li class="elementor-icon-list-item">
 							<a href="/seguimiento-de-obra/">
 								<span class="elementor-icon-list-text">Seguimiento o visita de obra</span>
 							</a>
+						</li>
+						<li class="elementor-icon-list-item">
+							<a href="/inspeccion-precompra/"><span class="elementor-icon-list-text">Inspección precompra</span></a>
 						</li>
 					</ul>
 				</div>
