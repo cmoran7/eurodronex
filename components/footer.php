@@ -143,8 +143,13 @@
 							</a>
 						</li>
 						<li class="elementor-icon-list-item">
-							<a href="https://www.instagram.com/eurodronex" target="_blank" rel="noopener noreferrer" aria-label="EurodroneX en Instagram">
+							<a href="https://www.instagram.com/eurodronex/" target="_blank" rel="noopener noreferrer" aria-label="EurodroneX en Instagram">
 								<span class="elementor-icon-list-text">Instagram</span>
+							</a>
+						</li>
+						<li class="elementor-icon-list-item">
+							<a href="https://www.youtube.com/@eurodronex" target="_blank" rel="noopener noreferrer" aria-label="EurodroneX en YouTube">
+								<span class="elementor-icon-list-text">YouTube</span>
 							</a>
 						</li>
 						<li class="elementor-icon-list-item">

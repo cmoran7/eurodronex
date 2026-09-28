@@ -7,7 +7,7 @@ $graph = [
         '@type' => 'Organization', '@id' => $siteUrl . '/#organization',
         'name' => 'EurodroneX', 'url' => $siteUrl . '/',
         'logo' => $siteUrl . '/assets/img/logo-eurodronex-fondo-oscuro.webp',
-        'sameAs' => ['https://www.instagram.com/eurodronex'],
+        'sameAs' => ['https://www.instagram.com/eurodronex/', 'https://www.youtube.com/@eurodronex'],
     ],
     [
         '@type' => 'WebSite', '@id' => $siteUrl . '/#website',
