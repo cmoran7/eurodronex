@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Inspección Precompra de Edificios | EurodroneX';
-	$pageDescription = 'Inspecciones técnicas previas a compraventa, due diligence de activos y diagnóstico de edificios para inmobiliarias y promotoras. Con drones y criterio técnico.';
+	$pageTitle = 'Inspección precompra de edificios e inmuebles | EurodroneX';
+	$pageDescription = 'Evaluación técnica previa a la compra de edificios para inmobiliarias y promotoras. Inspección con drones de fachadas y cubiertas para identificar riesgos.';
 	$pageCanonical = '/inspeccion-precompra/';
 	$pageKey = 'inspeccion-precompra';
 	include_once 'services/bootstrap.php';

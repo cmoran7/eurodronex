@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Diagnóstico de Fachadas: Grietas y Humedades | EurodroneX';
-	$pageDescription = 'Detectamos grietas, humedades y desprendimientos en fachadas con drones y cámara termográfica. Informe técnico real firmado por arquitecto. Madrid y nacional.';
+	$pageTitle = 'Diagnóstico de fachadas con drones | EurodroneX';
+	$pageDescription = 'Documentación y evaluación técnica de fisuras, desprendimientos y lesiones en fachadas. Inspección aérea para orientar el diagnóstico del edificio.';
 	$pageCanonical = '/diagnostico-fachadas/';
 	$pageKey = 'diagnostico-fachadas';
 	include_once 'services/bootstrap.php';

@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Inspección Técnica de Edificios con Drones | EurodroneX';
-	$pageDescription = 'Inspección técnica de edificios con drones por arquitectos: fachadas, cubiertas y diagnóstico de fachadas sin andamios. Informe firmado. Madrid y toda España.';
+	$pageTitle = 'Inspección técnica de edificios con drones | EurodroneX';
+	$pageDescription = 'Evaluación visual de fachadas, cubiertas y elementos estructurales con drones. Documentación de patologías visibles con supervisión técnica de ingenieros.';
 	$pageCanonical = '/inspeccion-tecnica-con-drones/';
 	$pageKey = 'inspeccion-tecnica-con-drones';
 	include_once 'services/bootstrap.php';

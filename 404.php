@@ -1,5 +1,6 @@
 <?php
     http_response_code(404);
+    $pageNoindex = true;
     $pageTitle = 'Página no encontrada | EurodroneX';
     $pageDescription = 'La página solicitada no existe.';
     $pageCanonical = '/404/';

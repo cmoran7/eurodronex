@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Solicita tu Inspección con Drones | EurodroneX';
-	$pageDescription = 'Contacta con EuroDronex para solicitar una inspección técnica de tu edificio con drones. Te respondemos en menos de 24 horas. Madrid y ámbito nacional.';
+	$pageTitle = 'Contacto y presupuesto de inspección con drones | EurodroneX';
+	$pageDescription = 'Solicite una evaluación técnica de su edificio a EurodroneX. Inspección con drones, diagnóstico de fachadas, termografía y fotogrametría. Cuéntenos su caso.';
 	$pageCanonical = '/contacto/';
 	$pageKey = 'contacto';
 	include_once 'services/bootstrap.php';

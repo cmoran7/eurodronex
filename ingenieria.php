@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = 'Arquitecto e Ingeniero de Drones | EurodroneX';
+	$pageTitle = 'Arquitectos e ingenieros con drones | EurodroneX';
 	$pageDescription = 'Ingeniería y arquitectura aplicadas a la inspección de edificios con drones. Diagnóstico técnico de fachadas y cubiertas con criterio profesional.';
 	$pageCanonical = '/ingenieria/';
 	$pageKey = 'ingenieria';
