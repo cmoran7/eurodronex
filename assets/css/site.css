@@ -318,3 +318,18 @@ img[src="/assets/img/fachada-paneles-ventanas-detalle.jpg"] { object-fit: cover;
         background-image: url('/assets/img/fachada-balcones-blanco-negro-640.webp') !important;
     }
 }
+/* Contextual links retain the original typography and monochrome palette. */
+.edx-context-link {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+}
+.elementor .edx-menu-link {
+    color: inherit;
+    font: inherit;
+}
+.edx-context-link:focus-visible,
+.edx-menu-link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
