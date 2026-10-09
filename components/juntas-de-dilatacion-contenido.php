@@ -63,6 +63,7 @@
 				<a href="/diagnostico-fachadas/">Inspección de patologías en fachadas</a>
 				<a href="/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/">Inspección de cubiertas: acceso y documentación con drones</a>
 				<a href="/ingenieria/">Ingeniería y arquitectura aplicadas a la inspección</a>
+				<a href="/mantenimiento-cubiertas-planas-no-transitables/">Mantenimiento de cubiertas planas: láminas asfálticas y remates</a>
 			</nav>
 			<aside class="edx-cta" aria-label="Solicitar una inspección">
 				<p class="edx-cta-label">Inspección de edificios en Madrid</p>

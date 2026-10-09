@@ -213,4 +213,16 @@
             <image:loc>https://eurodronex.com/assets/img/inspeccion-junta-dilatacion-fachada-video.jpg</image:loc>
         </image:image>
     </url>
+    <url>
+        <loc>https://eurodronex.com/mantenimiento-cubiertas-planas-no-transitables/</loc>
+        <image:image>
+            <image:loc>https://eurodronex.com/assets/img/rotura-lamina-asfaltica-encuentro-vertical.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://eurodronex.com/assets/img/desgarro-impermeabilizacion-cubierta-plana.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://eurodronex.com/assets/img/remate-perimetral-cubierta-plana.jpg</image:loc>
+        </image:image>
+    </url>
 </urlset>

@@ -30,6 +30,7 @@
 					detectan pueden estar en un estado avanzado y producir otro tipo de lesiones que eleven el costo
 					tras la compra.
 				</p>
+				<p><a class="edx-context-link" href="/mantenimiento-cubiertas-planas-no-transitables/">Lesiones en la impermeabilización de cubiertas planas y sus remates</a></p>
 				<p>Una junta de dilatación deteriorada puede convertirse en el origen de importantes patologías en un edificio.</p>
 				<p><a class="edx-context-link" href="/juntas-de-dilatacion-fachadas-cubiertas/">Juntas de dilatación: deterioro, inspección y mantenimiento</a></p>
 				<p>ITE/IEE con patologías evidentes, proyectos de rehabilitación de fachadas, peritajes judiciales, <a class="edx-context-link" href="/inspeccion-precompra/">evaluaciones pre-compra</a> de edificios antiguos.</p>

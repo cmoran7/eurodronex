@@ -33,6 +33,13 @@
 							role="list"
 						>
 							<article class="elementor-post elementor-grid-item" role="listitem">
+	<div class="elementor-post__card"><div class="elementor-post__text">
+		<h3 class="elementor-post__title"><a href="/mantenimiento-cubiertas-planas-no-transitables/">Mantenimiento de cubiertas planas no transitables</a></h3>
+		<div class="elementor-post__excerpt"><p>Roturas en láminas asfálticas, encuentros verticales y remates: valoración constructiva y actuación recomendada.</p></div>
+		<a class="elementor-post__read-more" href="/mantenimiento-cubiertas-planas-no-transitables/" aria-label="Leer sobre mantenimiento de cubiertas planas no transitables">Leer más »</a>
+	</div></div>
+</article>
+<article class="elementor-post elementor-grid-item" role="listitem">
 	<div class="elementor-post__card">
 		<div class="elementor-post__text">
 			<h3 class="elementor-post__title"><a href="/juntas-de-dilatacion-fachadas-cubiertas/">Juntas de dilatación en fachadas y cubiertas</a></h3>

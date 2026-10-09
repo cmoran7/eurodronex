@@ -260,7 +260,8 @@
 					<a href="/diagnostico-fachadas/" title="Diagnóstico técnico de fachadas">
 						Diagnóstico técnico de fachadas — patologías y soluciones
 					</a>
-				</nav>
+					<a href="/mantenimiento-cubiertas-planas-no-transitables/">Mantenimiento de cubiertas planas: láminas asfálticas y remates</a>
+			</nav>
 				<aside class="edx-cta" aria-label="Llamada a la acción">
 					<p class="edx-cta-label">¿Tienes una cubierta que revisar?</p>
 					<h3>Solicita tu inspección sin compromiso</h3>

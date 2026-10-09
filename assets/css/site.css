@@ -351,3 +351,6 @@ img[src="/assets/img/fachada-paneles-ventanas-detalle.jpg"] { object-fit: cover;
 @media (prefers-reduced-motion: reduce) {
     .edx-joints .edx-joint-photo img { transition: none; }
 }
+
+.edx-joints .edx-repair-steps { padding-left: 1.5em; margin: 24px 0; }
+.edx-joints .edx-repair-steps li { padding-left: .25em; margin-bottom: 12px; }

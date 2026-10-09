@@ -248,5 +248,13 @@
     "sections": [
       "juntas-de-dilatacion-contenido.php"
     ]
+  },
+  {
+    "path": "/mantenimiento-cubiertas-planas-no-transitables/",
+    "file": "mantenimiento-cubiertas-planas-no-transitables.php",
+    "title": "Mantenimiento de cubiertas planas no transitables | EuroDroneX",
+    "sections": [
+      "mantenimiento-cubiertas-planas-contenido.php"
+    ]
   }
 ]
