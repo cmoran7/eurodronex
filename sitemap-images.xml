@@ -225,4 +225,6 @@
             <image:loc>https://eurodronex.com/assets/img/remate-perimetral-cubierta-plana.jpg</image:loc>
         </image:image>
     </url>
+    <url><loc>https://eurodronex.com/inspeccion-comunidades-propietarios/</loc><image:image><image:loc>https://eurodronex.com/assets/img/fachada-balcones-paneles-colores-800.webp</image:loc></image:image></url>
+    <url><loc>https://eurodronex.com/inspeccion-cubiertas-filtraciones/</loc><image:image><image:loc>https://eurodronex.com/assets/img/vista-aerea-cubiertas-edificio.webp</image:loc></image:image></url>
 </urlset>
