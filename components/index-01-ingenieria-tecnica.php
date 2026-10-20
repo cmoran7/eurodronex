@@ -14,7 +14,7 @@
 			data-id="afa6c26"
 		>
 			<p>No somos operadores de drones. Somos ingenieros y arquitectos que utilizan la inspección aérea para diagnosticar edificios en Madrid. El dron es el instrumento. La ingeniería es el producto.</p>
-			<p>Sin medios auxiliares cuando la naturaleza de la inspección permite evitarlos.</p>
+			<p>Inspección de patologías en fachadas y cubiertas con criterio técnico. Podemos evitar el coste de medios auxiliares cuando la naturaleza de la inspección permite sustituirlos por captura aérea.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-a7b164d e-con-full e-flex e-con e-child e-lazyloaded"
@@ -26,7 +26,7 @@
 			>
 				<a class="elementor-button elementor-button-link elementor-size-sm" href="/contacto/">
 					<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Solicitar información</span>
+						<span class="elementor-button-text">Consultar mi caso</span>
 					</span>
 				</a>
 			</div>

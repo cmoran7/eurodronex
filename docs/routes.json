@@ -256,5 +256,21 @@
     "sections": [
       "mantenimiento-cubiertas-planas-contenido.php"
     ]
+  },
+  {
+    "path": "/inspeccion-comunidades-propietarios/",
+    "file": "inspeccion-comunidades-propietarios.php",
+    "title": "Inspección para comunidades de propietarios | EuroDroneX",
+    "sections": [
+      "inspeccion-comunidades-propietarios-contenido.php"
+    ]
+  },
+  {
+    "path": "/inspeccion-cubiertas-filtraciones/",
+    "file": "inspeccion-cubiertas-filtraciones.php",
+    "title": "Inspección de cubiertas y filtraciones Madrid | EuroDroneX",
+    "sections": [
+      "inspeccion-cubiertas-filtraciones-contenido.php"
+    ]
   }
 ]

@@ -211,9 +211,7 @@
 							class="elementor-element elementor-element-31e5c5f elementor-widget elementor-widget-text-editor"
 							data-id="31e5c5f"
 						>
-							No. Esa es precisamente nuestra ventaja principal. Inspeccionamos la envolvente completa
-							(fachadas y cubiertas) sin andamios, grúas ni plataformas elevadoras, eliminando costes,
-							permisos y tiempos de instalación.
+							La captura aérea permite evitar andamios o plataformas en determinadas inspecciones visuales de fachadas y cubiertas. La viabilidad depende del acceso, los permisos y las comprobaciones necesarias. Cuando se requieren catas o una revisión de proximidad, pueden hacer falta medios complementarios.
 						</div>
 					</div>
 				</details>

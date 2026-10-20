@@ -26,7 +26,7 @@ $servicePages = [
     'fotogrametria-3d-edificios', 'diagnostico-fachadas',
     'seguimiento-de-obra', 'streaming', 'inspeccion-precompra',
 ];
-if (in_array($pageKey, $servicePages, true)) {
+if (in_array($pageKey, array_merge($servicePages, ['inspeccion-comunidades-propietarios', 'inspeccion-cubiertas-filtraciones']), true)) {
     $graph[2]['mainEntity'] = ['@id' => $currentUrl . '#service'];
     $graph[] = [
         '@type' => 'Service', '@id' => $currentUrl . '#service',

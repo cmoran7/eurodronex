@@ -7,6 +7,7 @@
                 <h1>Inspección técnica para cada necesidad profesional.</h1>
                 <p>Arquitectos, ingenierías, administradores de fincas, aseguradoras, promotoras e inmobiliarias. Un mismo edificio puede plantear preguntas diferentes según quién necesita evaluarlo.</p>
                 <p>Adaptamos el alcance de la inspección a la información que necesita cada profesional para su trabajo.</p>
+                <a class="audiences-button" href="/contacto/">Consultar mi caso</a>
             </div>
             <img
             	srcset="/assets/img/fachada-balcones-paneles-colores-480.webp 480w, /assets/img/fachada-balcones-paneles-colores-800.webp 800w, /assets/img/fachada-balcones-paneles-colores-1280.webp 1280w, /assets/img/fachada-balcones-paneles-colores.webp 2560w"

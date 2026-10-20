@@ -39,7 +39,7 @@
             <p>Inspecciones orientadas a localizar humedades, observar lesiones en fachadas y cubiertas y estudiar pérdidas de eficiencia energética. La documentación ayuda a explicar el problema a la comunidad y a preparar la valoración técnica de una intervención.</p>
             <p><strong>Cuándo puede ayudar:</strong> La aparición de filtraciones, dudas sobre el estado de una fachada o la necesidad de estudiar una cubierta.</p>
             <nav class="audiences-services" aria-label="Servicios para administradores de fincas">
-                <a href="/inspeccion-tecnica-con-drones/">Inspección de edificios <span aria-hidden="true">→</span></a>
+                <a href="/inspeccion-comunidades-propietarios/">Inspección para comunidades <span aria-hidden="true">→</span></a>
                 <a href="/termografia-con-dron/">Termografía <span aria-hidden="true">→</span></a>
             </nav>
         </div>

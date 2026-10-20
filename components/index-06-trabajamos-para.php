@@ -61,7 +61,7 @@
 					class="elementor-element elementor-element-c92ca62 elementor-widget elementor-widget-heading"
 					data-id="c92ca62"
 				>
-					<h3 class="elementor-heading-title elementor-size-default"><a class="audiences-home-link" href="/para-quien/#administradores-de-fincas">Administradores de fincas</a></h3>
+					<h3 class="elementor-heading-title elementor-size-default"><a class="audiences-home-link" href="/inspeccion-comunidades-propietarios/">Administradores de fincas</a></h3>
 				</div>
 				<div
 					class="elementor-element elementor-element-f6e6dc9 elementor-widget elementor-widget-text-editor"

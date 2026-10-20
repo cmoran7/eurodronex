@@ -110,7 +110,7 @@
 								</svg>
 							</span>
 							<span class="elementor-icon-list-text">
-								Roturas en cubierta y puntos críticos de tejados
+								<a class="audiences-home-link" href="/inspeccion-cubiertas-filtraciones/">Roturas en cubierta y puntos críticos de tejados</a>
 							</span>
 						</li>
 						<li class="elementor-icon-list-item">
