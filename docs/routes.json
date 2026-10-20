@@ -272,5 +272,13 @@
     "sections": [
       "inspeccion-cubiertas-filtraciones-contenido.php"
     ]
+  },
+  {
+    "path": "/ampollas-abolsamiento-pintura-fachadas/",
+    "file": "ampollas-abolsamiento-pintura-fachadas.php",
+    "title": "Ampollas en pintura de fachadas: diagnóstico | Eurodrónex",
+    "sections": [
+      "ampollas-abolsamiento-pintura-fachadas-contenido.php"
+    ]
   }
 ]

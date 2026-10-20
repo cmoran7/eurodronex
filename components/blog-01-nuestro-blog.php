@@ -33,6 +33,13 @@
 							role="list"
 						>
 							<article class="elementor-post elementor-grid-item" role="listitem">
+    <div class="elementor-post__card"><div class="elementor-post__text">
+        <h3 class="elementor-post__title"><a href="/ampollas-abolsamiento-pintura-fachadas/">Ampollas y abolsamiento de pintura en fachadas</a></h3>
+        <div class="elementor-post__excerpt"><p>Por qué se abomba la pintura, qué relación tiene con la humedad y por qué conviene diagnosticar la causa antes de repintar.</p></div>
+        <a class="elementor-post__read-more" href="/ampollas-abolsamiento-pintura-fachadas/" aria-label="Leer sobre ampollas y abolsamiento de pintura en fachadas">Leer más »</a>
+    </div></div>
+</article>
+<article class="elementor-post elementor-grid-item" role="listitem">
 	<div class="elementor-post__card"><div class="elementor-post__text">
 		<h3 class="elementor-post__title"><a href="/mantenimiento-cubiertas-planas-no-transitables/">Mantenimiento de cubiertas planas no transitables</a></h3>
 		<div class="elementor-post__excerpt"><p>Roturas en láminas asfálticas, encuentros verticales y remates: valoración constructiva y actuación recomendada.</p></div>

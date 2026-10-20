@@ -31,6 +31,7 @@
         <div class="audiences-profile-copy"><h3>Evitar medios auxiliares cuando sea viable</h3><p>La captura aérea puede sustituir medios de acceso en determinadas inspecciones visuales, reduciendo los costes de instalación asociados. La viabilidad depende del entorno, los permisos y el alcance técnico.</p><p>Para valorar su caso, indique el municipio, el tipo de cubierta y dónde se han observado humedades o deterioros. Puede aportar fotografías y antecedentes de reparaciones. Definimos el alcance y presupuesto antes de realizar la inspección.</p></div>
     </section>
     <nav class="audiences-services" aria-label="Información relacionada">
+        <a href="/ampollas-abolsamiento-pintura-fachadas/">Ampollas de pintura y humedad en fachadas</a>
         <a href="/mantenimiento-cubiertas-planas-no-transitables/">Lesiones en láminas asfálticas y remates</a>
         <a href="/juntas-de-dilatacion-fachadas-cubiertas/">Juntas de dilatación en fachadas y cubiertas</a>
         <a href="/termografia-con-dron/">Termografía de edificios</a>

@@ -78,6 +78,7 @@
 					medianeras, todo respaldado por evidencia visual en alta resolución y <a class="edx-context-link" href="/termografia-con-dron/">termografía</a> para detectar
 					pérdidas energéticas.
 				</p>
+                <p><a class="edx-context-link" href="/ampollas-abolsamiento-pintura-fachadas/">Ampollas y abolsamiento de pintura: diagnosticar la humedad antes de repintar la fachada.</a></p>
 			</div>
 		</div>
 	</div>
