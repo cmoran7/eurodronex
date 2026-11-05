@@ -59,6 +59,7 @@
 				<p>Las juntas de dilatación no son un acabado secundario. Son elementos fundamentales para controlar los movimientos del edificio, conservar la estanqueidad de la envolvente y evitar la progresión de patologías constructivas. Detectar a tiempo su deterioro permite planificar una intervención preventiva y reducir el riesgo de filtraciones, fisuras, desprendimientos y reparaciones más costosas. La documentación técnica de fachadas destaca la importancia de la correcta disposición y ejecución de estas juntas, mientras que los estudios de patología señalan la carencia o deficiencia de juntas constructivas como una causa relevante de lesiones en la edificación.</p>
 			</section>
 			<nav class="edx-links" aria-label="Servicios y artículos relacionados">
+                <a href="/casos/">Ver todos los casos de fachadas y cubiertas</a>
 				<p class="edx-links-title">Inspección de fachadas y cubiertas</p>
 				<a href="/diagnostico-fachadas/">Inspección de patologías en fachadas</a>
 				<a href="/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/">Inspección de cubiertas: acceso y documentación con drones</a>

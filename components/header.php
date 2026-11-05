@@ -400,6 +400,11 @@
 									</div>
 								</li>
 								<li class="e-n-menu-item">
+                                    <div id="e-n-menu-title-cases" class="e-n-menu-title">
+                                        <a class="e-n-menu-title-container e-focus e-link" href="/casos/"><span class="e-n-menu-title-text">Casos</span></a>
+                                    </div>
+                                </li>
+                                <li class="e-n-menu-item">
 									<div id="e-n-menu-title-audiences" class="e-n-menu-title">
 										<a class="e-n-menu-title-container e-focus e-link" href="/para-quien/">
 											<span class="e-n-menu-title-text">Para quién</span>

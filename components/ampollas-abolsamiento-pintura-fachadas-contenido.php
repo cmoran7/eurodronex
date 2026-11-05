@@ -43,6 +43,7 @@
                 </ul>
             </section>
             <nav class="edx-links" aria-label="Artículos relacionados">
+                <a href="/casos/">Ver todos los casos de fachadas y cubiertas</a>
                 <p class="edx-links-title">Fachadas, cubiertas y entrada de agua</p>
                 <a href="/mantenimiento-cubiertas-planas-no-transitables/">Deterioro de láminas asfálticas y remates de cubierta</a>
                 <a href="/juntas-de-dilatacion-fachadas-cubiertas/">Juntas de dilatación en fachadas y cubiertas</a>

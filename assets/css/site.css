@@ -354,3 +354,15 @@ img[src="/assets/img/fachada-paneles-ventanas-detalle.jpg"] { object-fit: cover;
 
 .edx-joints .edx-repair-steps { padding-left: 1.5em; margin: 24px 0; }
 .edx-joints .edx-repair-steps li { padding-left: .25em; margin-bottom: 12px; }
+
+/* Casos: mismo lenguaje visual, imágenes alternadas y orden lineal en móvil. */
+.cases-list{padding-block:24px}
+.case-row{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:48px;padding-block:40px}
+.case-row:nth-child(even) .case-image{grid-column:2;grid-row:1}
+.case-row:nth-child(even) .case-copy{grid-column:1;grid-row:1}
+.case-copy h2{font-size:clamp(26px,3vw,40px);line-height:1.2;font-weight:600}
+.case-copy p{color:#555}
+.case-image img{display:block;width:100%;height:auto;max-height:460px;object-fit:contain;filter:grayscale(1);transition:filter .6s ease}
+.case-image:hover img,.case-image:focus-visible img{filter:grayscale(0)}
+@media(max-width:767px){.case-row{grid-template-columns:1fr;gap:20px;padding-block:30px}.case-row:nth-child(even) .case-image,.case-row:nth-child(even) .case-copy{grid-column:auto;grid-row:auto}}
+@media(prefers-reduced-motion:reduce){.case-image img{transition:none}}

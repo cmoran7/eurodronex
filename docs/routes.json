@@ -280,5 +280,21 @@
     "sections": [
       "ampollas-abolsamiento-pintura-fachadas-contenido.php"
     ]
+  },
+  {
+    "path": "/casos/",
+    "file": "casos.php",
+    "title": "Casos de patologías en fachadas y cubiertas | Eurodrónex",
+    "sections": [
+      "casos-contenido.php"
+    ]
+  },
+  {
+    "path": "/eflorescencias-peto-cubierta-plana/",
+    "file": "eflorescencias-peto-cubierta-plana.php",
+    "title": "Eflorescencias en petos de cubierta: diagnóstico | Eurodrónex",
+    "sections": [
+      "eflorescencias-peto-cubierta-plana-contenido.php"
+    ]
   }
 ]

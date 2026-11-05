@@ -32,7 +32,8 @@
 							class="elementor-posts-container elementor-posts elementor-posts--skin-cards elementor-grid elementor-posts-masonry"
 							role="list"
 						>
-							<article class="elementor-post elementor-grid-item" role="listitem">
+							<article class="elementor-post elementor-grid-item" role="listitem"><div class="elementor-post__card"><div class="elementor-post__text"><h3 class="elementor-post__title"><a href="/eflorescencias-peto-cubierta-plana/">Eflorescencias en el peto de una cubierta plana</a></h3><div class="elementor-post__excerpt"><p>Qué pueden indicar las manchas blancas, cómo se relacionan con la humedad y qué revisar antes de limpiar y pintar.</p></div><a class="elementor-post__read-more" href="/eflorescencias-peto-cubierta-plana/" aria-label="Leer sobre eflorescencias en petos">Leer más »</a></div></div></article>
+<article class="elementor-post elementor-grid-item" role="listitem">
     <div class="elementor-post__card"><div class="elementor-post__text">
         <h3 class="elementor-post__title"><a href="/ampollas-abolsamiento-pintura-fachadas/">Ampollas y abolsamiento de pintura en fachadas</a></h3>
         <div class="elementor-post__excerpt"><p>Por qué se abomba la pintura, qué relación tiene con la humedad y por qué conviene diagnosticar la causa antes de repintar.</p></div>

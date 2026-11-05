@@ -64,6 +64,7 @@
 				</blockquote>
 			</section>
 			<nav class="edx-links" aria-label="Servicios y artículos relacionados">
+                <a href="/casos/">Ver todos los casos de fachadas y cubiertas</a>
 				<p class="edx-links-title">Inspección y conservación de la envolvente</p>
 				<a href="/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/">Cómo inspeccionar cubiertas con drones</a>
 				<a href="/juntas-de-dilatacion-fachadas-cubiertas/">Juntas de dilatación en fachadas y cubiertas</a>

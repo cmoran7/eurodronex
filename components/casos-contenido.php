@@ -1,0 +1,26 @@
+<section class="audiences-intro"><div class="audiences-wrap">
+    <nav class="audiences-breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> / Casos</nav>
+    <p class="audiences-label">Patologías de edificios</p>
+    <h1>Casos de fachadas y cubiertas: comprender la lesión antes de intervenir.</h1>
+    <p>Ejemplos de deterioros que pueden encontrar comunidades de propietarios, administradores de fincas y profesionales de la edificación. Las imágenes y el análisis técnico ayudan a entender qué revisar y a preparar una intervención con criterio.</p>
+    <a class="audiences-button" href="/contacto/">Consultar mi caso</a>
+</div></section>
+<div class="audiences-wrap cases-list">
+    <section class="case-row" aria-labelledby="caso-0">
+        <a class="case-image" href="/eflorescencias-peto-cubierta-plana/" aria-label="Ver caso: Eflorescencias en el peto de una cubierta plana"><img src="/assets/img/eurodronex-eflorescencias-peto-cubierta-plana-exterior.webp" width="1280" height="960" loading="lazy" decoding="async" alt="Vetas blancas y deterioro del revestimiento bajo la coronación de un peto"></a>
+        <div class="case-copy"><p class="audiences-label">Caso 01</p><h2 id="caso-0">Eflorescencias en el peto de una cubierta plana</h2><p>Las manchas blancas pueden ser depósitos de sales transportadas por la humedad. Revisar la coronación, los remates y los encuentros con la cubierta ayuda a orientar la búsqueda de la entrada de agua antes de limitarse a limpiar y pintar.</p><a class="audiences-home-link" href="/eflorescencias-peto-cubierta-plana/">Leer el artículo completo <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section class="case-row" aria-labelledby="caso-1">
+        <a class="case-image" href="/ampollas-abolsamiento-pintura-fachadas/" aria-label="Ver caso: Ampollas y abolsamiento de pintura en fachadas"><img src="/assets/img/patologia-ampollamiento-pintura-fachada-marbella.webp" width="1280" height="720" loading="lazy" decoding="async" alt="Bolsas y desconchados de pintura en la fachada bajo un peto"></a>
+        <div class="case-copy"><p class="audiences-label">Caso 02</p><h2 id="caso-1">Ampollas y abolsamiento de pintura en fachadas</h2><p>La pintura que se levanta puede estar relacionada con humedad atrapada bajo el acabado. El diagnóstico permite estudiar su origen y el estado del soporte antes de repintar y repetir una intervención que no resuelva la causa.</p><a class="audiences-home-link" href="/ampollas-abolsamiento-pintura-fachadas/">Leer el artículo completo <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section class="case-row" aria-labelledby="caso-2">
+        <a class="case-image" href="/mantenimiento-cubiertas-planas-no-transitables/" aria-label="Ver caso: Roturas de impermeabilización en cubiertas planas"><img src="/assets/img/remate-perimetral-cubierta-plana.jpg" width="5712" height="3213" loading="lazy" decoding="async" alt="Remate metálico y encuentro de la impermeabilización con el paramento vertical"></a>
+        <div class="case-copy"><p class="audiences-label">Caso 03</p><h2 id="caso-2">Roturas de impermeabilización en cubiertas planas</h2><p>Los desgarros de las láminas asfálticas y las discontinuidades de los remates son posibles puntos de entrada de agua. Documentar su extensión ayuda a valorar una reparación localizada o la necesidad de estudiar una actuación más amplia.</p><a class="audiences-home-link" href="/mantenimiento-cubiertas-planas-no-transitables/">Leer el artículo completo <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section class="case-row" aria-labelledby="caso-3">
+        <a class="case-image" href="/juntas-de-dilatacion-fachadas-cubiertas/" aria-label="Ver caso: Juntas de dilatación deterioradas"><img src="/assets/img/junta-de-dilatacion-vertical.jpg" width="675" height="900" loading="lazy" decoding="async" alt="Detalle de una junta vertical en una fachada"></a>
+        <div class="case-copy"><p class="audiences-label">Caso 04</p><h2 id="caso-3">Juntas de dilatación deterioradas</h2><p>El deterioro del sellado puede comprometer la estanqueidad y el funcionamiento de las juntas. Su revisión permite documentar fisuras, desprendimientos y encuentros que necesitan evaluación técnica para planificar el mantenimiento.</p><a class="audiences-home-link" href="/juntas-de-dilatacion-fachadas-cubiertas/">Leer el artículo completo <span aria-hidden="true">→</span></a></div>
+    </section>
+</div>
+<section class="audiences-contact"><div class="audiences-wrap"><h2>Inspeccionar para definir qué necesita el edificio.</h2><p>Arquitectos e ingenieros utilizan drones para documentar zonas de difícil acceso. Cuando el alcance permite sustituir los medios de acceso por captura aérea, pueden evitarse costes de instalación de andamios o plataformas. Las comprobaciones adicionales y la documentación necesaria se definen según cada caso.</p><a class="audiences-button" href="/contacto/">Solicitar una evaluación técnica</a><nav class="audiences-services" aria-label="Servicios relacionados"><a href="/diagnostico-fachadas/">Diagnóstico de fachadas</a><a href="/inspeccion-cubiertas-filtraciones/">Inspección de cubiertas</a><a href="/blog/">Todos los artículos del blog</a></nav></div></section>
