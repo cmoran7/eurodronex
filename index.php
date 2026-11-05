@@ -23,6 +23,7 @@
 			<?php include 'components/index-08-pilotos-ingenieros-no-solo-operadores.php'; ?>
 			<?php include 'components/index-09-contenido.php'; ?>
 			<?php include 'components/index-10-nacional.php'; ?>
+			<?php include 'components/redes-sociales.php'; ?>
 			<?php include 'components/index-11-solicite-informacion.php'; ?>
 			<?php include 'components/index-12-servicio-tecnico-pre-compra.php'; ?>
 			<?php include 'components/index-13-preguntas-frecuentes.php'; ?>
