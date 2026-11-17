@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Ampollas en pintura de fachadas: diagnóstico | Eurodrónex';
-	$pageDescription = 'Ampollas y abolsamiento de pintura en fachadas: causas, humedad y diagnóstico con drones. Inspección técnica en Marbella, Málaga y la Costa del Sol.';
+	$pageTitle = 'Abolsamiento y ampollas de pintura en fachadas | Eurodrónex';
+	$pageDescription = '¿Se abomba la pintura de tu fachada? Conoce su relación con la humedad y qué revisar antes de repintar. Consulta tu caso de inspección con drones.';
 	$pageCanonical = '/ampollas-abolsamiento-pintura-fachadas/';
 	$pageKey = 'ampollas-abolsamiento-pintura-fachadas';
 	$pageStyleKey = 'como-inspeccionar-cubiertas-sin-riesgo-ni-andamios';

@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Arquitectos e Ingenieros Pilotos de Drones | EurodroneX';
-	$pageDescription = 'EuroDronex es una empresa de inspección técnica de edificios con drones, formada por arquitectos e ingenieros. Conoce nuestro equipo y metodología de trabajo.';
+	$pageTitle = 'Equipo de inspección técnica de edificios | Eurodrónex';
+	$pageDescription = 'Conoce al equipo de arquitectos e ingenieros de Eurodrónex y su experiencia en edificación. Inspección con drones e interpretación técnica de lesiones.';
 	$pageCanonical = '/about/';
 	$pageKey = 'about';
 	include_once 'services/bootstrap.php';

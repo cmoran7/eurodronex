@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Seguimiento de obras con drones | EurodroneX';
-	$pageDescription = 'Seguimiento de obra con drones mediante capturas aéreas periódicas. Registro visual del avance, los acopios, la maquinaria y las incidencias visibles.';
+	$pageTitle = 'Seguimiento de obras con drones e imágenes | Eurodrónex';
+	$pageDescription = 'Documenta el avance de obra con capturas aéreas periódicas: acopios, maquinaria e incidencias visibles. Solicita presupuesto para tu proyecto.';
 	$pageCanonical = '/seguimiento-de-obra/';
 	$pageKey = 'seguimiento-de-obra';
 	include_once 'services/bootstrap.php';

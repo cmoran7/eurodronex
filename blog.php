@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Blog de inspección de edificios con drones | EurodroneX';
-	$pageDescription = 'Artículos sobre inspección de edificios con drones: fachadas, cubiertas y diagnóstico técnico. Conozca las aplicaciones de esta tecnología en edificación.';
+	$pageTitle = 'Patologías de edificios e inspección con drones | Eurodrónex';
+	$pageDescription = 'Casos y artículos sobre humedades, fachadas, cubiertas y juntas: entiende las lesiones y qué aporta la inspección técnica antes de intervenir.';
 	$pageCanonical = '/blog/';
 	$pageKey = 'blog';
 	include_once 'services/bootstrap.php';

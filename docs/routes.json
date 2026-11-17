@@ -2,7 +2,7 @@
   {
     "path": "/",
     "file": "index.php",
-    "title": "Inspección de Edificios con Drones | EurodroneX",
+    "title": "Inspección de edificios con drones en Madrid | Eurodrónex",
     "sections": [
       "index-01-ingenieria-tecnica.php",
       "index-02-80.php",
@@ -22,7 +22,7 @@
   {
     "path": "/contacto/",
     "file": "contacto.php",
-    "title": "Solicita tu Inspección con Drones | EurodroneX",
+    "title": "Presupuesto de inspección de edificios con drones | Eurodrónex",
     "sections": [
       "contacto-01-solicite-informacion-tecnica.php",
       "contacto-02-contenido.php",
@@ -33,7 +33,7 @@
   {
     "path": "/inspeccion-tecnica-con-drones/",
     "file": "inspeccion-tecnica-con-drones.php",
-    "title": "Inspección Técnica de Edificios con Drones | EurodroneX",
+    "title": "Inspección técnica de edificios con drones | Eurodrónex",
     "sections": [
       "inspeccion-tecnica-con-drones-01-inspeccion-tecnica-de-edificios-con-drones.php",
       "inspeccion-tecnica-con-drones-02-andamios-costosos-plazos-eternos-riesgos-laborales-y-te.php",
@@ -49,7 +49,7 @@
   {
     "path": "/termografia-con-dron/",
     "file": "termografia-con-dron.php",
-    "title": "Termografía de Edificios con Dron en Madrid | EurodroneX",
+    "title": "Termografía con drones en fachadas y cubiertas | Eurodrónex",
     "sections": [
       "termografia-con-dron-01-termografia-de-edificios-con-dron.php",
       "termografia-con-dron-02-perdida-economica-y-falta-de-confort.php",
@@ -65,7 +65,7 @@
   {
     "path": "/inspeccion-precompra/",
     "file": "inspeccion-precompra.php",
-    "title": "Inspección Precompra de Edificios | EurodroneX",
+    "title": "Inspección precompra de edificios y viviendas | Eurodrónex",
     "sections": [
       "inspeccion-precompra-01-inspeccion-tecnica-para-inmobiliarias.php",
       "inspeccion-precompra-02-por-que-necesitas-inspeccion-tecnica.php",
@@ -78,7 +78,7 @@
   {
     "path": "/fotogrametria-3d-edificios/",
     "file": "fotogrametria-3d-edificios.php",
-    "title": "Fotogrametría 3D de Edificios con Drones | EurodroneX",
+    "title": "Fotogrametría de edificios con drones: modelos 3D | Eurodrónex",
     "sections": [
       "fotogrametria-3d-edificios-01-fotogrametria-3d-para-edificios-y-estructuras.php"
     ]
@@ -86,7 +86,7 @@
   {
     "path": "/streaming/",
     "file": "streaming.php",
-    "title": "Dirección de Obra por Streaming con Drones | EurodroneX",
+    "title": "Peritación remota con drones de edificios | Eurodrónex",
     "sections": [
       "streaming-01-peritaje-en-streaming.php",
       "streaming-02-desplazamientos-tiempo-perdido-riesgos-o-puntos-de-muy-.php",
@@ -101,7 +101,7 @@
   {
     "path": "/seguimiento-de-obra/",
     "file": "seguimiento-de-obra.php",
-    "title": "Seguimiento de Obra con Drones | EurodroneX",
+    "title": "Seguimiento de obras con drones e imágenes | Eurodrónex",
     "sections": [
       "seguimiento-de-obra-01-seguimiento-o-visita-de-obra.php",
       "seguimiento-de-obra-02-control-fragmentado-y-vision-parcial-del-avance.php",
@@ -116,7 +116,7 @@
   {
     "path": "/about/",
     "file": "about.php",
-    "title": "Arquitectos e Ingenieros Pilotos de Drones | EurodroneX",
+    "title": "Equipo de inspección técnica de edificios | Eurodrónex",
     "sections": [
       "about-01-sobre-eurodronex.php",
       "about-02-no-capturamos-imagenes-interpretamos-edificios.php",
@@ -128,7 +128,7 @@
   {
     "path": "/diagnostico-fachadas/",
     "file": "diagnostico-fachadas.php",
-    "title": "Diagnóstico de Fachadas: Grietas y Humedades | EurodroneX",
+    "title": "Inspección de patologías en fachadas de Madrid | Eurodrónex",
     "sections": [
       "diagnostico-fachadas-01-inspeccion-pre-compra.php",
       "diagnostico-fachadas-02-patologia-o-lesiones-de-dificil-identificacion-desde-el.php",
@@ -143,7 +143,7 @@
   {
     "path": "/blog/",
     "file": "blog.php",
-    "title": "Blog - eurodronex.com",
+    "title": "Patologías de edificios e inspección con drones | Eurodrónex",
     "sections": [
       "blog-01-nuestro-blog.php"
     ]
@@ -192,7 +192,7 @@
   {
     "path": "/ingenieria/",
     "file": "ingenieria.php",
-    "title": "Arquitecto e Ingeniero de Drones | EurodroneX",
+    "title": "Arquitectos e ingenieros pilotos de drones | Eurodrónex",
     "sections": [
       "ingenieria-01-ingenieros-y-arquitectos-no-solo-operadores.php",
       "ingenieria-02-ingenieria-especializada-en-edificacion.php",
@@ -209,7 +209,7 @@
   {
     "path": "/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/",
     "file": "como-inspeccionar-cubiertas-sin-riesgo-ni-andamios.php",
-    "title": "Cómo inspeccionar cubiertas sin riesgo ni andamios | EuroDroneX",
+    "title": "Cómo inspeccionar cubiertas con drones | Eurodrónex",
     "sections": [
       "como-inspeccionar-cubiertas-sin-riesgo-ni-andamios-01-como-inspeccionar-cubiertas-sin-riesgo-ni-andamios.php"
     ]
@@ -244,7 +244,7 @@
   {
     "path": "/juntas-de-dilatacion-fachadas-cubiertas/",
     "file": "juntas-de-dilatacion-fachadas-cubiertas.php",
-    "title": "Juntas de dilatación en fachadas y cubiertas | EuroDroneX",
+    "title": "Juntas de dilatación en fachadas: daños y revisión | Eurodrónex",
     "sections": [
       "juntas-de-dilatacion-contenido.php"
     ]
@@ -260,7 +260,7 @@
   {
     "path": "/inspeccion-comunidades-propietarios/",
     "file": "inspeccion-comunidades-propietarios.php",
-    "title": "Inspección para comunidades de propietarios | EuroDroneX",
+    "title": "Inspección de edificios para comunidades | Eurodrónex",
     "sections": [
       "inspeccion-comunidades-propietarios-contenido.php"
     ]
@@ -268,7 +268,7 @@
   {
     "path": "/inspeccion-cubiertas-filtraciones/",
     "file": "inspeccion-cubiertas-filtraciones.php",
-    "title": "Inspección de cubiertas y filtraciones Madrid | EuroDroneX",
+    "title": "Inspección de cubiertas y filtraciones en Madrid | Eurodrónex",
     "sections": [
       "inspeccion-cubiertas-filtraciones-contenido.php"
     ]
@@ -276,7 +276,7 @@
   {
     "path": "/ampollas-abolsamiento-pintura-fachadas/",
     "file": "ampollas-abolsamiento-pintura-fachadas.php",
-    "title": "Ampollas en pintura de fachadas: diagnóstico | Eurodrónex",
+    "title": "Abolsamiento y ampollas de pintura en fachadas | Eurodrónex",
     "sections": [
       "ampollas-abolsamiento-pintura-fachadas-contenido.php"
     ]
@@ -292,7 +292,7 @@
   {
     "path": "/eflorescencias-peto-cubierta-plana/",
     "file": "eflorescencias-peto-cubierta-plana.php",
-    "title": "Eflorescencias en petos de cubierta: diagnóstico | Eurodrónex",
+    "title": "Manchas blancas en el peto: eflorescencias | Eurodrónex",
     "sections": [
       "eflorescencias-peto-cubierta-plana-contenido.php"
     ]

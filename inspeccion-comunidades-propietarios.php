@@ -1,6 +1,6 @@
 <?php
-    $pageTitle = 'Inspección para comunidades de propietarios | EuroDroneX';
-    $pageDescription = 'Inspección de fachadas y cubiertas para comunidades de propietarios en Madrid. Documentación técnica con drones para valorar lesiones y planificar actuaciones.';
+    $pageTitle = 'Inspección de edificios para comunidades | Eurodrónex';
+    $pageDescription = 'Inspección de fachadas y cubiertas para comunidades y administradores de fincas en Madrid. Documenta lesiones antes de intervenir. Consulta tu caso.';
     $pageCanonical = '/inspeccion-comunidades-propietarios/';
     $pageKey = 'inspeccion-comunidades-propietarios';
     $pageStyleKey = 'para-quien';

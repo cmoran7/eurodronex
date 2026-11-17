@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Termografía de Edificios con Dron en Madrid | EurodroneX';
-	$pageDescription = 'Termografía con drones para detectar anomalías térmicas en edificios. Inspección de fachadas y cubiertas para localizar humedades y pérdidas de aislamiento.';
+	$pageTitle = 'Termografía con drones en fachadas y cubiertas | Eurodrónex';
+	$pageDescription = 'Inspección termográfica de edificios en Madrid para estudiar anomalías térmicas, humedades y aislamiento. Consulta la viabilidad y pide presupuesto.';
 	$pageCanonical = '/termografia-con-dron/';
 	$pageKey = 'termografia-con-dron';
 	include_once 'services/bootstrap.php';

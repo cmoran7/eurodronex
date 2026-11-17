@@ -2,46 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://eurodronex.com/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/contacto/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/inspeccion-tecnica-con-drones/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/termografia-con-dron/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/inspeccion-precompra/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/fotogrametria-3d-edificios/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/streaming/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/seguimiento-de-obra/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/about/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/diagnostico-fachadas/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/blog/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -62,10 +73,12 @@
     </url>
     <url>
         <loc>https://eurodronex.com/ingenieria/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://eurodronex.com/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/</loc>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -82,13 +95,18 @@
     </url>
     <url>
         <loc>https://eurodronex.com/juntas-de-dilatacion-fachadas-cubiertas/</loc>
+        <lastmod>2026-11-17</lastmod>
     </url>
     <url>
         <loc>https://eurodronex.com/mantenimiento-cubiertas-planas-no-transitables/</loc>
     </url>
-    <url><loc>https://eurodronex.com/inspeccion-comunidades-propietarios/</loc></url>
-    <url><loc>https://eurodronex.com/inspeccion-cubiertas-filtraciones/</loc></url>
-    <url><loc>https://eurodronex.com/ampollas-abolsamiento-pintura-fachadas/</loc></url>
+    <url><loc>https://eurodronex.com/inspeccion-comunidades-propietarios/</loc>
+        <lastmod>2026-11-17</lastmod></url>
+    <url><loc>https://eurodronex.com/inspeccion-cubiertas-filtraciones/</loc>
+        <lastmod>2026-11-17</lastmod></url>
+    <url><loc>https://eurodronex.com/ampollas-abolsamiento-pintura-fachadas/</loc>
+        <lastmod>2026-11-17</lastmod></url>
     <url><loc>https://eurodronex.com/casos/</loc></url>
-    <url><loc>https://eurodronex.com/eflorescencias-peto-cubierta-plana/</loc></url>
+    <url><loc>https://eurodronex.com/eflorescencias-peto-cubierta-plana/</loc>
+        <lastmod>2026-11-17</lastmod></url>
 </urlset>

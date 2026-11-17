@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Cómo inspeccionar cubiertas con drones | EurodroneX';
-	$pageDescription = 'Descubra cómo inspeccionar cubiertas con drones sin instalar andamios. Conozca las ventajas de la inspección aérea para reducir riesgos, costes y logística.';
+	$pageTitle = 'Cómo inspeccionar cubiertas con drones | Eurodrónex';
+	$pageDescription = 'Conoce cuándo la inspección de cubiertas con drones permite evitar andamios y reducir medios de acceso. Consulta la viabilidad para tu edificio.';
 	$pageCanonical = '/como-inspeccionar-cubiertas-sin-riesgo-ni-andamios/';
 	$pageKey = 'como-inspeccionar-cubiertas-sin-riesgo-ni-andamios';
 	include_once 'services/bootstrap.php';

@@ -1,6 +1,6 @@
 <?php
-    $pageTitle = 'Inspección de cubiertas y filtraciones Madrid | EuroDroneX';
-    $pageDescription = 'Inspección de cubiertas en Madrid para documentar deterioros de impermeabilización, juntas y remates. Evaluación técnica con drones y presupuesto según alcance.';
+    $pageTitle = 'Inspección de cubiertas y filtraciones en Madrid | Eurodrónex';
+    $pageDescription = '¿Humedades o deterioros en la cubierta? Revisamos impermeabilización, juntas y remates con criterio técnico en Madrid. Solicita una inspección.';
     $pageCanonical = '/inspeccion-cubiertas-filtraciones/';
     $pageKey = 'inspeccion-cubiertas-filtraciones';
     $pageStyleKey = 'para-quien';

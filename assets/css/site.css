@@ -368,8 +368,8 @@ img[src="/assets/img/fachada-paneles-ventanas-detalle.jpg"] { object-fit: cover;
 @media(prefers-reduced-motion:reduce){.case-image img{transition:none}}
 
 /* Accesos destacados a redes, sin reproductores ni scripts externos. */
-.edx-socials{width:min(1200px,calc(100% - 40px));margin:48px auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;font-family:Inter,Arial,sans-serif;color:#111}
-.edx-social-card{display:flex;align-items:flex-start;gap:22px;padding:32px;border:1px solid #ddd;background:#f7f7f7}
+.edx-socials{width:100%;margin:48px 0;display:grid;grid-template-columns:1fr;gap:24px;font-family:Inter,Arial,sans-serif;color:#111}
+.edx-social-card{display:flex;align-items:flex-start;gap:22px;padding:40px max(24px,calc((100% - 1200px)/2));border-block:1px solid #ddd;background:#f7f7f7}
 .edx-social-icon{width:36px;height:36px;flex-shrink:0}
 .edx-social-card .edx-social-label{margin:0 0 12px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#555}
 .edx-social-card h2{font-size:25px;line-height:1.2;font-weight:600;margin:0 0 14px}

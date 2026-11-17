@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Juntas de dilatación en fachadas y cubiertas | EuroDroneX';
-	$pageDescription = 'Juntas de dilatación en fachadas y cubiertas: deterioro del sellado, filtraciones y fisuras. Qué revisar en una inspección técnica y cómo prevenir daños.';
+	$pageTitle = 'Juntas de dilatación en fachadas: daños y revisión | Eurodrónex';
+	$pageDescription = 'Sellados deteriorados, fisuras y filtraciones en juntas de fachadas y cubiertas: qué revisar y cómo planificar el mantenimiento. Consulta tu caso.';
 	$pageCanonical = '/juntas-de-dilatacion-fachadas-cubiertas/';
 	$pageKey = 'juntas-de-dilatacion-fachadas-cubiertas';
 	$pageStyleKey = 'como-inspeccionar-cubiertas-sin-riesgo-ni-andamios';

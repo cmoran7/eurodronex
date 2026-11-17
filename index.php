@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Inspección de Edificios con Drones | EurodroneX';
-	$pageDescription = 'Arquitectos e ingenieros especializados en inspección de edificios con drones. Diagnóstico de fachadas y cubiertas, termografía y fotogrametría 3D.';
+	$pageTitle = 'Inspección de edificios con drones en Madrid | Eurodrónex';
+	$pageDescription = 'Arquitectos e ingenieros inspeccionan fachadas y cubiertas con drones. Evaluamos patologías y cuándo evitar medios auxiliares. Consulta tu caso.';
 	$pageCanonical = '/';
 	$pageKey = 'index';
 	include_once 'services/bootstrap.php';

@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Eflorescencias en petos de cubierta: diagnóstico | Eurodrónex';
-	$pageDescription = 'Manchas blancas en el peto de una cubierta plana: qué son las eflorescencias y cómo la inspección con drones ayuda a documentar humedades y deterioros.';
+	$pageTitle = 'Manchas blancas en el peto: eflorescencias | Eurodrónex';
+	$pageDescription = 'Qué indican las eflorescencias en el peto de una cubierta plana y qué revisar antes de pintar. Solicita una inspección de humedades y deterioros.';
 	$pageCanonical = '/eflorescencias-peto-cubierta-plana/';
 	$pageKey = 'eflorescencias-peto-cubierta-plana';
 	$pageStyleKey = 'como-inspeccionar-cubiertas-sin-riesgo-ni-andamios';

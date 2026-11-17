@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = 'Peritaje con drones en streaming | EurodroneX';
-	$pageDescription = 'Inspección de daños en fachadas y cubiertas por streaming para aseguradoras y peritos. Vuelo en directo con imágenes en tiempo real sin desplazarse.';
+	$pageTitle = 'Peritación remota con drones de edificios | Eurodrónex';
+	$pageDescription = 'Videoperitación de daños en fachadas y cubiertas para peritos y aseguradoras. Imágenes en directo para la evaluación remota. Consulta tu caso.';
 	$pageCanonical = '/streaming/';
 	$pageKey = 'streaming';
 	include_once 'services/bootstrap.php';
