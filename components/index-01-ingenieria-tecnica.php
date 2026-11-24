@@ -13,7 +13,7 @@
 			class="elementor-element elementor-element-afa6c26 elementor-widget elementor-widget-text-editor"
 			data-id="afa6c26"
 		>
-			<p>No somos operadores de drones. Somos ingenieros y arquitectos que utilizan la inspección aérea para diagnosticar edificios en Madrid. El dron es el instrumento. La ingeniería es el producto.</p>
+			<p>No somos operadores de drones. Somos ingenieros y arquitectos que utilizan la inspección aérea para diagnosticar edificios. El dron es el instrumento. La ingeniería es el producto.</p>
 			<p>Inspección de patologías en fachadas y cubiertas con criterio técnico. Podemos evitar el coste de medios auxiliares cuando la naturaleza de la inspección permite sustituirlos por captura aérea.</p>
 		</div>
 		<div
