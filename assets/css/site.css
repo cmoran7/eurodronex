@@ -258,7 +258,7 @@ body {
 .audiences-button{display:inline-block;background:#111;color:white!important;padding:16px 25px;text-decoration:none}
 .audiences-home-link{color:inherit!important;text-decoration:none}
 .audiences-home-link:hover,.audiences-home-link:focus-visible{text-decoration:underline;text-underline-offset:5px}
-@media(min-width:1025px) and (max-width:1399px){.elementor-location-header .e-n-menu-title-container{padding-inline:10px!important}.elementor-location-header .e-n-menu-title-text{font-size:14px}}
+@media(min-width:1025px) and (max-width:1599px){.elementor-location-header .e-n-menu-title-container{padding-inline:10px!important}.elementor-location-header .e-n-menu-title-text{font-size:14px}}
 @media(max-width:767px){.audiences-lead,.audiences-profile{grid-template-columns:1fr;gap:24px}.audiences-photo{height:260px}.audiences-profile{padding:38px 0}.audiences-intro{padding-top:24px}.audiences-breadcrumb{margin-bottom:24px}.audiences-profile h2{font-size:28px}.audiences-contact{padding:48px 0}}
 @media(prefers-reduced-motion:reduce){.audiences-photo{transition:none}}
 .contact-privacy-notice {
@@ -384,21 +384,8 @@ img[src="/assets/img/fachada-paneles-ventanas-detalle.jpg"] { object-fit: cover;
 .edx-social-card:hover .edx-social-brand,.edx-social-card:focus-within .edx-social-brand{opacity:1}
 @media(prefers-reduced-motion:reduce){.edx-social-brand{transition:none}}
 
-/* Dedicated service entry above the existing six-card menu. */
-.elementor .edx-menu-ite {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    width: 100%;
-    padding: 18px 20px;
-    background: #f5f5f5;
-    border-bottom: 1px solid #ddd;
-    color: #111;
-    text-decoration: none;
-    line-height: 1.4;
+/* Reserve only the logo's width so the main navigation can accommodate ITE/IEE. */
+@media (min-width: 1025px) {
+    .elementor-location-header .elementor-element-ad6c253 { width: 280px; flex: 0 0 280px; }
+    .elementor-location-header .elementor-element-5590837 { width: auto; flex: 1 1 0; min-width: 0; }
 }
-.edx-menu-ite strong { display: block; font-size: 16px; font-weight: 600; }
-.edx-menu-ite-description { display: block; margin-top: 4px; font-size: 13px; color: #555; }
-.elementor .edx-menu-ite:hover { background: #ebebeb; color: #111; }
-.edx-menu-ite:focus-visible { outline: 2px solid #111; outline-offset: -3px; }

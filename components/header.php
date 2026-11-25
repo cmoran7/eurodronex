@@ -125,10 +125,6 @@
 											data-id="a89e3c1"
 										>
 											<div class="e-con-inner">
-                                                <a class="edx-menu-ite" href="/ite-iee/">
-                                                    <span><strong>ITE e IEE en Madrid</strong><span class="edx-menu-ite-description">Inspección técnica y evaluación del edificio</span></span>
-                                                    <span aria-hidden="true">→</span>
-                                                </a>
 												<div
 													class="elementor-element elementor-element-392b418 e-con-full e-flex e-con e-child e-lazyloaded"
 													data-id="392b418"
@@ -404,6 +400,11 @@
 									</div>
 								</li>
 								<li class="e-n-menu-item">
+                                    <div id="e-n-menu-title-ite" class="e-n-menu-title">
+                                        <a class="e-n-menu-title-container e-focus e-link" href="/ite-iee/"><span class="e-n-menu-title-text">ITE e IEE</span></a>
+                                    </div>
+                                </li>
+                                <li class="e-n-menu-item">
                                     <div id="e-n-menu-title-cases" class="e-n-menu-title">
                                         <a class="e-n-menu-title-container e-focus e-link" href="/casos/"><span class="e-n-menu-title-text">Casos</span></a>
                                     </div>
