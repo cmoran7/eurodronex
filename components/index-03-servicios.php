@@ -171,7 +171,7 @@
 				>
 					<a
 						class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float"
-						href="/inspeccion-tecnica-con-drones/"
+						href="/inspeccion-precompra/"
 					>
 						<span class="elementor-button-content-wrapper">
 							<span class="elementor-button-text">Ver detalles →</span>
@@ -206,7 +206,7 @@
 				>
 					<a
 						class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float"
-						href="#"
+						href="/fotogrametria-3d-edificios/"
 					>
 						<span class="elementor-button-content-wrapper">
 							<span class="elementor-button-text">Ver detalles →</span>

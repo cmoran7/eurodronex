@@ -69,6 +69,7 @@
     </url>
     <url>
         <loc>https://eurodronex.com/servicios/</loc>
+        <lastmod>2026-11-25</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -101,7 +102,7 @@
         <loc>https://eurodronex.com/mantenimiento-cubiertas-planas-no-transitables/</loc>
     </url>
     <url><loc>https://eurodronex.com/inspeccion-comunidades-propietarios/</loc>
-        <lastmod>2026-11-17</lastmod></url>
+        <lastmod>2026-11-25</lastmod></url>
     <url><loc>https://eurodronex.com/inspeccion-cubiertas-filtraciones/</loc>
         <lastmod>2026-11-17</lastmod></url>
     <url><loc>https://eurodronex.com/ampollas-abolsamiento-pintura-fachadas/</loc>
@@ -109,4 +110,8 @@
     <url><loc>https://eurodronex.com/casos/</loc></url>
     <url><loc>https://eurodronex.com/eflorescencias-peto-cubierta-plana/</loc>
         <lastmod>2026-11-17</lastmod></url>
+    <url>
+        <loc>https://eurodronex.com/ite-iee/</loc>
+        <lastmod>2026-11-25</lastmod>
+    </url>
 </urlset>

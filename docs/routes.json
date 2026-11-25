@@ -296,5 +296,13 @@
     "sections": [
       "eflorescencias-peto-cubierta-plana-contenido.php"
     ]
+  },
+  {
+    "path": "/ite-iee/",
+    "file": "ite-iee.php",
+    "title": "ITE e IEE en Madrid | Inspección de edificios | EuroDroneX",
+    "sections": [
+      "ite-iee-contenido.php"
+    ]
   }
 ]

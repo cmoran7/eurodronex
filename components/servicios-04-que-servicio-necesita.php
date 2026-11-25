@@ -14,6 +14,7 @@
 			data-id="200e758"
 		>
 			<p>Guía rápida para identificar el servicio técnico más adecuado según su necesidad específica.</p>
+            <p>Si necesita evaluar su edificio por su antigüedad o por un requerimiento, consulte el servicio de <a class="edx-context-link" href="/ite-iee/">ITE e IEE en Madrid</a>.</p>
 		</div>
 		<div
 			class="elementor-element elementor-element-d81ad93 e-con-full e-flex e-con e-child e-lazyloaded"
